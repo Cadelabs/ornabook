@@ -1,0 +1,6 @@
+[book]
+authors = ["Ethiraric"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Ornabook"
