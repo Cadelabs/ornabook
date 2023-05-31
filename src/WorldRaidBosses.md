@@ -30,15 +30,21 @@ WRBs give high amounts of XP up until T9. The XP requirements at T10 are such th
 With the 3.0 update, WRBs now also drop a decent amount of random materials, including rarer end-game materials (e.g.: Cursed Ortanite), mid-game boss materials (e.g.: Broken Stone) or herbs.
 
 ## Where can I find Summoning Scrolls
-Summoning Scrolls are obtained from defeating Balor Gateways (T7 or T9) or clearing dungeons. Some WRBs can sometimes drop them (Fey Yeti).
+Summoning scrolls are primarily obtained by defeating Balor Gateways (T7 or T9) and by clearing dungeons. You can also aquire them from the following:
+  - Fey Yeti WRB
+  - From your Citadel (if you do villagers quests, they will give you a present daily, which can be up to 3 Summoning Scrolls)
+  - From your daily/weekly login rewards
+  - As a reward for clearing a floor in a Tower of Olympia
+
 There is no known correlation between hard/normal/themed dungeons and their drop rate for end rewards.
 The most efficient way of obtaining them will be to increase our encounters of Balor Gateways or dungeon clears.
 
 Notes:
-  - Balor Gateways can very rarely be found on the overworld, but only in Moonlight weather. We will ignore that in the following, as this is by no way a reliable way of farming Summoning Scrolls.
+  - Balor Gateways can very rarely be found on the overworld, but only in Moonlight weather (or by using Chaos Scrolls). We will ignore that in the following, as this is by no way a reliable way of farming Summoning Scrolls.
   - Summoning Scrolls are not a _guaranteed_ drop from Balor Gateways.
   - Party Dungeons are preferred to solo dungeons. With a full party of 4, each member can enter the dungeon as a host for the others, meaning a single dungeon location can lead up to 4 runs. When party-running normal dungeons, you will get more mobs as well as you can not run horde mode for normal non themed dungeons.
 
+### Tier 7
 At Tier 7, the WRBs you can summon do not drop anything notable. This is why it is mostly advised to not use most of your Summoning scrolls.
 Plus, Summoning Scrolls are pretty rare. They mostly appear in non-boss dungeons with a pretty low chance.
 An efficient way of farming them would be Group Horde Normal dungeons. There are multiple enemies per floor, meaning more chances of Balor Gateways spawning.
@@ -61,6 +67,7 @@ Overall, for farming Summoning Scrolls (from most efficient to less efficient):
   - Party regular T7 dungeons
   - Solo regular T7 dungeons
 
+### Tier 8
 At Tier 8, summoning scrolls are not much easier to come by than T7. However, there is one WRB that is of a bit of interest, Fey Cockatrice. These drop red pinions (armor adornments with att and -def) that are used by people who specialize as Swashbucklers.
 During October, you'll also have a chance to summon Pumpkinhead, an event WRB dropping the Bag of Treats, an accessory that slightly increases your XP, Orns, Gold _and_ Luck.
 
@@ -80,6 +87,7 @@ Overall, for farming Summoning Scrolls (from most efficient to less efficient):
   - Solo regular T8 dungeons
   - Solo regular T7 dungeons
 
+### Tier 9
 Tier 9 starts to get a bit more interesting. The well known Fey Yeti joins the summon pool. You'll have a chance to look for the fabled Fey Yeti Coat, a rare find. There's also the Third Horseman that is added to the summon pool. Its Symbol of War adorn (for weapons), that increases view distance, is one of a kind.
 Looking at events WRBs, you namely have Ebon Scruug in December that can drop some Presents! for some Luck and Ferocious Cerus in April for his Ferocious Bull's Eye, a weapon adornment with ***4%*** crit rate!
 
@@ -106,6 +114,7 @@ Overall, for farming Summoning Scrolls (from most efficient to less efficient):
   - Solo regular T8 dungeons
   - Solo regular T7 dungeons
 
+### Tier 10
 Tier 10 unleashes the full power of the WRBs! However, you are going to care less and less about the experience here and more about the drops. You may summon the dreadful Arisen Morrigan. Some of her drops are the best in the game, but killing her might prove to be a challenge.
 Equipment drops for T10 WRBs are largely discussed throughout the server, so I'm not going to make a rundown here.
 
@@ -127,3 +136,6 @@ Overall, for farming Summoning Scrolls (from most efficient to less efficient):
   - Solo regular T10 dungeons
   - Solo regular T8 dungeons
   - Solo regular T7 dungeons
+
+### Tier 11
+Tier 11 dungeons have 25 floors instead of the 22 floors in a T10 dungeon giving you 3 more floors to find those Balor Guardians. Party Underworld and Chaos are still your best bet for farming scrolls.
