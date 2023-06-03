@@ -3,5 +3,6 @@ This project would not have been complete without the help and support of many p
 
 Furthermore, we would like to more specifically address our thanks to the following people who directly contributed to this book:
   - jiujitsupatricia for contributing the [Dungeons](./Dungeons.md) page and adding information to the [WRB](./WorldRaidBosses.md) page.
+  - Knight411 for sharing his knowledge and his Dungeon Floors per tier chart.
 
 Orna: The GPS RPG is the property of [Northern Forge Studios Inc](https://northernforge.com/). Rights for icons and images of in-game elements belong to them.
