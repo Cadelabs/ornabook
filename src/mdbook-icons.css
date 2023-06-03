@@ -1,3 +1,19 @@
 .mdbook-icon {
   height: 1em;
+  vertical-align: middle;
+}
+
+h1 .mdbook-icon {
+  height: 2em;
+  vertical-align: middle;
+}
+
+h2 .mdbook-icon {
+  height: 1.5em;
+  vertical-align: middle;
+}
+
+h3 .mdbook-icon {
+  height: 1.17em;
+  vertical-align: middle;
 }
