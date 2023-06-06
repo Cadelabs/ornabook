@@ -156,6 +156,21 @@ As your tier increases the number of floors in dungeons increases. The following
 <img alt="Number of floors per tier. Tier 1: 5 floors. Tier 2: 9 floors. Tier 3 and 4: 10 floors. Tier 5 through 7: 13 floors. Tiers 8 and 9: 20 floors. Tier 10: 22 floors. Tier 11: 25 floors." src="/img/dungeon_floors.png" />
 </center>
 
+Number of regular monster floors of each tier with relation to the dungeon tier. Each column corresponds to a dungeon tier. Each row corresponds to a floor tier.
+
+|Floor Tier| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+|:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|
+|     1    | 4 | 4 | 1 | 1 |   |   |   |   |   |    |    |
+|     2    |   | 4 | 5 | 3 | 1 |   |   |   |   |    |    |
+|     3    |   |   | 3 | 2 | 1 |   |   |   |   |    |    |
+|     4    |   |   |   | 3 | 3 | 1 |   |   |   |    |    |
+|     5    |   |   |   |   | 5 | 3 | 2 |   |   |    |    |
+|     6    |   |   |   |   |   | 6 | 2 |   |   |    |    |
+|     7    |   |   |   |   |   |   | 6 | 7 |   |    |    |
+|     8    |   |   |   |   |   |   |   |10 | 7 | 4  | 4  |
+|     9    |   |   |   |   |   |   |   |   |10 | 9  | 9  |
+|    10    |   |   |   |   |   |   |   |   |   | 5  | 8  |
+
 ## End of Dungeon rewards
 Successfully defeating the last floor of a dungeon rewards with a currently unknown amount of Exp, Gold and Orns. An additional selection of randomly selected materials is awarded to the player.
 
@@ -164,6 +179,6 @@ Finally, an item within the end-of-Dungeon reward pool is also given to the play
   - If the player has completed the quest, the item is awarded.
   - If, however, the player has **not** completed the quest, the item is not awarded and the player receives no quest item from completing the dungeon.
 
-The last point is important: it means that the odds of receiving a specific items does not depend on how many quests were completed. Holding off from completing quests does not improve the odds of a particular item from a completed quest to appear. It's quite the opposite: it sometimes prevents you from receiving a reward at the end of your dungeon!
+The last point is important: it means that the odds of receiving a specific item does not depend on how many quests were completed. Holding off from completing quests does not improve the odds of a particular item from a completed quest to appear. It's quite the opposite: it sometimes prevents you from receiving a reward at the end of your dungeon!
 
 Any dungeon can reward with any item, no matter the tier. There are reports of players receiving a T9 Band of Gods from low-tier gauntlets. Quality of the item depends only on whether the dungeon was run with the Hard option or not. No other factor plays in how the game selects the quality. If the dungeon was run as Hard, then the item is at least of Superior quality. Otherwise, it may be of any quality (including Poor and Broken).
