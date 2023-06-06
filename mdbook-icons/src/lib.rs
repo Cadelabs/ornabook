@@ -4,7 +4,7 @@ use mdbook::book::{Book, Chapter};
 use mdbook::errors::Error;
 use mdbook::preprocess::{Preprocessor, PreprocessorContext};
 use mdbook::BookItem;
-use pulldown_cmark::{CowStr, Event, Options, Parser};
+use pulldown_cmark::{Event, Options, Parser};
 
 /// The icon preprocessor.
 ///
@@ -24,7 +24,7 @@ impl Preprocessor for IconPreprocessor {
         "mdbook-icons"
     }
 
-    fn run(&self, ctx: &PreprocessorContext, mut book: Book) -> Result<Book, Error> {
+    fn run(&self, _ctx: &PreprocessorContext, mut book: Book) -> Result<Book, Error> {
         book.for_each_mut(|item| {
             if let BookItem::Chapter(chapter) = item {
                 process_chapter(chapter)
@@ -42,7 +42,7 @@ impl Preprocessor for IconPreprocessor {
 fn process_chapter(chapter: &mut Chapter) {
     let parser = Parser::new_ext(
         &chapter.content,
-        Options::ENABLE_STRIKETHROUGH | Options::ENABLE_TASKLISTS,
+        Options::ENABLE_STRIKETHROUGH | Options::ENABLE_TASKLISTS | Options::ENABLE_TABLES,
     );
     let substitued = parser.into_iter().flat_map(|event| match event {
         Event::Text(text) => EventIterator::Cursor(ReplacerCursor::new(text)),
