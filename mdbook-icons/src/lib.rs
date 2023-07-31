@@ -121,7 +121,7 @@ impl Iterator for ReplacerCursor {
 
                     // Otherwise, check if the identifier is valid.
                     let id = &self.s[self.idx + 1..self.idx + 1 + end]; // Exclude ':'s.
-                    if id.chars().all(|c| c.is_alphanumeric() || c == '_') {
+                    if id.chars().all(|c| c.is_alphanumeric() || c == '_' || c == '/') {
                         // Identifier is valid, output as HTML.
                         self.idx += end + 2;
                         Some(Event::Html(
