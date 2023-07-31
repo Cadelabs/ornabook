@@ -8,5 +8,9 @@ title = "Ornabook"
 [preprocessor.icons]
 renderers = ["html"]
 
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "2.0.1" # do not edit: managed by `mdbook-admonish install`
+
 [output.html]
-additional-css = ["./src/mdbook-icons.css"]
+additional-css = ["./src/style/mdbook-icons.css", "./src/style/mdbook-admonish.css", "./src/style/style.css"]
