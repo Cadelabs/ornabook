@@ -11,12 +11,12 @@ Some status effects are temporary, while some other are permanent. Some effects 
 
 ## Stats altering status effects
 ### Generic status effects
-These status effects change how the base stats (attack, magic, defense, resistance, dexterity) behave:
-    - :statuses/def: Defense: Change to the base defense stat
-    - :statuses/res: Resistance: Change to the base resistance stat
-    - :statuses/atk: Attack: Change to the damage a physical skill/spell does (doesn't change the base attack value)
-    - :statuses/mag: Magic: Change to the damage a magical skill/spell does (doesn't change the base magic value)
-    - :statuses/dex: Dexterity: Change to the base dexterity stat
+These status effects raise or lower a player's in-battle stats (attack, magic, defense, resistance, and/or dexterity):
+    - :statuses/def: Defense: Change to the defense stat
+    - :statuses/res: Resistance: Change to the resistance stat
+    - :statuses/atk: Attack: Change to the damage a melee skill does (doesn't change the target's attack value)
+    - :statuses/mag: Magic: Change to the damage a magical spell does (doesn't change the target's magic value)
+    - :statuses/dex: Dexterity: Change to the dexterity stat
     - :statuses/crit: Critical Chance: Change to the chance of dealing a critical strike
     - :statuses/all: All: Change to :statuses/def::statuses/res::statuses/atk::statuses/mag::statuses/dex: all at once
 
