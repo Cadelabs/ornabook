@@ -14,7 +14,7 @@ The most efficient way of obtaining them will be to increase our encounters of :
 Notes:
   - Balor Gateways can very rarely be found on the overworld, but only in Moonlight weather (or by using Chaos Scrolls). We will ignore that in the following, as this is by no way a reliable way of farming Summoning Scrolls.
   - Summoning Scrolls are not a _guaranteed_ drop from Balor Gateways.
-  - Party Dungeons are preferred to solo dungeons. With a full party of 4, each member can enter the dungeon as a host for the others, meaning a single dungeon location can lead up to 4 runs. When party-running normal dungeons, you will get more mobs as well as you can not run horde mode for normal non themed dungeons.
+  - Party Dungeons are preferred to solo dungeons. With a full party of 4, each member can enter the dungeon as a host for the others, meaning a single dungeon location can lead up to 4 runs.
 
 ## What happens when I use a Scroll?
 When used, the :summoning_scroll: Summoning Scroll summons a random WRB near the player. Summons can either be public (seen by anyone) or private (seen by the player and their party only). Players you have blocked cannot see your WRBs. Any WRB that you see can be attacked. Although happening in the overworld, it uses your Raid Loadout, just like Kingdom Raids.
