@@ -125,7 +125,7 @@ In the following table:
 | :statuses/paralyzed: Paralyzed     |  25% |     |  25% | |
 | :statuses/petrified: Petrified     |  20% |     | 100% | Target cannot evade an attack |
 | :statuses/poisoned: Poisoned       |  10% |  2% |      | |
-| :statuses/rotten: Rot              |  20% |  3% |      | Decreases :statuses/def::statuses/res: by 10% |
+| :statuses/rotten: Rot              |  20% |  3% |      | Decreases :statuses/def::statuses/res: by 20% |
 | :statuses/starstruck: Starstruck   |  50% | 10%*|      | Has a 3 turns countdown, damage capped to 9999 |
 | :statuses/stasis: Stasis           |  50% |     | 100% | Target cannot evade an attack |
 | :statuses/stunned: Stunned         |  50% |     |  50% | Target cannot evade an attack |
