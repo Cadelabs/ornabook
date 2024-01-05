@@ -60,15 +60,17 @@ Below are the 4 Gaits and their effects:
 | :statuses/break: T. All ↓ | Debuff inflicted by Break. (?) |
 | :statuses/bloodshift: Bloodshift | Nullifies healing. +5% :statuses/crit:. +10% :statuses/all:. Temporary, has a 15% chance to fade each turn. |
 | :statuses/windswept: Windswept | Reduces :statuses/crit: (?). Temporary, has a 15% chance to fade each turn. |
-| Target ↑↑ | |
-| Target ↑  | |
-| Target ↓  | |
-| Target ↓↓ | |
+| :statuses/target_du: Target ↑↑ | Temporary. Increases the chance an enemy targets you in party play. |
+| :statuses/target_su: Target ↑  | Temporary. Increases the chance an enemy targets you in party play. |
+| :statuses/target_sd: Target ↓  | Temporary. Decreases the chance an enemy targets you in party play. |
+| :statuses/target_dd: Target ↓↓ | Temporary. Decreases the chance an enemy targets you in party play. |
 
 ```admonish todo "TODO(ethiraric)"
 (31/07/2023): What does "Break" do exactly?
 
 (04/08/2023): By how much does Windswept reduce crit chance?
+
+(06/11/2023): How do Target statuses work? What is their fade chance?
 ```
 
 ### Monster only status effects
@@ -90,7 +92,7 @@ This section details other negative status effects that can be inflicted on an e
 * **Disables** are status effects which have a chance to prevent the afflicted target from taking their turn. If one uses its turn to use consumable, then it cannot be disabled. All other actions may be disabled.
 
   When one is afflicted by multiple disables, each of them roll separately. This means that disable chances stack _multiplicatively_.
-* **DoTs**, standing for _Damage over Time_ are status effects which deal damage every turn. DoTs are capped to 999HP _each_ per turn. A player having 2 DoTs can lose up to 1998HP each turn. Some amities may change this cap.
+* **DoTs**, standing for _Damage over Time_ are status effects which deal damage every turn.
 
 Status afflictions in this section are either Disables, DoTs, or both at the same time. Most are temporary and have a chance to fade each turn. However, once inflicted, they cannot fade on the next turn the target has. Let us consider the following non-party scenario:
 
@@ -103,14 +105,32 @@ Here, on `1.`, the player stunned the target. The next turn the target has is `2
 
 In the very specific case of the :statuses/asleep:Asleep disable and party play, the target may not be woken up even if damaged by entities after being afflicted but before having had their turn (that is, if an entity played in between `1.` and `2.` in the above scenario).
 
+#### DoT damage computation.
+DoTs deal damage based on the afflicted target's max HP. DoTs are capped by default to 999HP _each_ per turn. This means that a player afflicted with 2 DoTs can take up to 1998 damage per turn.
+Some player amities or gear (e.g.: Autumna) can alter that cap for either themselves or the entities on which they inflict DoTs.
+
+Sometimes, the default cap is not 999:
+  * Drakeblight has a cap of 500.
+  * Starstruck has a cap of 9,999.
+  * Doom has a cap of 99,999.
+  * Titans have 25x the regular cap (i.e.: 24,975 as the default cap, 12,500 for Drakeblight, 249,975 for Starstruck and 2,499,975 for Doom).
+
+The formula for HP lost per turn is `min(cap, max(1, floor(HPmax*(X/100)) ))`, with `X` the % of max health dealt as damage.
+
+```admonish todo "TODO(08/11/2023, ethiraric)"
+Check whether pet damage may proc the Autumna gear. Not just Drakeblight.
+
+Check how Autumna gear affects the cap. Is the cap specific to the enemy? Or per status?
+```
+
 #### List and effects
 In the following table:
 * _Fade_ refers to the chance that, at the end of the turn, the effect fades away
 * _Dmg_ is the percentage of max HP the target loses per turn (within the cap)
 * _Miss_ is the chance that the target misses its turn
 
-| Effect                             | Fade | Dmg | Miss | Note |
-|:-----------------------------------|:----:|:---:|:----:|:-----|
+| Effect                             | Fade | Dmg | Miss | Notes |
+|:-----------------------------------|:----:|:---:|:----:|:------|
 | :statuses/asleep: Asleep           |  25% |     | 100% | Target cannot evade an attack<br/>They wake up when they take damage from a player / monster / summon</br>They cannot be woken up this way until they have missed 1 turn at least |
 | :statuses/bleeding: Bleeding       |  25% |  2% |      | Decreases :statuses/crit: Critical Chance by 5% |
 | :statuses/blighted: Blight         |  25% |  2% |  25% | |
@@ -118,7 +138,7 @@ In the following table:
 | :statuses/burning: Burning         |  10% |  5% |      | Decreases the damage from skills and spells by 20% (equivalent to :statuses/atk_sd_tmp:+:statuses/mag_sd_tmp:) |
 | :statuses/confused: Confused       |  50% |     |      | Target may not perform the action they intended, even if they intended to use a consumable<br/>They may use a random spell from their loadout or Defend (?) |
 | :statuses/cursed: Cursed           |      | 10% |      | |
-| :statuses/doomed: Doom             |   3% |200%*|      | Has a 5 turns countdown, damage cap unknown but extremely high |
+| :statuses/doomed: Doom             |   3% |200%*|      | Has a 5 turns countdown, damage capped to 99,999 |
 | :statuses/drenched: Drenched       |   5% |     |   5% | |
 | :statuses/frozen: Frozen           |  50% |     |  40% | Target cannot evade an attack |
 | :statuses/lulled: Lulled           |  10% |     |  20% | |
@@ -126,7 +146,7 @@ In the following table:
 | :statuses/petrified: Petrified     |  20% |     | 100% | Target cannot evade an attack |
 | :statuses/poisoned: Poisoned       |  10% |  2% |      | |
 | :statuses/rotten: Rot              |  20% |  3% |      | Decreases :statuses/def::statuses/res: by 20% |
-| :statuses/starstruck: Starstruck   |  50% | 10%*|      | Has a 3 turns countdown, damage capped to 9999 |
+| :statuses/starstruck: Starstruck   |  50% | 10%*|      | Has a 3 turns countdown, damage capped to 9,999 |
 | :statuses/stasis: Stasis           |  50% |     | 100% | Target cannot evade an attack |
 | :statuses/stunned: Stunned         |  50% |     |  50% | Target cannot evade an attack |
 | :statuses/toxic: Toxic             |      | 10% |  10% | |
@@ -142,15 +162,23 @@ How often does a Confused target fail to perform their action? How is the new ac
 ```
 
 ### Blights
-```admonish todo
+```admonish todo "TODO(06/11/2023, ethiraric)"
+Drakeblight is a 1% DoT with a 500 cap (12,500 against Titans). Sometimes causes one to be unable to attack. Seems uninfluenced by Autumna gear.
+([OL convo](https://discord.com/channels/748188991852904621/811270018661613627/1171205996534841365))
 ```
 
 ### Miscellaneous effects
-```admonish todo
-Towering
+| Effect                             | Details |
+|:-----------------------------------|:--------|
+| :statuses/towering: Towering       | Only available through the Titan's [Build Tower](https://playorna.com/codex/spells/build-tower/) spell.<br/>Restores 2% of max HP per turn. Temporary.|
+| :statuses/arcane: Arcane ↑↑        | Given only through [Aglovale](https://playorna.com/codex/items/aglovale/).<br/>Makes the enemy virtually weak to Arcane. If the enemy has an Arcane resistance, consider it both weak and resistant to Arcane (damage multiplier of 0.5 (resistant) \* 1.5 (weak) by default).|
+| :statuses/dragon: Dragon ↑↑        | Given only through [Tethra](https://playorna.com/codex/items/tethra/).<br/>Makes the enemy virtually weak to Dragon. If the enemy has a Dragon resistance, consider it both weak and resistant to Dragon (damage multiplier of 0.5 (resistant) \* 1.5 (weak) by default).|
+
+```admonish todo "TODO(08/01/2023, ethiraric)"
+What happens with Arcane/Dragon ↑↑ when the enemy is already weak?
 ```
 
-## Elemental resistances and alignments
+## Elemental effects
 ```admonish todo
 ```
 
