@@ -171,11 +171,12 @@ Drakeblight is a 1% DoT with a 500 cap (12,500 against Titans). Sometimes causes
 | Effect                             | Details |
 |:-----------------------------------|:--------|
 | :statuses/towering: Towering       | Only available through the Titan's [Build Tower](https://playorna.com/codex/spells/build-tower/) spell.<br/>Restores 2% of max HP per turn. Temporary.|
-| :statuses/arcane: Arcane ↑↑        | Given only through [Aglovale](https://playorna.com/codex/items/aglovale/).<br/>Makes the enemy virtually weak to Arcane. If the enemy has an Arcane resistance, consider it both weak and resistant to Arcane (damage multiplier of 0.5 (resistant) \* 1.5 (weak) by default).|
-| :statuses/dragon: Dragon ↑↑        | Given only through [Tethra](https://playorna.com/codex/items/tethra/).<br/>Makes the enemy virtually weak to Dragon. If the enemy has a Dragon resistance, consider it both weak and resistant to Dragon (damage multiplier of 0.5 (resistant) \* 1.5 (weak) by default).|
+| :statuses/arcane: Arcane ↑↑        | Given only through [Aglovale](https://playorna.com/codex/items/aglovale/).<br/> ???
+| :statuses/dragon: Dragon ↑↑        | Given only through [Tethra](https://playorna.com/codex/items/tethra/).<br/> ???
 
 ```admonish todo "TODO(08/01/2023, ethiraric)"
 What happens with Arcane/Dragon ↑↑ when the enemy is already weak?
+Arcane and Dragon ↑↑ need more testing
 ```
 
 ## Elemental effects
