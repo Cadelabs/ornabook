@@ -14,11 +14,12 @@ They feature a fight per floor, which the player must win in order to access the
 Once the fight has ended, the next one can be immediately started, making Battle Dungeons an efficient way of fighting numeours enemies.
 
 Once the dungeon has started, players have no opportunity to rest.
-While they cannot heal, dungeons can still be fled from to change gear/class/pet and re-entered with a new loadout.
+Dungeons can be fled from to change gear/class/pet and re-entered with a new loadout.
 In this case, Ward/HP/MP may be clamped if the _max_ Ward/HP/MP of the new loadout is lower than the _current_ Ward/HP/MP when the dungeon was last fled from.
 Also, the enemies on the floor that was currently being fought will be fully healed.
 
-Although one cannot heal between battles, status effects (whether negative or positive) do remain from one floor to the next one.
+Although one cannot heal between battles (only through healing spells and items if not in Hard mode), status effects do remain from one floor to the next one.
+There are some exceptions to that such as Doom, which will dissipate when completing a floor.
 A common strategy which makes heavy use of that is to use the first floor(s) to apply as many buffs as possible, which can be kept until the end of the dungeon, in order to one shot as many floors as possible.
 
 Bosses defeated in a Battle Dungeon only reward 1/4 of their base Gold, Orn and Exp rewards.
@@ -92,6 +93,11 @@ If the player does not meet that Tier requirement, they will see the dungeon as 
 For example, :valley_of_gods:Valleys of the Gods require the player to have reach T10. Where a Valley stands, a T9 or less player will see a :dungeon:regular dungeon.
 
 The full list of themes can be found [on the playorna website](https://playorna.com/codex/dungeons/).
+
+While Regular Dungeons have tiers set to each floor where an enemy of that tier will appear, Themed Dungeons work differently.
+Players can only encounter monsters of their Tier or below in Themed Dungeons.
+The level of enemies of lower Tiers will be scaled up to match the Tier of the player.
+For example, when encountering a T1 Goblin Lord at T10, its level will be in the T10 range.
 
 ### Battle Dungeons
 #### Regular dungeons :dungeon:
@@ -201,11 +207,14 @@ Goblin Fortresses are home to these theme-restricted monsters (not restricted to
 Mystic Caves are available starting Tier 3.
 They contain only monsters in the Magical and Ancient families.
 
+They house some enemies which may be difficult to encounter in the world such as the Elemental Cores.
+Codexers might want to visit them to complete their entries.
+
 Mystic Caves are home to these theme-restricted monsters (not restricted to a particular event):
   - Lost Memories
 
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
-Any advantage left?
+Any other advantage left?
 ```
 
 ### Theme dungeons infographics (outdated for Exploration Dungeons)
@@ -222,7 +231,7 @@ Alongside themes, other difficulty modifiers can be applied to the dungeons for 
 
 These modifiers are split into 2 categories:
   - Modes (Normal, Horde, Endless), one of which exactly must be selected at a time
-  - Options (Hard, Boss, Include event content) which may both be activated
+  - Options (Hard, Boss, Include event content) which are all independent
 
 Any combination except for Endless/Boss is valid.
 Themed dungeon cannot be run as Endless nor Boss.
@@ -265,7 +274,7 @@ The Boss option incurs a x5 key cost multiplier and increases the cooldown timer
 
 ### Include event content Option
 The default state for this is option is on.
-This option is only available for themed dungeons (not regular ones).
+This option is available for all dungeons except the menu Gauntlet (where it is always enabled).
 It allows controlling whether event monsters that would normally appear in the dungeon do appear.
 For some events, players may prefer to not have event monsters dilute the spawn selection of the dungeon and would uncheck this option.
 
@@ -312,17 +321,17 @@ The following table lists the number of floors at each tier.
 
 |Tier|Floor Count|
 |:--:|:---------:|
-|  1 |           |
-|  2 |           |
+|  1 |    N/A    |
+|  2 |    N/A    |
 |  3 |           |
 |  4 |           |
 |  5 |           |
 |  6 |           |
 |  7 |           |
-|  8 |           |
-|  9 |           |
-| 10 |     11    |
-| 11 |     12    |
+|  8 |     9     |
+|  9 |    10     |
+| 10 |    11     |
+| 11 |    12     |
 
 ## End of Dungeon rewards
 Successfully defeating the last floor of a dungeon rewards with a currently unknown amount of Exp, Gold and Orns.
