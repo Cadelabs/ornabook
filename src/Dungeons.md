@@ -27,6 +27,8 @@ There is no known reduction for item drops.
 
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
 Horde dungeons debuff? Needs testing in both Themed and regular dungeons.
+
+Exploration dungeons debuff?
 ```
 
 ### Exploration Dungeons
@@ -51,9 +53,71 @@ How many floors wrt Tier?
 
 Exploration Dungeons also reward better [End-of-Dungeon rewards](#end-of-dungeon-rewards).
 
+##### Mining
+Mining is the activity exclusive to Exploration Dungeons.
+This can either be done by manually tapping the mineable decorations or the pickaxe to the bottom-left of the UI.
+If the pickaxe is held down, the character will walk from one decoration to the other and automatically mine them.
+If the pickaxe is repeteadly tapped, the mine animation will be interrupted but still completed, meaning it is very slightly faster than holding down.
+
+If using the pickaxe, it may happen that the character stucks itself looping over 2 tiles.
+If that happens, the pickaxe must be released until the character stops on a tile and then re-tapped.
+
+When mining, the character gathers remnants of decorations, which can later be exchanged for Deep Shards.
+The process is explained [here](#mining-for-deep-shards).
+Mining is also sometimes required to progress further into the dungeon, to uncover the exit or the floor switches.
+
+##### Fighting
+Monsters and bosses roam the floors of the dungeons. 
+They may appear in any room which is not in the bottom-most row.
+They can be fought by tapping them (short or long, as on the overworld).
+This starts the battle as it would in the overworld.
+
+Unlike with Battle Dungeons, no status effect carries from one fight to the other.
+The character also starts each fight with full health and mana.
+
+The last floor of a dungeon is always the starting room and a single boss in the room immediately up, which must be defeated to complete the Dungeon.
+When defeating it, the rewards screen will show up both the fight reward and Dungeon completion rewards.
+
+##### Gathering resources
+Any room in any floor has a chance of containing one or more resources.
+They can be collected by tapping once on them.
+
+These pickups may contain:
+  - Kingdom Gold
+  - Kingdom Orns
+  - Kingdom Florens (~80-120)
+  - Gold
+  - Orns
+  - A random material (10-20)
+
+Prior to tapping on them, there is no way of knowing if a gold/orn pickup is personal Gold/Orns or Kingdom Gold/Orns.
+
+```admonish todo "TODO(ethiraric, 23/06/2024)"
+Add numbers
+```
+
 #### UI
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
 I don't have a screenshot, sorry.
+```
+
+#### Floor layout
+The layout of a floor can be seen as a grid of size at least 1x3 and at most 4x4.
+Not all cells have to have a room.
+
+Players start in one room on the bottom row of the floor.
+Rooms on the bottom row often but not always branch up.
+They may also branch sideways.
+
+Once we go up from a room in the bottom row (if there is a path), there will be other rooms until we reach the top-most row of the floor.
+If there is a free space to the left or right of the room, there is a low chance that a room can be hidden there.
+It is sometimes needed to find it if the exit or a floor switch is located there.
+
+Most floors will have a W shaped pattern, with a bottom row of rooms all having upwards rooms.
+
+Here are some examples of layouts:
+```admonish todo "TODO(ethiraric, 23/06/2024)"
+Add examples
 ```
 
 #### Mining for Deep Shards
