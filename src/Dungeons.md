@@ -6,10 +6,10 @@ Dungeons have a certain number of floors which depends on the Tier of the player
 Further floors may only be accessed once the previous floor has been completed.
 At the end of a dungeon, players obtain additional rewards such as materials or other items (oftentimes referred to as EoG/EoD rewards, for end-of-Gauntlet/Dungeon rewards).
 
-There exists 2 kinds of dungeons: battle Dungeons and Exploration Dungeons.
+There exists 2 kinds of dungeons: Battle Dungeons and Exploration Dungeons.
 
 ### Battle Dungeons
-battle Dungeons are the original dungeons that were introduced into the game.
+Battle Dungeons are the original dungeons that were introduced into the game.
 They feature a fight per floor, which the player must win in order to access the next one.
 Once the fight has ended, the next one can be immediately started, making Battle Dungeons an efficient way of fighting numeours enemies.
 
@@ -266,7 +266,7 @@ The key cost of opening the dungeon is multiplied by however many members are _i
 The maximum key cost for a dungeon would be :gauntlet_keys:400 for a Valley of the Gods (20 base :gauntlet_keys: cost) with the Hard Option (x5 = :gauntlet_keys:100) and in a party of 4 (4x = :gauntlet_keys:400).
 
 ## Tier of a dungeon and relation to depth
-### battle Dungeons
+### Battle Dungeons
 As your tier increases the number of floors in dungeons increases.
 The following chart shows, for each tier, what the tier of monsters in each floor is, as well as how many floors a Battle Dungeon has.
 
@@ -314,7 +314,7 @@ No other factor plays in how the game selects the quality.
 If the dungeon was not an Exploration Dungeon nor run as Hard, the item may be of any quality (including Poor and Broken).
 
 The number of items given depends on the dungeon that was run.
-battle Dungeons award 1 or 2 items upon completion, while Exploration Dungeons award 3-4 items.
+Battle Dungeons award 1 or 2 items upon completion, while Exploration Dungeons award 3-4 items.
 The Ornaversary event or the Shrine of Terra double the number of items awarded while active (they do not stack with one another, nor with Exploration bonus).
 
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
