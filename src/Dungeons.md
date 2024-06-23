@@ -22,9 +22,10 @@ Although one cannot heal between battles, status effects (whether negative or po
 A common strategy which makes heavy use of that is to use the first floor(s) to apply as many buffs as possible, which can be kept until the end of the dungeon, in order to one shot as many floors as possible.
 
 Bosses defeated in a Battle Dungeon only reward 1/4 of their base Gold, Orn and Exp rewards.
+There is no known reduction for item drops.
 
-```admonish todo "TODO(ethiraric, 02/06/2023)"
-What about items?
+```admonish todo "TODO(ethiraric, 23/06/2024)"
+Horde dungeons debuff? Needs testing in both Themed and regular dungeons.
 ```
 
 ### Exploration Dungeons
@@ -111,7 +112,10 @@ Farming them is a great way to stock up on Hardened Steel. Running them Hard-Hor
 Most of the time, people do not bother too much about them because the drops from the monsters are not noteworthy.
 
 Beast Dens are home to these theme-restricted monsters:
-  - Kerberos and its followers during the _Rise/Return of Kerberos_ events
+  - During the _Beastfelled_ (formerly known as _Rise/Return of Kerberos_) event
+    - Kin of Kerberos and Arisen Kin of Kerberos
+    - Followers of Kerberos (not exclusive)
+    - Manticore and Monoceros (not exclusive)
 
 #### Dragon Roosts :dragon_roost:
 Dragon Roosts are available starting Tier 5.
@@ -121,9 +125,16 @@ They reward additional Orns upon completion.
 They are mostly farmed for Glatisant, which can show up Tier 9 onwards, for its Questing weapons and a chance at Godforging.
 Note that Glatisant will not appear in Tiers 5 to 8.
 
+During the _Wyrmhunt_ event, Dragon Roosts are very popular due to every event boss having a chance to Godforge items.
+
 Dragon Roosts are home to these theme-restricted monsters:
   - Glatisant, not restricted to a particular event
-  - The Phoenicians and the (Arisen) Phoenix monsters during the _Rise/Return of the Phoenix_ events
+  - During the _Phoenixrise_ (formerly known as _Rise/Return of the Phoenix_) event
+    - Fallen Ashen Phoenix
+    - Ascended Pledge
+    - Phoenix Pledgelings, Phoenix Halflings, Great Phoenix Pledge and Failed Phoenixes (not exclusive)
+  - During the _Wyrmhunt_ event
+    - Lotan, Vritra, Agathodaemon, Zaltys, Beithir, Illuyanka, Bashe, Quetzalcoatl, Gorynych, Ymir (not exclusive)
 
 #### Chaos Portals :chaos_portal:
 Chaos Portals are available starting Tier 6.
@@ -135,6 +146,10 @@ Other than that, the :gauntlet_keys:key cost and difficulty make it an often ski
 
 Chaos Portals are home to these theme-restricted monsters:
   - Stable Keepers, not restricted to a particular event
+  - During _The Mischievous Clurichauns_ event
+    - Amadan, Beag, Fergus
+  - During _Paths of Fomoria_ event
+    - All event monsters (not exclusive)
 
 #### Battlegrounds :battlegrounds:
 Battlegrounds are available starting Tier 8.
@@ -156,6 +171,10 @@ They are the most popular dungeon for their :gateway:Balor Gateways and farming 
 
 Underworld Portals are home to these theme-restricted monsters:
   - Knight Sirius, not restricted to a particular event
+  - During the _Balor Invades_ event
+    - Elite Balor Worm
+    - Elite Balor Guardian / Assassin / Marauder / Warlock (not exclusive)
+    - Dagda, Arisen Dagda (not exclusive)
 
 #### Valleys of the Gods :valley_of_gods:
 Valleys of the Gods are available starting Tier 10.
@@ -173,24 +192,19 @@ They contain only monsters in the Orc Horde and Goblin Horde families.
 
 They can be a great source of Orns, with the Elite Kobold Lord, Kobold Lord and the Elite Orc Lord.
 
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-Goblin Fortresses are home to these theme-restricted monsters:
-  - Alfars during the _A Year's End_ event
-
-Is the above still true?
-```
+Goblin Fortresses are home to these theme-restricted monsters (not restricted to a particular event):
+  - Hobgoblin Lord
+  - Elite Kobold Lord, Kobold Lord, Elite Kobold, Elite Kobold Mage
+  - Elite Orc Lord, Elite Orc, Elite Orc Brute
 
 ### Mystic Caves :mystic_cave:
 Mystic Caves are available starting Tier 3.
 They contain only monsters in the Magical and Ancient families.
 
+Mystic Caves are home to these theme-restricted monsters (not restricted to a particular event):
+  - Lost Memories
+
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
-Mystic Caves are home to these theme-restricted monsters:
-  - Lost Memories, not restricted to a particular event
-  - Pupils and Apprentices during the _The Plight of Apollyon_ event
-
-Is the above still true?
-
 Any advantage left?
 ```
 
@@ -290,6 +304,25 @@ Each row corresponds to a floor tier.
 |     8    |   |   |   |   |   |   |   |10 | 7 | 4  | 4  |
 |     9    |   |   |   |   |   |   |   |   |10 | 9  | 9  |
 |    10    |   |   |   |   |   |   |   |   |   | 5  | 8  |
+
+### Exploration Dungeons
+In Exploration Dungeons, there is no monster tier assigned to floors with relation to the depth.
+Enemies of any tier may appear at any floor during exploration.
+The following table lists the number of floors at each tier.
+
+|Tier|Floor Count|
+|:--:|:---------:|
+|  1 |           |
+|  2 |           |
+|  3 |           |
+|  4 |           |
+|  5 |           |
+|  6 |           |
+|  7 |           |
+|  8 |           |
+|  9 |           |
+| 10 |     11    |
+| 11 |     12    |
 
 ## End of Dungeon rewards
 Successfully defeating the last floor of a dungeon rewards with a currently unknown amount of Exp, Gold and Orns.
