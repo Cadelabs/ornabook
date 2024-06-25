@@ -351,7 +351,7 @@ Goblin Fortresses are home to these theme-restricted monsters (not restricted to
   - Elite Kobold Lord, Kobold Lord, Elite Kobold, Elite Kobold Mage
   - Elite Orc Lord, Elite Orc, Elite Orc Brute
 
-## Mystic Caves :mystic_cave:
+### Mystic Caves :mystic_cave:
 Mystic Caves are available starting Tier 3.
 They contain only monsters in the Magical and Ancient families.
 
