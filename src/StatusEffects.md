@@ -38,9 +38,13 @@ Individual buff combinations are considered different buffs and stack *multiplic
 ```
 
 ### Gaits
-Gaits are a family of buffs that can only be applied to oneself. They are learnt by the Beowulf/Bestla at levels 225 and 230. While Gaits are permanent buffs, only one Gait can be active at a time. Casting a Gait spell while another Gait is active will replace the active Gait, as opposed to granting a new status effects.
+Gaits are a family of buffs that can only be applied to oneself.
+They are learnt by the Beowulf/Bestla at levels 225 and 230.
+While Gaits are permanent buffs, only one Gait can be active at a time.
+Casting a Gait spell while another Gait is active will replace the active Gait, as opposed to granting a new status effect.
 
-Gaits allow their caster to boost one of their stats at the expense of 2 others. The boosted stat is increased by 50%, while the 2 sacrificed stats are decreased by 90% each.
+Gaits allow their caster to boost one of their stats at the expense of 2 others.
+The boosted stat is increased by 50%, while the 2 sacrificed stats are decreased by 90% each.
 
 Below are the 4 Gaits and their effects:
 
@@ -59,7 +63,7 @@ Below are the 4 Gaits and their effects:
 | :statuses/berserk_tu: All ↑↑ | Self buff from Berserk III. Boosts :statuses/atk::statuses/mag::statuses/def::statuses/res: by 50% each at the cost of 25% of max HP per turn. |
 | :statuses/break: T. All ↓ | Debuff inflicted by Break. (?) |
 | :statuses/bloodshift: Bloodshift | Nullifies healing. +5% :statuses/crit:. +10% :statuses/all:. Temporary, has a 15% chance to fade each turn. |
-| :statuses/windswept: Windswept | Reduces :statuses/crit: (?). Temporary, has a 15% chance to fade each turn. |
+| :statuses/windswept: Windswept | -50% :statuses/crit:. Temporary, has a 15% chance to fade each turn. |
 | :statuses/target_du: Target ↑↑ | Temporary. Increases the chance an enemy targets you in party play. |
 | :statuses/target_su: Target ↑  | Temporary. Increases the chance an enemy targets you in party play. |
 | :statuses/target_sd: Target ↓  | Temporary. Decreases the chance an enemy targets you in party play. |
@@ -67,8 +71,6 @@ Below are the 4 Gaits and their effects:
 
 ```admonish todo "TODO(ethiraric)"
 (31/07/2023): What does "Break" do exactly?
-
-(04/08/2023): By how much does Windswept reduce crit chance?
 
 (06/11/2023): How do Target statuses work? What is their fade chance?
 ```
