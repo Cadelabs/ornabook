@@ -29,8 +29,6 @@ There is no known reduction for item drops.
 
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
 Horde dungeons debuff? Needs testing in both Themed and regular dungeons.
-
-Exploration dungeons debuff?
 ```
 
 ### Exploration Dungeons
@@ -50,7 +48,7 @@ It is one of:
 
 Exploration Dungeons have much fewer floors than Battle Dungeons, but each takes much longer to be completed.
 
-Exploration Dungeons also reward better [End-of-Dungeon rewards](#end-of-dungeon-rewards).
+Exploration Dungeons also reward better [End-of-Dungeon rewards](#end-of-dungeon-rewards) and have no fight rewards reduction for bosses as Battle Dungeons do.
 
 ##### Mining
 Mining is the activity exclusive to Exploration Dungeons.
