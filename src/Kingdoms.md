@@ -1,4 +1,7 @@
 # Kingdoms
+## Overview
+### How to find
+### Advantages
 ## Resources
 ## Gauntlets
 Kingdom Gauntlets are one of the few ways of obtaining Kingdom Orns and the most lucrative if carried out seriously.
@@ -108,3 +111,5 @@ The amount of Kingdom Orns earned for each floor depending on the tier is summar
 | 11 | 1250 |
 
 The amount of Kingdom Orns earned for a Gauntlet is the sum of the Kingdom Orns earned for each floor (whether won, lost or unfought) of the Gauntlet at the moment of completion.
+
+## Wars
