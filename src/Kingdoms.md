@@ -47,7 +47,7 @@ That list includes enemies from active events, but not from inactive events.
 They have a rare chance of being Berserk.
 
 All characteristics of a Gauntlet are set when it is started.
-Benching or unbenching members does not change the number of floors or the number of allowed losses.
+Benching or unbenching Members while the Gauntlet is being fought does not change the number of floors or the number of allowed losses.
 
 ```admonish todo "TODO(16/06/2024, ethiraric)"
 What's the rate of a zerk mob?
@@ -59,6 +59,7 @@ Fights use the player's Dungeon loadout.
 A fight is considered lost if the player is defeated.
 However, before being defeated, they can flee from the fight freely and as many times as they want.
 When the fight is restarted, the enemy will be back to full health.
+Even though fights take place in a dungeon, they award full Gold/Orn/Exp.
 
 Should a fight prove too hard for a Member or if a Member is inactive, Officers can "shuffle" a Gauntlet floor.
 Shuffling replaces the fight by a new one, following the same rules described in [Starting a Gauntlet](#starting-a-gauntlet).
@@ -72,10 +73,6 @@ Ideally:
   * Try to shuffle as often as possible.
   * Shuffle Members who may lose their fight or may not take it promptly (e.g.: it's nighttime in their timezone, they went hiking with poor reception, ...).
   * Avoid shuffling Members who have multiple floors to fight.
-
-```admonish todo "TODO(16/06/2024, ethiraric)"
-Are personal rewards from a fight (Orns/Gold/XP) halved, much like in Dungeons?
-```
 
 #### End of a Gauntlet
 A Gauntlet ends when it is either won or lost.

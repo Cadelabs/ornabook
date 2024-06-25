@@ -1,26 +1,28 @@
 # Dungeons :dungeon:
-## What are dungeons?
 Dungeons are an activity in which a player explores a monster filled dungeon.
 One needs to be Tier 3 in order to access them.
 Dungeons have a certain number of floors which depends on the Tier of the player opening it.
 Further floors may only be accessed once the previous floor has been completed.
-At the end of a dungeon, players obtain additional rewards such as materials or other items (oftentimes referred to as EoG/EoD rewards, for end-of-Gauntlet/Dungeon rewards).
+At the end of a dungeon, players obtain additional rewards such as materials or other items (oftentimes referred to as EoD/EoG rewards, for End-of-Dungeon/Gauntlet rewards).
 
 There exists 2 kinds of dungeons: Battle Dungeons and Exploration Dungeons.
 
 ### Battle Dungeons
 Battle Dungeons are the original dungeons that were introduced into the game.
 They feature a fight per floor, which the player must win in order to access the next one.
-Once the fight has ended, the next one can be immediately started, making Battle Dungeons an efficient way of fighting numeours enemies.
+Once the fight has ended, the next one can be immediately started, making Battle Dungeons an efficient way of fighting numerous enemies.
 
 Once the dungeon has started, players have no opportunity to rest.
 Dungeons can be fled from to change gear/class/pet and re-entered with a new loadout.
 In this case, Ward/HP/MP may be clamped if the _max_ Ward/HP/MP of the new loadout is lower than the _current_ Ward/HP/MP when the dungeon was last fled from.
 Also, the enemies on the floor that was currently being fought will be fully healed.
 
-Although one cannot heal between battles (only through healing spells and items if not in Hard mode), status effects do remain from one floor to the next one.
+Although one cannot heal between battles (only through healing spells and items if not in [Hard mode](#hard-option)), status effects do remain from one floor to the next one.
 There are some exceptions to that such as Doom, which will dissipate when completing a floor.
 A common strategy which makes heavy use of that is to use the first floor(s) to apply as many buffs as possible, which can be kept until the end of the dungeon, in order to one shot as many floors as possible.
+
+The Battle Dungeon ends when the player has successfully defeated all floors or when the player is defeated.
+If the player is defeated, no End-of-Dungeon rewards are awarded.
 
 Bosses defeated in a Battle Dungeon only reward 1/4 of their base Gold, Orn and Exp rewards.
 There is no known reduction for item drops.
@@ -37,7 +39,7 @@ Exploration Dungeons were released with [3.9.3](https://playorna.com/releases/10
 They are made available through [Mystic Caves](#mystic-caves) and [Goblin Fortresses](#goblin-fortresses), which are since no longer available as Battle Dungeons.
 
 With Exploration Dungeons, players enter a top-down 2D view of the floor where they can freely move from room to room.
-Rooms may contain different entities such as monsters, bosses, mineable decorations, (Kingdom) Orns / Gold, Kingdom Florens and Materials.
+Rooms may contain different entities such as monsters, bosses, mineable resource nodes, (Kingdom) Orns / Gold, Kingdom Florens and Materials.
 
 Contrary to Battle Dungeons, the objective for each floor is not always to defeat enemies.
 It is one of:
@@ -46,23 +48,24 @@ It is one of:
   * Find the exit (hidden behind a mineable decoration)
   * Reveal and activate the 4 floor switches (hidden behind mineable decorations) then proceed to the exit
 
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-Exploration Dungeons have fewer floors than Battle Dungeons, but each takes much longer to be completed.
-How many floors wrt Tier?
-```
+Exploration Dungeons have much fewer floors than Battle Dungeons, but each takes much longer to be completed.
 
 Exploration Dungeons also reward better [End-of-Dungeon rewards](#end-of-dungeon-rewards).
 
 ##### Mining
 Mining is the activity exclusive to Exploration Dungeons.
-This can either be done by manually tapping the mineable decorations or the pickaxe to the bottom-left of the UI.
-If the pickaxe is held down, the character will walk from one decoration to the other and automatically mine them.
+This can either be done by manually tapping the resource nodes or the pickaxe to the bottom-left of the UI.
+If the pickaxe is held down, the character will walk from one resource node to the other and automatically mine them.
 If the pickaxe is repeteadly tapped, the mine animation will be interrupted but still completed, meaning it is very slightly faster than holding down.
+Once there is no longer any resource node in the room, the pickaxe will be greyed out.
 
 If using the pickaxe, it may happen that the character stucks itself looping over 2 tiles.
 If that happens, the pickaxe must be released until the character stops on a tile and then re-tapped.
+Also, there may be resource nodes in out-of-reach places for the character.
+While they are in the room, the pickaxe will not go grey, but the character will not move when tapping it.
+The resource nodes must be mined by tapping on them directly.
 
-When mining, the character gathers remnants of decorations, which can later be exchanged for Deep Shards.
+When mining, the character gathers remnants of resource nodes, which can later be exchanged for Deep Shards.
 The process is explained [here](#mining-for-deep-shards).
 Mining is also sometimes required to progress further into the dungeon, to uncover the exit or the floor switches.
 
@@ -74,12 +77,14 @@ This starts the battle as it would in the overworld.
 
 Unlike with Battle Dungeons, no status effect carries from one fight to the other.
 The character also starts each fight with full health and mana.
+Being defeated in an Exploration Dungeon does not end the run as it would with Battle Dungeons.
+Instead, the fight is stopped and the game returns to the floor view, where the player can re-try the fight as many times as they want (starting with full HP/MP), until the Dungeon timer expires.
 
-The last floor of a dungeon is always the starting room and a single boss in the room immediately up, which must be defeated to complete the Dungeon.
+The last floor of a dungeon always has 2 rooms only: the starting room and a single boss in the room immediately up, which must be defeated to complete the Dungeon.
 When defeating it, the rewards screen will show up both the fight reward and Dungeon completion rewards.
 
-##### Gathering resources
-Any room in any floor has a chance of containing one or more resources.
+##### Gathering pickups
+Any room in any floor has a chance of containing one or more pickups.
 They can be collected by tapping once on them.
 
 These pickups may contain:
@@ -97,8 +102,33 @@ Add numbers
 ```
 
 #### UI
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-I don't have a screenshot, sorry.
+<center>
+<img alt="Screenshot of a Mystic Cave exploration, with elements of the UI highlighted with numbers" src="/img/exploration_dungeon_ui.png" />
+</center>
+
+1. Quick-access buttons (Codex, Quests, Map, Items).
+   The Map button displays a layout of the floor as seen in [Floor Layout](#floor-layout).
+2. The resources collected.
+   Here, they are from top to bottom the 10:1, 5:1 and 2:1 resources respectively.
+   The green bar shows the progress to the next Deep Shard (80%, 20%, 50% respectively).
+3. The floor quest.
+   Completing it will reveal the portal to the next floor.
+4. Active buffs.
+5. The portal to the next floor.
+   On floors with the 4 switches quest, there is no portal but a dedicated room with the path to the next floor.
+6. A monster (Lost Memory).
+7. A resource node.
+8. A mined resource node.
+9. A boss (Enlightened Prince).
+   Like on the overworld, bosses appear larger than monsters.
+10. An Orns or Kingdom Orns pickup.
+11. The Deep Kiln in the starting room, to smelt resources into Deep Shards.
+12. Path to the previous floor in the starting room.
+13. The directional pad to move from room to room and the pickaxe to direct the character to move and mine a resource node.
+    Direction to which the player can go have white arrows, while those to which they cannot have greyed arrows.
+
+```admonish todo "TODO(ethiraric, 25/06/2024)"
+Are resources always in that order?
 ```
 
 #### Floor layout
@@ -116,26 +146,71 @@ It is sometimes needed to find it if the exit or a floor switch is located there
 Most floors will have a W shaped pattern, with a bottom row of rooms all having upwards rooms.
 
 Here are some examples of layouts:
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-Add examples
-```
+
+<center>
+    <div>
+        <img alt="A large 3x4 map" src="/img/exploration_dungeon_map_3x4.png" height="300px"/>
+        <img alt="A small 1x2 boss map" src="/img/exploration_dungeon_map_1x2.png" height="300px"/>
+        <img alt="A small 2x3 map in a C shape" src="/img/exploration_dungeon_map_c.png" height="300px"/>
+    </div>
+</center>
+
+The color of the squares indicate what the room contains:
+  - White: Nothing noteworthy.
+  - Blue: The starting room.
+  - Yellow: A room containing a portal or one or more floor switches.
+  - Green: The room where the player is.
+  - Purple: In the "Find 4 floor switches" floors, this is where the path to the next floor is.
+
+If the player (green) is on a colored room, the room will be shown half of that color and half green.
+
 
 #### Mining for Deep Shards
-The count of which decorations were mined is stored and shown at the bottom-right of the UI.
-There are, for each Exploration Dungeons, 3 different kinds of decorations.
-Decorations can be smelt at the Deep Kiln, located in the starting room of each floor.
-Since decorations are kept when progressing the dungeon, they can be all smelt on the last floor.
+The count of which resources were mined is stored and shown at the bottom-right of the UI.
+There are, for each Exploration Dungeons, 3 different kinds of resources.
+They can be smelt at the Deep Kiln, located in the starting room of each floor.
+Since resources are kept when progressing the dungeon, they can be all smelt on the last floor.
 However, if they are not smelt when the dungeon expires, they are lost and the player gets no Deep Shard from the exploration.
-Similarly, if there are leftovers decorations that cannot be smelt into 1 Deep Shard, those are lost when the dungeon expires.
+Similarly, if there are leftovers resources that cannot be smelt into 1 Deep Shard, those are lost when the dungeon expires.
 
-The ratio of decorations-to-shards is not always 1 and depends on the kind of decorations.
+The ratio of resource-to-shards is not 1:1 and depends on the kind of resource.
 It can be 10:1, 5:1 or 2:1.
+
+#### Cooldown and party-play
+Exploration Dungeons interact uniquely with party-play.
+There is no dedicated button to open the exploration to the party as there is to invite the party in a Battle Dungeon.
+Instead, the exploration is open to everyone in the party.
+Once opened and until the cooldown is over, players in the party can freely join the exploration.
+Rewards for party-play exploration are however not duplicated for each member in the exploration (fights, mining, ...).
+For instance, players are unable to pick up a resource that was already picked up by another player.
+This creates a "race" between players where the progress of one hinders the progress of others.
+
+Since everyone in a party can join an exploration, the cooldown of an Exploration Dungeon is not tied to the player, but to the party leader.
+This implies the following:
+  - Opening an Exploration Dungeon at a Wayvessel spot prevents other players from opening the dungeon themselves.
+    If the player opening has no [Unfelled Concord](https://orna.guide/items?show=1593), they would lock the entire party (including players joining _after_ the dungeon has been opened) from opening the dungeon again for 6 hours.
+  - The same Exploration Dungeon can be run multiple times within a 1-hour timeframe if using different party leaders (which may be alts).
+
+The latter point can be used to farm Orns, End-of-Dungeon items (at high quality) and Deep Shards effectively.
+The method has been explained by Knight411 in the [Orna Legends](https://discord.com/channels/748188991852904621/1178696351886884894/1194338574934474833) Discord server.
+It summarizes to the following:
+  - Equip your best Orn gear and max your Anguish
+  - Get physically close to a :fort:Goblin Fortress (:wayvessel:Wayvessels do not work)
+  - Run the dungeon and kill every [Elite Kobold Lord](https://orna.guide/monsters?show=486), [Elite Orc Lord](https://orna.guide/monsters?show=491) and [Kobold Lord](https://orna.guide/monsters?show=487) that you can.
+    These are the fights that reward with the most Orns.
+  - Don't forget to visit the Deep Kiln!
+  - Join an alt party where your alt is the party leader.
+    The party leader has changed, your dungeon is off cooldown.
+    Rinse and repeat.
+
+You'll need to cycle through multiple alts, so that you don't re-use the same alt within a dungeon cooldown timeframe.
 
 ## Finding dungeons
 The main source of dungeons is the world map, where they can be found as buildings.
 They do not move, nor do they disappear.
 They may appear randomly, as can any other building.
 They cannot be built by players.
+They appear on the "Show dungeons" or "Show dungeons & towers" layer of the map.
 
 Other means of running dungeons are:
   - Through a :wayvessel:Wayvessel, running dungeons accessible from the remote Wayvessel.
@@ -164,9 +239,19 @@ The level of enemies of lower Tiers will be scaled up to match the Tier of the p
 For example, when encountering a T1 Goblin Lord at T10, its level will be in the T10 range.
 
 ### Battle Dungeons
+#### Menu Gauntlet
+The Menu Gauntlet, also sometimes called the "Personal Gauntlet", is a Dungeon that is available for players upon reaching T3.
+It can be accessed from the Menu under the "Dungeon" tab.
+Note that this is the only Dungeon to have been called a Gauntlet, although the term is often used interchangeably within the community.
+
+It behaves much like a Regular Dungeon, with the following differences:
+  - It cannot be run [Horde mode](#horde-mode).
+  - It cannot be run with a party (only the player can enter)
+  - The cooldown for it are greatly reduced
+
 #### Regular dungeons :dungeon:
 Regular dungeons are the most common ones.
-They may contain any monster in the game as long as it doesn't belong to an inactive event (e.g.: Follower of Kerberos) or is locked to a specific dungeon theme (e.g.: Glatisant, only found in :dragon_roost:Dragon Roosts).
+They may contain any monster in the game as long as it doesn't belong to an inactive event (e.g.: Follower of Kerberos outside of Beastfelled) or is locked to a specific dungeon theme (e.g.: Glatisant, only found in :dragon_roost:Dragon Roosts).
 They do not have any specific reward boost upon completion.
 
 Regular dungeons offer the best balance for farming content.
@@ -380,18 +465,18 @@ Each row corresponds to a floor tier.
 
 ### Exploration Dungeons
 In Exploration Dungeons, there is no monster tier assigned to floors with relation to the depth.
-Enemies of any tier may appear at any floor during exploration.
-The following table lists the number of floors at each tier.
+Enemies of any tier may appear at any floor during exploration, but they are scaled up to the player's tier..
+The following table lists the number of floors in the Dungeon at each tier.
 
 |Tier|Floor Count|
 |:--:|:---------:|
 |  1 |    N/A    |
-|  2 |    N/A    |
-|  3 |           |
-|  4 |           |
-|  5 |           |
-|  6 |           |
-|  7 |           |
+|  2 |     5     |
+|  3 |     5     |
+|  4 |     5     |
+|  5 |     6     |
+|  6 |     7     |
+|  7 |     8     |
 |  8 |     9     |
 |  9 |    10     |
 | 10 |    11     |
@@ -415,16 +500,21 @@ It's quite the opposite: it sometimes prevents you from receiving a reward at th
 ```
 
 The quality of the item follows the same rules as other items.
-The only way of increasing the quality is to run Hard dungeons or Exploration Dungeons, both of which guarantee that the items will be of Superior or higher quality.
+The only way of increasing the quality is to run [Hard dungeons](#hard-option) or [Exploration Dungeons](#exploration-dungeons), both of which guarantee that the items will be of Superior or higher quality.
 No other factor plays in how the game selects the quality.
-If the dungeon was not an Exploration Dungeon nor run as Hard, the item may be of any quality (including Poor and Broken).
+If the Dungeon was not an Exploration Dungeon nor run as Hard, the items may be of any quality (including Poor and Broken).
 
 The number of items given depends on the dungeon that was run.
 Battle Dungeons award 1 or 2 items upon completion, while Exploration Dungeons award 3-4 items.
 The Ornaversary event or the Shrine of Terra double the number of items awarded while active (they do not stack with one another, nor with Exploration bonus).
 
+The increased number of items awarded by Exploration Dungeons as well as their increased quality make Exploration Dungeons a very lucrative farm for End-of-Dungeon items.
+They have low :gauntlet_keys:key cost (especially compared to Hard Dungeons) meaning the EoD item per key ratio is very high.
+[Bands of Gods](https://orna.guide/items?show=533) of high quality can be most easily farmed in Exploration Dungeons.
+
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
 Check the numbers
 ```
+
 Any dungeon can reward with any item, no matter the tier.
-There are reports of players receiving a T9 Band of Gods from low-tier gauntlets.
+There are reports of players receiving a T9 Band of Gods from low-tier Dungeons.
