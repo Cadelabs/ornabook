@@ -1,4 +1,5 @@
-# Status Effects
+<div class="title">Status Effects</div>
+
 Status effects are changes that affect your character during combat. They can increase or decrease your stats, inflict damage over time, cause death, ... or multiple of those at the same time. One can get a status effect through:
 
   - One of their own spells
@@ -9,8 +10,8 @@ Status effects are changes that affect your character during combat. They can in
 
 Some status effects are temporary, while some other are permanent. Some effects do have both a temporary and a permanent variation. Temporary status effects have a chance of fading each turn and are usually prefixed by `T.`.
 
-## Stats altering status effects
-### Generic status effects
+# Stats altering status effects
+## Generic status effects
 These status effects raise or lower a player's in-battle stats (attack, magic, defense, resistance, and/or dexterity):
     - :statuses/def: Defense: Change to the defense stat
     - :statuses/res: Resistance: Change to the resistance stat
@@ -37,7 +38,7 @@ The table below describes, for each buff, the alteration percentage for each com
 Individual buff combinations are considered different buffs and stack *multiplicatively*. This means that :statuses/def_su:+:statuses/def_du: grants a `1.25*1.5=1.875` factor to defense (+87.5%). However, using different sources for the same buff does not apply the buff twice. For example, if :statuses/mag_su: is granted using either of Magic Boost or Wyvern Speed, casting the other spell will not grant another :statuses/mag_su:.
 ```
 
-### Gaits
+## Gaits
 Gaits are a family of buffs that can only be applied to oneself.
 They are learnt by the Beowulf/Bestla at levels 225 and 230.
 While Gaits are permanent buffs, only one Gait can be active at a time.
@@ -55,7 +56,7 @@ Below are the 4 Gaits and their effects:
 | :statuses/kara: Kára | +50% :statuses/def: | -90% :statuses/mag: | -90% :statuses/res: |
 | :statuses/snotra: Snotra | +50% :statuses/mag: | -90% :statuses/atk: | -90% :statuses/def: |
 
-### Miscellaneous effects
+## Miscellaneous effects
 | Effect | Description |
 |:-------|:------------|
 | :statuses/berserk_su: Dmg ↑ | Self buff from Berserk. Increases damage output by 50% at the cost of 5% of max HP per turn. |
@@ -75,7 +76,7 @@ Below are the 4 Gaits and their effects:
 (06/11/2023): How do Target statuses work? What is their fade chance?
 ```
 
-### Monster only status effects
+## Monster only status effects
 The Cerus family of raid bosses have two spells named "Defend" that apply a self-buff. One of these applies a :statuses/def:Defending status buff, while the other applies a :statuses/res:Defending buff. These buffs increase Cerus' defense or resistance respectively and are permanent. However, much like Gaits, the two buffs cannot be active at the same time and applying one will remove the other.
 
 The Yggdrasil family of raid bosses have two spells, Tree of Life and Tree of Demise which largely add to Yggdrasil's defenses.
@@ -86,11 +87,11 @@ What is Defend's stat increase?
 What is Tree of Life's stat increase? Weakness? Fade chance?
 ```
 
-## Status Afflictions
+# Status Afflictions
 This section details other negative status effects that can be inflicted on an enemy.
 
-### Disables and DoTs
-#### Mechanics
+## Disables and DoTs
+### Mechanics
 * **Disables** are status effects which have a chance to prevent the afflicted target from taking their turn. If one uses its turn to use consumable, then it cannot be disabled. All other actions may be disabled.
 
   When one is afflicted by multiple disables, each of them roll separately. This means that disable chances stack _multiplicatively_.
@@ -107,7 +108,7 @@ Here, on `1.`, the player stunned the target. The next turn the target has is `2
 
 In the very specific case of the :statuses/asleep:Asleep disable and party play, the target may not be woken up even if damaged by entities after being afflicted but before having had their turn (that is, if an entity played in between `1.` and `2.` in the above scenario).
 
-#### DoT damage computation.
+### DoT damage computation.
 DoTs deal damage based on the afflicted target's max HP. DoTs are capped by default to 999HP _each_ per turn. This means that a player afflicted with 2 DoTs can take up to 1998 damage per turn.
 Some player amities or gear (e.g.: Autumna) can alter that cap for either themselves or the entities on which they inflict DoTs.
 
@@ -125,7 +126,7 @@ Check whether pet damage may proc the Autumna gear. Not just Drakeblight.
 Check how Autumna gear affects the cap. Is the cap specific to the enemy? Or per status?
 ```
 
-#### List and effects
+### List and effects
 In the following table:
 * _Fade_ refers to the chance that, at the end of the turn, the effect fades away
 * _Dmg_ is the percentage of max HP the target loses per turn (within the cap)
@@ -159,33 +160,32 @@ In the following table:
 How often does a Confused target fail to perform their action? How is the new action selected?
 ```
 
-### Sigils
+## Sigils
 ```admonish todo
 ```
 
-### Blights
+## Blights
 ```admonish todo "TODO(06/11/2023, ethiraric)"
 Drakeblight is a 1% DoT with a 500 cap (12,500 against Titans). Sometimes causes one to be unable to attack. Seems uninfluenced by Autumna gear.
 ([OL convo](https://discord.com/channels/748188991852904621/811270018661613627/1171205996534841365))
 ```
 
-### Miscellaneous effects
+## Miscellaneous effects
 | Effect                             | Details |
 |:-----------------------------------|:--------|
 | :statuses/towering: Towering       | Only available through the Titan's [Build Tower](https://playorna.com/codex/spells/build-tower/) spell.<br/>Restores 2% of max HP per turn. Temporary.|
-| :statuses/arcane: Arcane ↑↑        | Given only through [Aglovale](https://playorna.com/codex/items/aglovale/).<br/> ???
-| :statuses/dragon: Dragon ↑↑        | Given only through [Tethra](https://playorna.com/codex/items/tethra/).<br/> ???
+| :statuses/arcane: Arcane ↑↑        | Given only through [Aglovale](https://playorna.com/codex/items/aglovale/).<br/> Increases Arcane element damage by 50% and causes all Arcane damage to produce blue numbers as though enemies were weak to Arcane. Does not act as a weakness for Ultima or similar spells. Temporary. <br/> May have other unknown interactions.
+| :statuses/dragon: Dragon ↑↑        | Given only through [Tethra](https://playorna.com/codex/items/tethra/).<br/> Increases Dragon element damage by 50% and causes all Dragon damage to produce blue numbers as though enemies were weak to Dragon. Does not act as a weakness for Ultima or similar spells. Temporary. <br/> May have other unknown interactions.
 
 ```admonish todo "TODO(08/01/2023, ethiraric)"
-What happens with Arcane/Dragon ↑↑ when the enemy is already weak?
 Arcane and Dragon ↑↑ need more testing
 ```
 
-## Elemental effects
+# Elemental effects
 ```admonish todo
 ```
 
-## Calls
+# Calls
 ```admonish todo
 ```
 

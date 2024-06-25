@@ -1,4 +1,5 @@
-# Guilds
+<div class="title">Guilds</div>
+
 ```admonish todo
 Unlocks at 1:
   - Traveler's Guild

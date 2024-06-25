@@ -1,4 +1,5 @@
-# Origin Town
+<div class="title">Origin Town</div>
+
 ```admonish todo
 Unlocks at 25:
   - Town Hall, Citadel, Residence

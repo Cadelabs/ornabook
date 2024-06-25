@@ -1,4 +1,5 @@
-# Dungeons :dungeon:
+<div class="title">Dungeons <img src="img/icons/dungeon.png" class="mdbook-icon" /></div>
+
 Dungeons are an activity in which a player explores a monster filled dungeon.
 One needs to be Tier 3 in order to access them.
 Dungeons have a certain number of floors which depends on the Tier of the player opening it.
@@ -7,7 +8,7 @@ At the end of a dungeon, players obtain additional rewards such as materials or 
 
 There exists 2 kinds of dungeons: Battle Dungeons and Exploration Dungeons.
 
-### Battle Dungeons
+# Battle Dungeons
 Battle Dungeons are the original dungeons that were introduced into the game.
 They feature a fight per floor, which the player must win in order to access the next one.
 Once the fight has ended, the next one can be immediately started, making Battle Dungeons an efficient way of fighting numerous enemies.
@@ -31,8 +32,8 @@ There is no known reduction for item drops.
 Horde dungeons debuff? Needs testing in both Themed and regular dungeons.
 ```
 
-### Exploration Dungeons
-#### Overview
+# Exploration Dungeons
+## Overview
 Exploration Dungeons were released with [3.9.3](https://playorna.com/releases/107/) on November 29th 2023.
 They are made available through [Mystic Caves](#mystic-caves) and [Goblin Fortresses](#goblin-fortresses), which are since no longer available as Battle Dungeons.
 
@@ -50,7 +51,7 @@ Exploration Dungeons have much fewer floors than Battle Dungeons, but each takes
 
 Exploration Dungeons also reward better [End-of-Dungeon rewards](#end-of-dungeon-rewards) and have no fight rewards reduction for bosses as Battle Dungeons do.
 
-##### Mining
+### Mining
 Mining is the activity exclusive to Exploration Dungeons.
 This can either be done by manually tapping the resource nodes or the pickaxe to the bottom-left of the UI.
 If the pickaxe is held down, the character will walk from one resource node to the other and automatically mine them.
@@ -67,7 +68,7 @@ When mining, the character gathers remnants of resource nodes, which can later b
 The process is explained [here](#mining-for-deep-shards).
 Mining is also sometimes required to progress further into the dungeon, to uncover the exit or the floor switches.
 
-##### Fighting
+### Fighting
 Monsters and bosses roam the floors of the dungeons. 
 They may appear in any room which is not in the bottom-most row.
 They can be fought by tapping them (short or long, as on the overworld).
@@ -81,7 +82,7 @@ Instead, the fight is stopped and the game returns to the floor view, where the 
 The last floor of a dungeon always has 2 rooms only: the starting room and a single boss in the room immediately up, which must be defeated to complete the Dungeon.
 When defeating it, the rewards screen will show up both the fight reward and Dungeon completion rewards.
 
-##### Gathering pickups
+### Gathering pickups
 Any room in any floor has a chance of containing one or more pickups.
 They can be collected by tapping once on them.
 
@@ -99,7 +100,7 @@ Prior to tapping on them, there is no way of knowing if a gold/orn pickup is per
 Add numbers
 ```
 
-#### UI
+## UI
 <center>
 <img alt="Screenshot of a Mystic Cave exploration, with elements of the UI highlighted with numbers" src="/img/exploration_dungeon_ui.png" />
 </center>
@@ -129,7 +130,7 @@ Add numbers
 Are resources always in that order?
 ```
 
-#### Floor layout
+## Floor layout
 The layout of a floor can be seen as a grid of size at least 1x3 and at most 4x4.
 Not all cells have to have a room.
 
@@ -163,7 +164,7 @@ The color of the squares indicate what the room contains:
 If the player (green) is on a colored room, the room will be shown half of that color and half green.
 
 
-#### Mining for Deep Shards
+## Mining for Deep Shards
 The count of which resources were mined is stored and shown at the bottom-right of the UI.
 There are, for each Exploration Dungeons, 3 different kinds of resources.
 They can be smelt at the Deep Kiln, located in the starting room of each floor.
@@ -174,7 +175,7 @@ Similarly, if there are leftovers resources that cannot be smelt into 1 Deep Sha
 The ratio of resource-to-shards is not 1:1 and depends on the kind of resource.
 It can be 10:1, 5:1 or 2:1.
 
-#### Cooldown and party-play
+## Cooldown and party-play
 Exploration Dungeons interact uniquely with party-play.
 There is no dedicated button to open the exploration to the party as there is to invite the party in a Battle Dungeon.
 Instead, the exploration is open to everyone in the party.
@@ -203,7 +204,7 @@ It summarizes to the following:
 
 You'll need to cycle through multiple alts, so that you don't re-use the same alt within a dungeon cooldown timeframe.
 
-## Finding dungeons
+# Finding dungeons
 The main source of dungeons is the world map, where they can be found as buildings.
 They do not move, nor do they disappear.
 They may appear randomly, as can any other building.
@@ -219,7 +220,7 @@ It is common for people to "share" their dungeon spots.
 They create another account whose purpose is to build a Wayvessel in reach of a maximum of dungeons and to invite others to come to their Wayvessel to run dungeons.
 Some Discord servers have that kind of service available, and Kingdoms usually have their own member-restricted system.
 
-## Themed dungeons
+# Themed dungeons
 There exists multiple dungeon themes, which change what families of monsters can be encountered in the dungeon.
 Dungeon themes rotate for existing dungeons every week at Monday 00:00UTC.
 At that time, each dungeon's theme is rolled for the next week (it may happen that a dungeon keeps the same theme for 2 weeks in a row).
@@ -236,8 +237,8 @@ Players can only encounter monsters of their Tier or below in Themed Dungeons.
 The level of enemies of lower Tiers will be scaled up to match the Tier of the player.
 For example, when encountering a T1 Goblin Lord at T10, its level will be in the T10 range.
 
-### Battle Dungeons
-#### Menu Gauntlet
+## Battle Dungeons
+### Menu Gauntlet
 The Menu Gauntlet, also sometimes called the "Personal Gauntlet", is a Dungeon that is available for players upon reaching T3.
 It can be accessed from the Menu under the "Dungeon" tab.
 Note that this is the only Dungeon to have been called a Gauntlet, although the term is often used interchangeably within the community.
@@ -247,14 +248,14 @@ It behaves much like a Regular Dungeon, with the following differences:
   - It cannot be run with a party (only the player can enter)
   - The cooldown for it are greatly reduced
 
-#### Regular dungeons :dungeon:
+### Regular dungeons :dungeon:
 Regular dungeons are the most common ones.
 They may contain any monster in the game as long as it doesn't belong to an inactive event (e.g.: Follower of Kerberos outside of Beastfelled) or is locked to a specific dungeon theme (e.g.: Glatisant, only found in :dragon_roost:Dragon Roosts).
 They do not have any specific reward boost upon completion.
 
 Regular dungeons offer the best balance for farming content.
 
-#### Beast Dens :beast_den:
+### Beast Dens :beast_den:
 Beast Dens are available starting Tier 3.
 They contain only monsters in the Animal family.
 They reward additional Orns upon completion.
@@ -270,7 +271,7 @@ Beast Dens are home to these theme-restricted monsters:
     - Followers of Kerberos (not exclusive)
     - Manticore and Monoceros (not exclusive)
 
-#### Dragon Roosts :dragon_roost:
+### Dragon Roosts :dragon_roost:
 Dragon Roosts are available starting Tier 5.
 They contain only monsters in the Draconian Forces and Dragon families.
 They reward additional Orns upon completion.
@@ -289,7 +290,7 @@ Dragon Roosts are home to these theme-restricted monsters:
   - During the _Wyrmhunt_ event
     - Lotan, Vritra, Agathodaemon, Zaltys, Beithir, Illuyanka, Bashe, Quetzalcoatl, Gorynych, Ymir (not exclusive)
 
-#### Chaos Portals :chaos_portal:
+### Chaos Portals :chaos_portal:
 Chaos Portals are available starting Tier 6.
 They contain only weather- or time-restricted monsters.
 They reward additional End-of-Dungeon items upon completion.
@@ -304,7 +305,7 @@ Chaos Portals are home to these theme-restricted monsters:
   - During _Paths of Fomoria_ event
     - All event monsters (not exclusive)
 
-#### Battlegrounds :battlegrounds:
+### Battlegrounds :battlegrounds:
 Battlegrounds are available starting Tier 8.
 They contain only monsters in the Lyonesse Forces and Nothren Forces families.
 They reward additional End-of-Dungeon items upon completion.
@@ -315,7 +316,7 @@ While very hard, Hard-Horde Battlegrounds reward with huge amounts of Orns.
 Battlegrounds are home to these theme-restricted monsters:
   - Arisen King Meliodas and Baldr, not restricted to a particular event
 
-#### Underworld Portals :underworld_portal:
+### Underworld Portals :underworld_portal:
 Underworld Portals are available starting Tier 9.
 They contain only monsters in the Balor Forces family.
 They reward additional End-of-Dungeon items upon completion.
@@ -329,7 +330,7 @@ Underworld Portals are home to these theme-restricted monsters:
     - Elite Balor Guardian / Assassin / Marauder / Warlock (not exclusive)
     - Dagda, Arisen Dagda (not exclusive)
 
-#### Valleys of the Gods :valley_of_gods:
+### Valleys of the Gods :valley_of_gods:
 Valleys of the Gods are available starting Tier 10.
 They contain only arisen monsters.
 They reward additional Gold, Orns and End-of-Dungeon items upon completion.
@@ -338,8 +339,8 @@ They have boss floors which, even if the dungeon was run non-horde mode, will co
 
 Although expensive (:skeleton_keys:20), they are the best option for Godforging items.
 
-### Exploration Dungeons
-#### Goblin Fortresses :fort:
+## Exploration Dungeons
+### Goblin Fortresses :fort:
 Goblin Fortresses are available starting Tier 3.
 They contain only monsters in the Orc Horde and Goblin Horde families.
 
@@ -350,7 +351,7 @@ Goblin Fortresses are home to these theme-restricted monsters (not restricted to
   - Elite Kobold Lord, Kobold Lord, Elite Kobold, Elite Kobold Mage
   - Elite Orc Lord, Elite Orc, Elite Orc Brute
 
-### Mystic Caves :mystic_cave:
+## Mystic Caves :mystic_cave:
 Mystic Caves are available starting Tier 3.
 They contain only monsters in the Magical and Ancient families.
 
@@ -364,7 +365,7 @@ Mystic Caves are home to these theme-restricted monsters (not restricted to a pa
 Any other advantage left?
 ```
 
-### Theme dungeons infographics
+## Theme dungeons infographics
 
 <center>
   <table class="xl">
@@ -453,7 +454,7 @@ Any other advantage left?
   </table>
 </center>
 
-## Dungeon options and key cost multipliers
+# Dungeon options and key cost multipliers
 Alongside themes, other difficulty modifiers can be applied to the dungeons for increased rewards, some of which may increase the key cost or dungeon cooldown.
 
 These modifiers are split into 2 categories:
@@ -464,11 +465,11 @@ Any combination except for Endless/Boss is valid.
 Themed dungeon cannot be run as Endless nor Boss.
 Additionally, Exploration Dungeons cannot be run Horde or Endless.
 
-### Normal mode
+## Normal mode
 This is the default setting for a dungeon.
 On each floor you will face 1 monster only, except for boss floors for some themed dungeons which may have 1 or 2 additional monsters.
 
-### Horde mode
+## Horde mode
 Horde mode was introduced in 2022 to help combat the reliance on party play and alts.
 This allows a single player to encounter multiple enemies per floor, much like you would when doing party dungeons in a group.
 Horde mode is available in all dungeons, except for your personal gauntlet.
@@ -476,7 +477,7 @@ Choosing horde mode will not increase the dungeon cooldown timers.
 
 Horde mode does not incur a key cost multiplier, except on regular dungeons where the key cost is multiplied by 3.
 
-### Endless mode
+## Endless mode
 In Endless mode, instead of having a set number of floors, dungeons may go infinitely deep and end when the player is defeated.
 With each floor enemies' stats increase, but so do their Gold, Orns and Exp rewards.
 The rewards multiplier for a floor in endless is `floor_number/30`.
@@ -485,21 +486,21 @@ Since they do not have an "end", endless dungeons do not reward any End-of-Dunge
 Endless mode is only available on all regular dungeons, including the personal menu gauntlet.
 It does incur a 5x key cost multiplier and increases the cooldown timer on the dungeon.
 
-### Hard Option
+## Hard Option
 The Hard option is available in all dungeon types.
 It prevents players from using consumables (potions and whatnot) in the dungeon.
 Hard mode doubles the amount of Gold, Orn and Exp gained from defeating monsters and guarantees the End-of-Dungeon rewards are at least of Superior quality.
 
 The Hard option incurs a x5 key cost multiplier and increases the cooldown timer on the dungeon.
 
-### Boss Option
+## Boss Option
 The Boss option is only available in regular dungeons, including the one in your Castle/Fortress and your personal guantlet.
 With it, every monster spawned in the dungeon will be a boss.
 The Boss option further halves Gold, Orn and Exp rewards. 
 
 The Boss option incurs a x5 key cost multiplier and increases the cooldown timer on the dungeon.
 
-### Include event content Option
+## Include event content Option
 The default state for this is option is on.
 This option is available for all dungeons except the menu Gauntlet (where it is always enabled).
 It allows controlling whether event monsters that would normally appear in the dungeon do appear.
@@ -507,7 +508,7 @@ For some events, players may prefer to not have event monsters dilute the spawn 
 
 Activating or not this option does not incur any key cost multiplier.
 
-### Key costs multipliers
+## Key costs multipliers
 When selecting multiple options, their key cost multipliers are not added, but multiplied together (e.g.: Hard is x5, Boss is x5, so Hard-Boss is 25x).
 
 An additional multiplier is applied when starting party dungeons.
@@ -515,8 +516,8 @@ The key cost of opening the dungeon is multiplied by however many members are _i
 
 The maximum key cost for a dungeon would be :skeleton_keys:400 for a Valley of the Gods (20 base :skeleton_keys: cost) with the Hard Option (x5 = :skeleton_keys:100) and in a party of 4 (4x = :skeleton_keys:400).
 
-## Tier of a dungeon and relation to depth
-### Battle Dungeons
+# Tier of a dungeon and relation to depth
+## Battle Dungeons
 As your tier increases the number of floors in dungeons increases.
 The following chart shows, for each tier, what the tier of monsters in each floor is, as well as how many floors a Battle Dungeon has.
 
@@ -541,7 +542,7 @@ Each row corresponds to a floor tier.
 |     9    |   |   |   |   |   |   |   |   |10 | 9  | 9  |
 |    10    |   |   |   |   |   |   |   |   |   | 5  | 8  |
 
-### Exploration Dungeons
+## Exploration Dungeons
 In Exploration Dungeons, there is no monster tier assigned to floors with relation to the depth.
 Enemies of any tier may appear at any floor during exploration, but they are scaled up to the player's tier..
 The following table lists the number of floors in the Dungeon at each tier.
@@ -560,7 +561,7 @@ The following table lists the number of floors in the Dungeon at each tier.
 | 10 |    11     |
 | 11 |    12     |
 
-## End of Dungeon rewards
+# End of Dungeon rewards
 Successfully defeating the last floor of a dungeon rewards with a currently unknown amount of Exp, Gold and Orns.
 An additional selection of randomly selected materials is awarded to the player.
 

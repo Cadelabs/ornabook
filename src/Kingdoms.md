@@ -1,21 +1,22 @@
-# Kingdoms
-## Overview
-### How to find
-### Advantages
-## Resources
-## Gauntlets
+<div class="title">Kingdoms</div>
+
+# Overview
+## How to find
+## Advantages
+# Resources
+# Gauntlets
 Kingdom Gauntlets are one of the few ways of obtaining Kingdom Orns and the most lucrative if carried out seriously.
 A Gauntlet has a certain number of floors, where a member is randomly selected to fight a monster or a boss.
 Once sufficient fights are won, the Gauntlet is won and the Kingdom receives Kingdom Orns.
 
-#### Basic overview
+### Basic overview
 Kingdom Gauntlets may be started by Officers in exchange for Kingdom Gold.
 The game randomly selects, for each floor, one unbenched Kingdom Member to fight a random enemy.
 Members selected to fight in the Gauntlet receive a Push Notification and can take their fight regardless of whether fights from the previous floors have been taken.
 Once sufficient fights have been won, the Kingdom is victorious in its Gauntlet and receives Kingdom Orns.
 Officers can then start another Kingdom Gauntlet.
 
-#### Starting a Gauntlet
+### Starting a Gauntlet
 Officers can start a Gauntlet only if there is no Gauntlet already started and if there are at least 6 unbenched Members.
 At least 1 hour must have elapsed between 2 starts of a Gauntlet (this timer starts when _starting_ a Gauntlet; there needs not be 1 hour between the end of a Gauntlet and the start of the next one).
 The cost of a Kingdom Gauntlet is `2400 * roster_size` Kingdom Gold.
@@ -56,7 +57,7 @@ Benching or unbenching Members while the Gauntlet is being fought does not chang
 What's the rate of a zerk mob?
 ```
 
-#### Fighting a Gauntlet
+### Fighting a Gauntlet
 Gauntlets can be fought through the Gauntlet tab in the Kingdom menu.
 Fights use the player's Dungeon loadout.
 A fight is considered lost if the player is defeated.
@@ -77,7 +78,7 @@ Ideally:
   * Shuffle Members who may lose their fight or may not take it promptly (e.g.: it's nighttime in their timezone, they went hiking with poor reception, ...).
   * Avoid shuffling Members who have multiple floors to fight.
 
-#### End of a Gauntlet
+### End of a Gauntlet
 A Gauntlet ends when it is either won or lost.
 
 Kingdoms are allowed a few lost fights in the Gauntlet.
@@ -91,7 +92,7 @@ This means that not everybody has to take their fight before a new Gauntlet can 
 Most typically, for 3 losses allowed and no lost fight, all floors but 4 have to be won.
 In this example, the 5th-to-last won fight will complete the Gauntlet, provide the Kingdom with Orns, and allow the Officers to start the next Gauntlet (if the 1h cooldown has elapsed).
 
-#### Rewards
+### Rewards
 The number of Orns gained depends on the number of floors and their tiers.
 All floors in the Gauntlet at the time the Gauntlet is won, whether fought or not, will reward with Kingdom Orns.
 
@@ -112,4 +113,4 @@ The amount of Kingdom Orns earned for each floor depending on the tier is summar
 
 The amount of Kingdom Orns earned for a Gauntlet is the sum of the Kingdom Orns earned for each floor (whether won, lost or unfought) of the Gauntlet at the moment of completion.
 
-## Wars
+# Wars

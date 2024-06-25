@@ -15,3 +15,17 @@ table.xl td.bad {
   background-color: #ff9999;
   color: #9c0006;
 }
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+main h1 {
+  border-top-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding-top: 15px;
+}
