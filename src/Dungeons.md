@@ -366,14 +366,94 @@ Mystic Caves are home to these theme-restricted monsters (not restricted to a pa
 Any other advantage left?
 ```
 
-### Theme dungeons infographics (outdated for Exploration Dungeons)
-<center>
-<img alt="Chart summarizing the above sections. They also include key cost (1 default, 2 for Dragon Roosts, 5 for Chaos, Underworld and Battlegrounds and 20 for the Valleys) and what the game considers their difficulty (Normal default, Hard for Chaos and Underworld, Brutal for Battlegrounds and Valleys)." src="/img/dungeon_summary.png" width="80%" />
-</center>
+### Theme dungeons infographics
 
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-Rework that
-```
+<center>
+  <table class="xl">
+    <thead>
+      <tr>
+        <th>Dungeon</th>
+        <th>Tier</th>
+        <th><img src="img/icons/skeleton_keys.png" style="height: 2em;"/></th>
+        <th>Difficulty</th>
+        <th>Encounters</th>
+        <th>Reward boost</th>
+      <tr>
+    </thead>
+    <tr>
+      <td align="center"><img src="img/icons/dungeon.png" style="height: 2em;" /></td>
+      <td align="center">??</td>
+      <td align="center">1</td>
+      <td align="center" class="good">Normal</td>
+      <td align="center">Any monster that is not<br/>locked to an event / theme</td>
+      <td align="center">None</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/fort.png" style="height: 2em;" /></td>
+      <td align="center">??</td>
+      <td align="center">1</td>
+      <td align="center" class="good">Normal</td>
+      <td align="center">Orc Horde<br/>Goblin Horde</td>
+      <td align="center" style="background-color:#ffd412; color:#a97c0a">Gold</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/mystic_cave.png" style="height: 2em;" /></td>
+      <td align="center">??</td>
+      <td align="center">1</td>
+      <td align="center" class="good">Normal</td>
+      <td align="center">Magical<br/>Ancient</td>
+      <td align="center" style="background-color:#90A8AA; color:#293136">Orns</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/beast_den.png" style="height: 2em;" /></td>
+      <td align="center">3</td>
+      <td align="center">1</td>
+      <td align="center" class="good">Normal</td>
+      <td align="center">Animal</td>
+      <td align="center" style="background-color:#90A8AA; color:#293136">Orns</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/dragon_roost.png" style="height: 2em;" /></td>
+      <td align="center">5</td>
+      <td align="center">2</td>
+      <td align="center" class="good">Normal</td>
+      <td align="center">Draconian Forces<br/>Dragon</td>
+      <td align="center" style="background-color:#90A8AA; color:#293136">Orns</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/chaos_portal.png" style="height: 2em;" /></td>
+      <td align="center">6</td>
+      <td align="center">5</td>
+      <td align="center" class="bad">Hard</td>
+      <td align="center">Any weather- or<br/> time-restricted monster</td>
+      <td align="center" style="background-color:#82caec; color:#2c3d46">Items</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/battlegrounds.png" style="height: 2em;" /></td>
+      <td align="center">8</td>
+      <td align="center">5</td>
+      <td align="center" style="background-color:#d7a4dd; color:#9c27b0">Brutal</td>
+      <td align="center">Lyonesse Forces<br/>Nothren Forces</td>
+      <td align="center" style="background-color:#82caec; color:#2c3d46">Items</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/underworld_portal.png" style="height: 2em;" /></td>
+      <td align="center">9</td>
+      <td align="center">5</td>
+      <td align="center" class="bad">Hard</td>
+      <td align="center">Balor Forces</td>
+      <td align="center" style="background-color:#82caec; color:#2c3d46">Items</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="img/icons/valley_of_gods.png" style="height: 2em;" /></td>
+      <td align="center">10</td>
+      <td align="center">20</td>
+      <td align="center" style="background-color:#d7a4dd; color:#9c27b0">Brutal</td>
+      <td align="center">Arisen monsters</td>
+      <td align="center" class="good">Gold, Orns<br/>and Items</td>
+    </tr>
+  </table>
+</center>
 
 ## Dungeon options and key cost multipliers
 Alongside themes, other difficulty modifiers can be applied to the dungeons for increased rewards, some of which may increase the key cost or dungeon cooldown.

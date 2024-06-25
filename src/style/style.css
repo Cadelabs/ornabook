@@ -5,3 +5,13 @@
 table td {
   padding: 3px 15px;
 }
+
+table.xl td.good {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+table.xl td.bad {
+  background-color: #ff9999;
+  color: #9c0006;
+}
