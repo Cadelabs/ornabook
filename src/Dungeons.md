@@ -297,7 +297,7 @@ They contain only weather- or time-restricted monsters.
 They reward additional End-of-Dungeon items upon completion.
 
 They are primarily farmed for :summoning_scroll:Summoning Scrolls, as :gateway:Balor Gateways are Moonlight-restricted monsters.
-Other than that, the :gauntlet_keys:key cost and difficulty make it an often skipped dungeon.
+Other than that, the :skeleton_keys:key cost and difficulty make it an often skipped dungeon.
 
 Chaos Portals are home to these theme-restricted monsters:
   - Stable Keepers, not restricted to a particular event
@@ -338,7 +338,7 @@ They reward additional Gold, Orns and End-of-Dungeon items upon completion.
 
 They have boss floors which, even if the dungeon was run non-horde mode, will contain multiple enemies.
 
-Although expensive (:gauntlet_keys:20), they are the best option for Godforging items.
+Although expensive (:skeleton_keys:20), they are the best option for Godforging items.
 
 ### Exploration Dungeons
 #### Goblin Fortresses :fort:
@@ -435,7 +435,7 @@ When selecting multiple options, their key cost multipliers are not added, but m
 An additional multiplier is applied when starting party dungeons.
 The key cost of opening the dungeon is multiplied by however many members are _in the party_ up to a maximum of 4x (since no more than 4 players can join a dungeon).
 
-The maximum key cost for a dungeon would be :gauntlet_keys:400 for a Valley of the Gods (20 base :gauntlet_keys: cost) with the Hard Option (x5 = :gauntlet_keys:100) and in a party of 4 (4x = :gauntlet_keys:400).
+The maximum key cost for a dungeon would be :skeleton_keys:400 for a Valley of the Gods (20 base :skeleton_keys: cost) with the Hard Option (x5 = :skeleton_keys:100) and in a party of 4 (4x = :skeleton_keys:400).
 
 ## Tier of a dungeon and relation to depth
 ### Battle Dungeons
@@ -509,7 +509,7 @@ Battle Dungeons award 1 or 2 items upon completion, while Exploration Dungeons a
 The Ornaversary event or the Shrine of Terra double the number of items awarded while active (they do not stack with one another, nor with Exploration bonus).
 
 The increased number of items awarded by Exploration Dungeons as well as their increased quality make Exploration Dungeons a very lucrative farm for End-of-Dungeon items.
-They have low :gauntlet_keys:key cost (especially compared to Hard Dungeons) meaning the EoD item per key ratio is very high.
+They have low :skeleton_keys:key cost (especially compared to Hard Dungeons) meaning the EoD item per key ratio is very high.
 [Bands of Gods](https://orna.guide/items?show=533) of high quality can be most easily farmed in Exploration Dungeons.
 
 ```admonish todo "TODO(ethiraric, 23/06/2024)"

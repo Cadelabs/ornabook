@@ -49,7 +49,7 @@ Plus, clearing dungeons can reward with a :summoning_scroll: Summoning Scroll.
 
 However, the most efficient way to farm :summoning_scroll: Summoning Scrolls is to run :chaos_portal: Chaos Portals.
 In :chaos_portal: Chaos Portals, you encounter enemies that usually appear only in particular biomes or weather (remember that :gateway: Balor Gateways only appear in Moonlight?).
-However, they are one of the most difficult dungeons to clear, and their base :gauntlet_keys: cost is 5 (20 :gauntlet_keys: for a party of 4).
+However, they are one of the most difficult dungeons to clear, and their base :skeleton_keys: cost is 5 (20 :skeleton_keys: for a party of 4).
 If your only aim is getting :summoning_scroll: Summoning Scrolls, this is the most efficient way. However, be prepared for it to drain your key stash.
 
 Notes:
