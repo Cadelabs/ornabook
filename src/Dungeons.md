@@ -522,12 +522,149 @@ As your tier increases the number of floors in dungeons increases.
 The following chart shows, for each tier, what the tier of monsters in each floor is, as well as how many floors a Battle Dungeon has.
 
 <center>
-<img alt="Number of floors per tier. Tier 1: 5 floors. Tier 2: 9 floors. Tier 3 and 4: 10 floors. Tier 5 through 7: 13 floors. Tiers 8 and 9: 20 floors. Tier 10: 22 floors. Tier 11: 25 floors." src="/img/dungeon_floors.png" />
+  <table id="dungeon-tier-to-floor">
+    <tr>
+      <td></td> <td colspan=13 class="dttf-heading">Dungeon Tier</td>
+    </tr>
+    <tr class="dttf-dungeon-tier">
+      <td rowspan=26 class="dttf-heading" style="transform:rotate(-90deg)">Floor</td>
+      <td></td>
+      <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> <td>8</td> <td>9</td> <td>10</td> <td>11</td> <td></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1★</td> <td>1★</td> <td>1★</td> <td>1★</td> <td>2★</td> <td>4★</td> <td>5★</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td>3★</td> <td class="boss">B</td> <td>5★</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td class="boss">B</td> <td>5★</td> <td class="boss">B</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td class="boss">B</td> <td class="boss">B</td> <td>8★</td> <td>8★</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td class="boss">B</td> <td>2★</td> <td>2★</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>8★</td> <td>9★</td> <td class="boss">B</td> <td class="boss">B</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td></td> <td>2★</td> <td>2★</td> <td>3★</td> <td>4★</td> <td class="boss">B</td> <td class="boss">B</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td></td> <td>2★</td> <td>3★</td> <td>4★</td> <td class="boss">B</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td></td> <td>2★</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td></td> <td class="boss">B</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td>5★</td> <td>6★</td> <td>7★</td> <td class="boss">B</td> <td class="boss">B</td> <td>9★</td> <td>9★</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td></td> <td></td> <td></td> <td></td> <td>5★</td> <td>6★</td> <td>7★</td> <td>7★</td> <td>8★</td> <td class="boss">B</td> <td class="boss">B</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td></td> <td></td> <td></td> <td></td> <td>5★</td> <td>6★</td> <td>7★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td></td> <td></td> <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td class="boss">B</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td></td> <td class="boss">B</td> <td colspan=3 class="dttf-info">Boss Floor</td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td></td> <td class="gf">GF</td> <td colspan=3 class="dttf-info" style="font-size: 50%">Chance of boss with</br>a Godforge aura</td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td class="boss">B</td> <td class="gf">GF</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td>10★</td> <td>10★</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td> <td>10★</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="gf">GF</td> <td>10★</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="gf">GF</td>
+      <td>25</td>
+    </tr>
+  </table>
+  <p>Based on Knight411's chart, based on another chart by Orna Legends</p>
 </center>
 
-Number of regular monster floors of each tier with relation to the Battle Dungeon tier.
+Below is the number of regular monster floors of each tier with relation to the Battle Dungeon tier.
 Each column corresponds to a dungeon tier.
 Each row corresponds to a floor tier.
+This can be used to know which Tier is best to farm when hunting for a specific material.
+For instance, Ortanite drops from T9 monsters (and T9/T10 bosses), making T10 the best Tier to farm it.
 
 |Floor Tier \\ Dungeon Tier| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 |:--------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|:--:|

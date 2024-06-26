@@ -29,3 +29,61 @@ main h1 {
   border-width: 1px;
   padding-top: 15px;
 }
+
+#dungeon-tier-to-floor {
+  text-align: center;
+}
+
+#dungeon-tier-to-floor td {
+  padding-left: 3px;
+  padding-right: 3px;
+
+  &:empty {
+    border-right: none;
+    border-left: none;
+  }
+}
+
+#dungeon-tier-to-floor .dttf-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#dungeon-tier-to-floor .dttf-dungeon-tier td~td,
+#dungeon-tier-to-floor tr~tr~tr>td:first-child,
+#dungeon-tier-to-floor tr~tr~tr>td:last-child {
+  background-color: black;
+  font-weight: bold;
+}
+
+#dungeon-tier-to-floor tr~tr~tr td:nth-child(2n) {
+  &:not(:empty) {
+    background-color: #434343;
+  }
+}
+
+#dungeon-tier-to-floor tr~tr~tr td.boss {
+  &:not(:empty) {
+    background-color: #9c0006;
+    font-weight: bold;
+  }
+}
+
+#dungeon-tier-to-floor tr~tr~tr td.gf {
+  &:not(:empty) {
+    background-color: #bf9000;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+#dungeon-tier-to-floor tbody tr:nth-child(2n) {
+  background: none;
+}
+
+#dungeon-tier-to-floor tbody tr~tr td.dttf-info {
+  &:not(:empty) {
+    background: none;
+    border: 1px solid #9c0006;
+  }
+}
