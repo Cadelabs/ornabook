@@ -137,3 +137,7 @@ Overall, for farming :summoning_scroll: Summoning Scrolls (from most efficient t
 
 ## Tier 11
 Tier 11 dungeons have 25 floors instead of the 22 floors in a T10 dungeon giving you 3 more floors to find those Balor Guardians. Party Underworld and Chaos are still your best bet for farming scrolls.
+
+```admonish todo "TODO(ethiraric, 29/06/2024)"
+Moondrops + Event Scrolls can only be summoned as private
+```
