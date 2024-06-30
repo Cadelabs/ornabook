@@ -131,7 +131,7 @@ Are resources always in that order?
 ```
 
 ## Floor layout
-The layout of a floor can be seen as a grid of size at least 1x3 and at most 4x4.
+The layout of a floor can be seen as a grid of size at least 1x3 and at most 4x5.
 Not all cells have to have a room.
 
 Players start in one room on the bottom row of the floor.
