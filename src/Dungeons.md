@@ -265,11 +265,12 @@ They have boss floors which, even if the dungeon was run non-horde mode, will co
 Farming them is a great way to stock up on Hardened Steel. Running them Hard-Horde is also a great way of piling Orns up.
 Most of the time, people do not bother too much about them because the drops from the monsters are not noteworthy.
 
-Beast Dens are home to these theme-restricted monsters:
-  - During the _Beastfelled_ (formerly known as _Rise/Return of Kerberos_) event
-    - Kin of Kerberos and Arisen Kin of Kerberos
-    - Followers of Kerberos (not exclusive)
-    - Manticore and Monoceros (not exclusive)
+```admonish example "Beast Dens are home to these theme-restricted monsters"
+During the _Beastfelled_ (formerly known as _Rise/Return of Kerberos_) event:
+- Kin of Kerberos and Arisen Kin of Kerberos
+- Followers of Kerberos (not exclusive)
+- Manticore and Monoceros (not exclusive)
+```
 
 ### Dragon Roosts :dragon_roost:
 Dragon Roosts are available starting Tier 5.
@@ -281,14 +282,17 @@ Note that Glatisant will not appear in Tiers 5 to 8.
 
 During the _Wyrmhunt_ event, Dragon Roosts are very popular due to every event boss having a chance to Godforge items.
 
-Dragon Roosts are home to these theme-restricted monsters:
-  - Glatisant, not restricted to a particular event
-  - During the _Phoenixrise_ (formerly known as _Rise/Return of the Phoenix_) event
-    - Fallen Ashen Phoenix
-    - Ascended Pledge
-    - Phoenix Pledgelings, Phoenix Halflings, Great Phoenix Pledge and Failed Phoenixes (not exclusive)
-  - During the _Wyrmhunt_ event
-    - Lotan, Vritra, Agathodaemon, Zaltys, Beithir, Illuyanka, Bashe, Quetzalcoatl, Gorynych, Ymir (not exclusive)
+```admonish example "Dragon Roosts are home to these theme-restricted monsters"
+Glatisant, not restricted to a particular event
+
+During the _Phoenixrise_ (formerly known as _Rise/Return of the Phoenix_) event:
+- Fallen Ashen Phoenix
+- Ascended Pledge
+- Phoenix Pledgelings, Phoenix Halflings, Great Phoenix Pledge and Failed Phoenixes (not exclusive)
+
+During the _Wyrmhunt_ event:
+- Lotan, Vritra, Agathodaemon, Zaltys, Beithir, Illuyanka, Bashe, Quetzalcoatl, Gorynych, Ymir (not exclusive)
+```
 
 ### Chaos Portals :chaos_portal:
 Chaos Portals are available starting Tier 6.
@@ -298,12 +302,15 @@ They reward additional End-of-Dungeon items upon completion.
 They are primarily farmed for :summoning_scroll:Summoning Scrolls, as :gateway:Balor Gateways are Moonlight-restricted monsters.
 Other than that, the :skeleton_keys:key cost and difficulty make it an often skipped dungeon.
 
-Chaos Portals are home to these theme-restricted monsters:
-  - Stable Keepers, not restricted to a particular event
-  - During _The Mischievous Clurichauns_ event
-    - Amadan, Beag, Fergus
-  - During _Paths of Fomoria_ event
-    - All event monsters (not exclusive)
+```admonish example "Chaos Portals are home to these theme-restricted monsters"
+Stable Keepers, not restricted to a particular event
+
+During _The Mischievous Clurichauns_ event:
+- Amadan, Beag, Fergus
+
+During _Paths of Fomoria_ event:
+- All event monsters (not exclusive)
+```
 
 ### Battlegrounds :battlegrounds:
 Battlegrounds are available starting Tier 8.
@@ -313,8 +320,9 @@ They reward additional End-of-Dungeon items upon completion.
 They are primarily farmed for Baldr gear and Godforges (Arisen King Meliodas and Baldr).
 While very hard, Hard-Horde Battlegrounds reward with huge amounts of Orns.
 
-Battlegrounds are home to these theme-restricted monsters:
-  - Arisen King Meliodas and Baldr, not restricted to a particular event
+```admonish example "Battlegrounds are home to these theme-restricted monsters"
+Arisen King Meliodas and Baldr, not restricted to a particular event
+```
 
 ### Underworld Portals :underworld_portal:
 Underworld Portals are available starting Tier 9.
@@ -323,12 +331,14 @@ They reward additional End-of-Dungeon items upon completion.
 
 They are the most popular dungeon for their :gateway:Balor Gateways and farming :summoning_scroll:Summoning Scrolls.
 
-Underworld Portals are home to these theme-restricted monsters:
-  - Knight Sirius, not restricted to a particular event
-  - During the _Balor Invades_ event
-    - Elite Balor Worm
-    - Elite Balor Guardian / Assassin / Marauder / Warlock (not exclusive)
-    - Dagda, Arisen Dagda (not exclusive)
+```admonish example "Underworld Portals are home to these theme-restricted monsters"
+Knight Sirius, not restricted to a particular event
+
+During the _Balor Invades_ event
+- Elite Balor Worm
+- Elite Balor Guardian / Assassin / Marauder / Warlock (not exclusive)
+- Dagda, Arisen Dagda (not exclusive)
+```
 
 ### Valleys of the Gods :valley_of_gods:
 Valleys of the Gods are available starting Tier 10.
@@ -346,10 +356,11 @@ They contain only monsters in the Orc Horde and Goblin Horde families.
 
 They can be a great source of Orns, with the Elite Kobold Lord, Kobold Lord and the Elite Orc Lord.
 
-Goblin Fortresses are home to these theme-restricted monsters (not restricted to a particular event):
+```admonish example "Goblin Fortresses are home to these theme-restricted monsters (not restricted to a particular event)"
   - Hobgoblin Lord
   - Elite Kobold Lord, Kobold Lord, Elite Kobold, Elite Kobold Mage
   - Elite Orc Lord, Elite Orc, Elite Orc Brute
+```
 
 ### Mystic Caves :mystic_cave:
 Mystic Caves are available starting Tier 3.
@@ -358,8 +369,9 @@ They contain only monsters in the Magical and Ancient families.
 They house some enemies which may be difficult to encounter in the world such as the Elemental Cores.
 Codexers might want to visit them to complete their entries.
 
-Mystic Caves are home to these theme-restricted monsters (not restricted to a particular event):
+```admonish example "Mystic Caves are home to these theme-restricted monsters (not restricted to a particular event)"
   - Lost Memories
+```
 
 ```admonish todo "TODO(ethiraric, 23/06/2024)"
 Any other advantage left?
