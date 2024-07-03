@@ -56,8 +56,9 @@ Below are the 4 Gaits and their effects:
 | :statuses/kara: Kára | +50% :statuses/def: | -90% :statuses/mag: | -90% :statuses/res: |
 | :statuses/snotra: Snotra | +50% :statuses/mag: | -90% :statuses/atk: | -90% :statuses/def: |
 
-```admonish todo "TODO(ethiraric, 28/06/2024)
+```admonish todo "TODO(ethiraric, 28/06/2024)"
 Small gaits and stances
+
 Aegir: +100% def/res, -30%mag, -90% atk
 ```
 
