@@ -1,5 +1,6 @@
 <div class="title">Table of contents</div>
 
+- [Gear](./Gear.md)
 - [Origin Town](./OriginTown.md)
 - [Status Effects](./StatusEffects.md)
 - [Dungeons](./Dungeons.md)
@@ -7,3 +8,4 @@
 - [Kingdoms](./Kingdoms.md)
 - [Guilds](./Guilds.md)
 - [Contributors, credits and thanks](./Contributors.md)
+- [Annexes](./Annexes.md)
