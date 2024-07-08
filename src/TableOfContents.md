@@ -1,6 +1,5 @@
-# Summary
+<div class="title">Table of contents</div>
 
-- [Table of contents](./TableOfContents.md)
 - [Origin Town](./OriginTown.md)
 - [Status Effects](./StatusEffects.md)
 - [Dungeons](./Dungeons.md)
