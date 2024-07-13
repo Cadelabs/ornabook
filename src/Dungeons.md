@@ -337,7 +337,8 @@ Knight Sirius, not restricted to a particular event
 During the _Balor Invades_ event
 - Elite Balor Worm
 - Elite Balor Guardian / Assassin / Marauder / Warlock (not exclusive)
-- Dagda, Arisen Dagda (not exclusive)
+- Dagda (not exclusive)
+- Arisen Dagda
 ```
 
 ### Valleys of the Gods :valley_of_gods:
