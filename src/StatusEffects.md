@@ -40,26 +40,51 @@ Individual buff combinations are considered different buffs and stack *multiplic
 
 ## Gaits
 Gaits are a family of buffs that can only be applied to oneself.
-They are learnt by the Beowulf/Bestla at levels 225 and 230.
+They are learnt through the following classes:
+
+- T4 [Gait of Hildr](https://playorna.com/codex/spells/gait-of-hildr/) is learnt by [Wolf Tamer](https://playorna.com/codex/classes/98/) at level 90
+- T6 [Gait of Thrud](https://playorna.com/codex/spells/gait-of-thrud/) is learnt by [Dragoon / Valkyrie](https://playorna.com/codex/classes/101/) at level 130
+- T10 Gaits are learnt by [Beowulf / Bestla](https://playorna.com/codex/classes/57/) at levels 225 ([Kára](https://playorna.com/codex/spells/gait-of-kara/) and [Eir](https://playorna.com/codex/spells/gait-of-eir/)) and 230 ([Snotra](https://playorna.com/codex/spells/gait-of-snotra/) and [Gunnr](https://playorna.com/codex/spells/gait-of-gunnr/)).
+
 While Gaits are permanent buffs, only one Gait can be active at a time.
 Casting a Gait spell while another Gait is active will replace the active Gait, as opposed to granting a new status effect.
+Gaits and [Stances](#stances) can both be applied at the same time (they do not override one another).
 
-Gaits allow their caster to boost one of their stats at the expense of 2 others.
-The boosted stat is increased by 50%, while the 2 sacrificed stats are decreased by 90% each.
+Gaits allow their caster to boost some stats at the expense of some others.
+Below are the Gaits and their effects:
 
-Below are the 4 Gaits and their effects:
+| Tier | Gait                     |         +++         |         +++         |         ---         |         ---         |
+|:----:|:-------------------------|:-------------------:|:-------------------:|:-------------------:|:-------------------:|
+|   4  | :statuses/hildr: Hildr   | +10% :statuses/def: | +10% :statuses/res: | -25% :statuses/atk: | -25% :statuses/mag: |
+|   6  | :statuses/thrud: Thrud   | +10% :statuses/atk: | +10% :statuses/mag: | -25% :statuses/def: | -25% :statuses/res: |
+|  10  | :statuses/eir: Eir       |                     | +50% :statuses/res: | -90% :statuses/atk: | -90% :statuses/def: |
+|  10  | :statuses/gunnr: Gunnr   |                     | +50% :statuses/atk: | -90% :statuses/mag: | -90% :statuses/res: |
+|  10  | :statuses/kara: Kára     |                     | +50% :statuses/def: | -90% :statuses/mag: | -90% :statuses/res: |
+|  10  | :statuses/snotra: Snotra |                     | +50% :statuses/mag: | -90% :statuses/atk: | -90% :statuses/def: |
 
-| Gait | +++ | --- | --- |
-|:-----|:---:|:---:|:---:|
-| :statuses/eir: Eir | +50% :statuses/res: | -90% :statuses/atk: | -90% :statuses/def: |
-| :statuses/gunnr: Gunnr | +50% :statuses/atk: | -90% :statuses/mag: | -90% :statuses/res: |
-| :statuses/kara: Kára | +50% :statuses/def: | -90% :statuses/mag: | -90% :statuses/res: |
-| :statuses/snotra: Snotra | +50% :statuses/mag: | -90% :statuses/atk: | -90% :statuses/def: |
 
-```admonish todo "TODO(ethiraric, 28/06/2024)"
-Small gaits and stances
+## Stances
+Stances are a family of Titan buffs that can only be applied to oneself.
+They are only obtainable through off-hand abilities (on off-hands, dual-wielding or two-handed weapons).
+The weapons are obtained by defeating bosses and raids summoned by the [Celestial Stardrops](https://playorna.com/codex/items/celestial-stardrop/) and [Celestial Moondrops](https://playorna.com/codex/items/celestial-moondrop/) respectively (note that these can be used year-round, but only drop during the _Of Giants and Titans_ event).
 
-Aegir: +100% def/res, -30%mag, -90% atk
+Much like [Gaits](#gaits), they are permanent but only one can be active at a time.
+One cannot equip two Stance spells at once in their loadout (since there is only one off-hand ability slot), but it is possible to override a stance in [battle dungeons](Dungeons.md#battle-dungeons) by leaving, changing equipment, then re-entering the dungeon (a useful strategy for endless dungeons).
+[Gaits](#gaits) and Stances can both be applied at the same time (they do not override one another).
+
+| Stance  | Effect |
+|:-------:|:-------|
+| Aegir   | +100% :statuses/def::statuses/res:, -30% :statuses/mag:, -90%:statuses/atk: |
+| Asteria | +30% :statuses/mag:, -50% :statuses/def::statuses/res:, -5% max mana per turn |
+| Atlas   | +20% Collateral Damage damage, +10% Collateral Damage chance, -20% max ward on Collateral Damage proc |
+| Eistla  | +20% :statuses/atk::statuses/mag:, (makes follower and summons weaker?) |
+| Gymir   | +10% damage, (DoT based on your damage per hit, 5%) |
+| Ophion  | 25% chance of applying your next buff to a summon |
+
+```admonish todo "TODO(24/08/2024, ethiraric)"
+Check Eistla effect on follower and summons
+
+Check Gymir DoT effect
 ```
 
 ## Miscellaneous effects
@@ -194,4 +219,3 @@ Arcane and Dragon ↑↑ need more testing
 # Calls
 ```admonish todo
 ```
-
