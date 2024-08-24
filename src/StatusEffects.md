@@ -64,7 +64,7 @@ Below are the Gaits and their effects:
 
 
 ## Stances
-Stances are a family of Titan buffs that can only be applied to oneself.
+Stances are a family of Giant buffs that can only be applied to oneself.
 They are only obtainable through off-hand abilities (on off-hands, dual-wielding or two-handed weapons).
 The weapons are obtained by defeating bosses and raids summoned by the [Celestial Stardrops](https://playorna.com/codex/items/celestial-stardrop/) and [Celestial Moondrops](https://playorna.com/codex/items/celestial-moondrop/) respectively (note that these can be used year-round, but only drop during the _Of Giants and Titans_ event).
 
