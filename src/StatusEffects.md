@@ -72,14 +72,14 @@ Much like [Gaits](#gaits), they are permanent but only one can be active at a ti
 One cannot equip two Stance spells at once in their loadout (since there is only one off-hand ability slot), but it is possible to override a stance in [battle dungeons](Dungeons.md#battle-dungeons) by leaving, changing equipment, then re-entering the dungeon (a useful strategy for endless dungeons).
 [Gaits](#gaits) and Stances can both be applied at the same time (they do not override one another).
 
-| Stance  | Effect |
-|:-------:|:-------|
-| Aegir   | +100% :statuses/def::statuses/res:, -30% :statuses/mag:, -90%:statuses/atk: |
-| Asteria | +30% :statuses/mag:, -50% :statuses/def::statuses/res:, -5% max mana per turn |
-| Atlas   | +20% Collateral Damage damage, +10% Collateral Damage chance, -20% max ward on Collateral Damage proc |
-| Eistla  | +20% :statuses/atk::statuses/mag:, (makes follower and summons weaker?) |
-| Gymir   | +10% damage, (DoT based on your damage per hit, 5%) |
-| Ophion  | 25% chance of applying your next buff to a summon |
+|           Stance           | Tier | Effect |
+|:---------------------------|:----:|:-------|
+| :statuses/aegir: Aegir     |  T6  | +100% :statuses/def::statuses/res:, -30% :statuses/mag:, -90%:statuses/atk: |
+| :statuses/asteria: Asteria |  T8  | +30% :statuses/mag:, -50% :statuses/def::statuses/res:, -5% max mana per turn |
+| :statuses/atlas: Atlas     |  T8  | +20% Collateral Damage damage, +10% Collateral Damage chance<br/>-20% max ward on Collateral Damage proc |
+| :statuses/eistla: Eistla   |  T8  | +20% :statuses/atk::statuses/mag:, (makes follower and summons weaker?) |
+| :statuses/gymir: Gymir     |  T7  | +10% damage, (DoT based on your damage per hit, 5%) |
+| :statuses/ophion: Ophion   |  T8  | 25% chance of applying your next buff to a summon |
 
 ```admonish todo "TODO(24/08/2024, ethiraric)"
 Check Eistla effect on follower and summons
