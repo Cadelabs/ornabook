@@ -8,5 +8,6 @@
 - [World Raid Bosses](./WorldRaidBosses.md)
 - [Kingdoms](./Kingdoms.md)
 - [Guilds](./Guilds.md)
+- [Glossary](./Glossary.md)
 - [Contributors, credits and thanks](./Contributors.md)
 - [Annexes](./Annexes.md)
