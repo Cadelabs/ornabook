@@ -167,7 +167,17 @@ This spell has a high stat multiplier (meaning it can easily pierce the Raid's d
 It also has the advantage of working with both Magic and Attack based builds, taking whichever stat is the highest.
 It is the recommended spell to use for sanding.
 
-### Perfect sanding stats
+## Various tips for sanding
+- Do not bring any pet / summon with a damaging attack move
+- Lower-tier classes have less base offensive stats, making them easier to bring low enough to not deal more than 1000 damage
+- [Arisen Monster Tomes](https://playorna.com/codex/items/arisen-monster-tome/) (-125) and [Mighty Mimic Heads](https://playorna.com/codex/items/mighty-mimic-head/) (-50) of high quality heavily bring your offensive stats down if needed (attack and magic in equal amounts)
+  - Another more expensive option is using Titan augments ([Lungs of Eos](https://playorna.com/codex/items/lungs-of-eos/) (-135), [Legs of Eos](https://playorna.com/codex/items/legs-of-eos/) (-60), [Lungs of Selene](https://playorna.com/codex/items/lungs-of-selene/) (-45))
+  - Other adornments of note are [Ashen Pinion](https://playorna.com/codex/items/ashen-pinion/) (-40) and [Stardust](https://playorna.com/codex/items/stardust/) (-30)
+- Sands of Aaru never misses, assuring your damage on turn 1 before you get attacked and making defensive stats meaningless (do still keep enough Mana)
+- If your class of choice does not have Mystic Feather or Second Chance, you may often be quickly forced out of a fight, saving you a bit of time if you need to sand a lot of raids
+- Sanding not only applies to WRB but also to Kingdom Raids
+
+## Perfect sanding stats
 The following table is an attempt to find the perfect offensive stat value for every raid to deal 2 damage using Sands of Aaru.
 The damage dealt depends on the defensive stats of the Raid.
 Thankfully, their Defence and Resistance stats are equal, so there is no difference in the Attack or Magic needed.
