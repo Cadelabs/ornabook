@@ -723,7 +723,7 @@ The process is as follows:
   - If, however, the player has **not** completed the quest, the item is not awarded and the player does not receive the quest item.
 
 ```admonish warning
-This means that the odds of receiving a specific item does not depend on how many quests were completed.
+This means that the odds of receiving a specific item do not depend on how many quests were completed.
 Holding off from completing quests does not improve the odds of a particular item from a completed quest to appear.
 It's quite the opposite: it sometimes prevents you from receiving a reward at the end of your dungeon!
 ```
