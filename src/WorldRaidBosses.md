@@ -176,6 +176,10 @@ It is the recommended spell to use for sanding.
 - Sands of Aaru never misses, ensuring your damage on turn 1 before you get attacked and making defensive stats meaningless (do still keep enough Mana)
 - If your class of choice does not have Mystic Feather or Second Chance, you may often be quickly forced out of a fight, saving you a bit of time if you need to sand a lot of raids
 - Sanding not only applies to WRB but also to Kingdom Raids
+- Beware of passives whose stat increase may vary
+  - Passives such as Power of the Gods (e.g.: [Gaia](https://playorna.com/codex/classes/35/)) which increase stats and are visible in the Status menu
+  - Passives such as Iconoclast (e.g.: [Heretic](https://playorna.com/codex/classes/55/)) which increase stats depending on the battle state and are invisible in the Status menu
+  - Global passives such as Origin Town which add 10% to your stats (visible in the Status menu)
 
 ## Perfect sanding stats
 The following table is an attempt to find the perfect offensive stat value for every raid to deal 2 damage using Sands of Aaru.
@@ -188,15 +192,21 @@ Only Raids whose stats are known are listed below.
 
 | Name                       | Tier | :statuses/def::statuses/res: | :statuses/atk::statuses/mag: |
 |----------------------------|------|------------------------------|------------------------------|
+| Arisen Ebon Scruug         | 10   | 2574                         | 527                          |
+| Arisen Kerberos            | 10   | 1782                         | 368                          |
 | Arisen Morrigan            | 10   | 5114                         | 1035                         |
 | Arisen Yggdrasil           | 10   | 2574                         | 527                          |
+| Ashen Phoenix              | 10   | 2034                         | 419                          |
 | Fey Chimera                | 10   | 2034                         | 419                          |
 | Final Horseman             | 10   | 2034                         | 419                          |
 | Fey Yeti                   | 9    | 1670                         | 346                          |
 | Third Horseman             | 9    | 1670                         | 346                          |
+| Fallen Judge Charon        | 8    | 1680                         | 348                          |
 | Fey Cockatrice             | 8    | 1200                         | 252                          |
+| Kerberos                   | 8    | 1200                         | 252                          |
 | Second Horseman            | 8    | 1200                         | 252                          |
 | Sister Macha               | 8    | 1512                         | 314                          |
+
 
 </details>
 
@@ -207,6 +217,9 @@ Due to the wide range of Sands of Aaru's damage multiplier, damage can range fro
 Offensive stats 1 or 2 points below that indicated may hit for only 1 damage.
 Offensive stats 1 or 2 points above that indicated reduces the odds of hitting for 2 damage and may also hit for 5 damage.
 Above that, scaling goes according to Sands of Aaru's damage multiplier.
+
+You can expect your damage to be between `2 + stat_above * 0.07` and `4 + stat_above * 0.15`, with `stat_above` the difference between your offensive stat and that listed in the table.
+You should not be 2656 stat point above, as this makes it possible to hit for more than 1000 damage.
 ```
 
 ```admonish abstract "Maths"
