@@ -45,7 +45,7 @@ The ratio between single-wielding and dual-wielding can be expressed as:
 
 \\[ \text{dual-wield-ratio}\ 
     = \frac{\text{multiplier} _{\text{dual-wield}}}{\text{multiplier} _{\text{single-wield}}}
-    = \frac{(1 + 0.65 * B)^{2}}{1 + B}\\]
+    = \frac{(1 + 0.65 * B)^{2}}{1 + B} \\]
 
 We can ask [Wolframalpha](https://www.wolframalpha.com/input?i=%281%2B%280.65x%29%29*%281%2B%280.65x%29%29%2F%281%2Bx%29%2C+x+in+%5B0%2C+1%5D) for an interactive plot of this function over `B`.
 A static plot of it (with [matplotlib](./Annexes.md#gear-boni-dual-wield-plot)) is available below.
@@ -67,3 +67,59 @@ If we try to read the chart, we can see the `y` value at `x=0.575` is close to 1
 We can check this by computing the exact ratio, which would be 1.8871890625/1.575 which is ~1.198.
 
 We can see that the ratio is always superior to 1 (except on 0, but weapons without any bonus is not discussed here), meaning that dual-wielding weapons with boni always yields more rewards than wielding only one.
+
+# Hybrid
+Orna has four different "kinds" of Hybrid:
+- All skills and spells cast will use both your Attack and Magic stats
+- Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
+- Hybrid Skills
+- Dynamic Hybrid
+
+## All skills and spells cast will use both your Attack and Magic stats
+Instead of just using your Attack or Magic stat, all your skills and spells will use a combination of both of them.
+Additionally, they will use the average of the Defence and the Resistance of your target.
+This is not normally relevant, as monsters have the same Defence and Resistance values, but can be important if an enemy has certain buffs (Cerus' Defends) or during a Fomorian Houses event.
+The following formula replaces the attack or magic stat in the usual damage formula: \\( (\text{Attack} + \text{Magic}) * \frac{3}{5} \\) (or \\( (\text{Attack} + \text{Magic}) / 1.66 \\)).
+If your attack and magic stats are equal, this is roughly a 20% damage increase.
+
+This has no effect at all on skills that are already hybrid, like Beaststrike or Verse.
+The effects of this are applied directly to the damage formula and cannot be seen in the Status menu.
+
+This changes the damage formula to (note the 4 instead of 2 below `def + res` to account for the averaging):
+
+\\[
+    \text{damage} = \lfloor ((\text{atk} + \text{mag}) * \frac{3}{5} * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4}) * \text{damage-multiplier} \rfloor
+\\]
+
+## Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
+This refers to the effects described as "Hybrid damage will be increased by X%".
+
+Contrary to the description, the implementation of this is not a multiplier to the damage of Hybrid skills and spells.
+It increases your attack stat by X% of your magic stat and your magic stat by X% of your attack stat.
+Since it changes your raw stats, its effects are visible in the Status menu.
+This effect stacks additively.
+
+## Hybrid Skills
+Hybrid skills use 65% of your attack and 65% of your magic stat.
+The following formula replaces the attack or magic stat in the usual damage formula: \\( (\text{atk} + \text{mag}) * 0.65 \\).
+
+This changes the damage formula to the following:
+
+\\[
+    \text{damage} = \lfloor ((\text{atk} + \text{mag}) * 0.65 * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{2}) * \text{damage-multiplier} \rfloor
+\\]
+
+## Dynamic Hybrid
+We call Dynamic Hybrid all skills or spells that "*use either attack or magic, whichever is higher*".
+[Sands of Aaru](https://playorna.com/codex/spells/sands-of-aaru/) or God classes' [Eventualus Apex skills](https://playorna.com/codex/spells/?q=eventualus) are examples of this.
+
+As the description mentions, these spells indeed replace the attack or magic value from the damage formula with whichever stat is the highest.
+The defensive stat used in the formula depends on whether the game considers it a skill or a spell.
+If it is a skill (e.g.: Sands of Aaru), the Defence will be used.
+If it is a spell (e.g.: [Neutra Eventualus](https://playorna.com/codex/spells/neutra-eventualus/)), the Resistance will be used.
+
+This changes the damage formula to the following (assuming a *skill* is used):
+
+\\[
+    \text{damage} = \lfloor ((\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}}{2}) * \text{damage-multiplier} \rfloor
+\\]
