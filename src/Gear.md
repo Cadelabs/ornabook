@@ -118,6 +118,11 @@ The defensive stat used in the formula depends on whether the game considers it 
 If it is a skill (e.g.: Sands of Aaru), the Defence will be used.
 If it is a spell (e.g.: [Neutra Eventualus](https://playorna.com/codex/spells/neutra-eventualus/)), the Resistance will be used.
 
+```admonish warning
+The following seems wrong when interacting with Fomorian houses.
+Further investigation is actively ongoing.
+```
+
 This changes the damage formula to the following (assuming a *skill* is used):
 
 \\[
