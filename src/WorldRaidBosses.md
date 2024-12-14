@@ -192,20 +192,41 @@ Only Raids whose stats are known are listed below.
 
 | Name                       | Tier | :statuses/def::statuses/res: | :statuses/atk::statuses/mag: |
 |----------------------------|------|------------------------------|------------------------------|
+| Arisen Balin               | 10   | 2474                         | 507                          |
 | Arisen Ebon Scruug         | 10   | 2574                         | 527                          |
+| Arisen Fenja               | 10   | 1958                         | 404                          |
+| Arisen Gerd                | 10   | 1958                         | 404                          |
+| Arisen Judge Charon        | 10   | 2750                         | 562                          |
+| Arisen Judge Rhada         | 10   | 2750                         | 562                          |
 | Arisen Kerberos            | 10   | 1782                         | 368                          |
 | Arisen Morrigan            | 10   | 5114                         | 1035                         |
+| Arisen Rift Judgement      | 10   | 2750                         | 562                          |
 | Arisen Yggdrasil           | 10   | 2574                         | 527                          |
 | Ashen Phoenix              | 10   | 2034                         | 419                          |
 | Fey Chimera                | 10   | 2034                         | 419                          |
 | Final Horseman             | 10   | 2034                         | 419                          |
+| Finesse                    | 10   | 2574                         | 527                          |
+| Great Anguish              | 10   | 5544                         | 1121                         |
+| The Last Hippogriff        | 10   | 2034                         | 419                          |
+| Turned King Lyncus         | 10   | 2342                         | 480                          |
+| Arisen Cade                | 9    | 2070                         | 426                          |
 | Fey Yeti                   | 9    | 1670                         | 346                          |
+| Noble Perseus              | 9    | 1890                         | 390                          |
+| The Fool (T9)              | 9    | 2070                         | 426                          |
+| The Mightiest Mimic        | 9    | 2040                         | 420                          |
 | Third Horseman             | 9    | 1670                         | 346                          |
+| Almighty Balin             | 8    | 1200                         | 252                          |
 | Fallen Judge Charon        | 8    | 1680                         | 348                          |
+| Fallen Judge Charon        | 8    | 1680                         | 348                          |
+| Fenja                      | 8    | 1144                         | 241                          |
 | Fey Cockatrice             | 8    | 1200                         | 252                          |
 | Kerberos                   | 8    | 1200                         | 252                          |
+| Mimic King of Kings        | 8    | 1792                         | 370                          |
 | Second Horseman            | 8    | 1200                         | 252                          |
 | Sister Macha               | 8    | 1512                         | 314                          |
+| Fey Dragon                 | 7    | 924                          | 197                          |
+| Grand Knight Lugus         | 7    | 1000                         | 212                          |
+| Ingenious Cade             | 5    | 338                          | 80                           |
 
 
 </details>
