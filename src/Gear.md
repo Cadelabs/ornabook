@@ -126,5 +126,9 @@ Further investigation is actively ongoing.
 This changes the damage formula to the following (assuming a *skill* is used):
 
 \\[
-    \text{damage} = \lfloor ((\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}}{2}) * \text{damage-multiplier} \rfloor
+    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}}{2}) * \text{damage-multiplier} \rfloor
+\\]
+
+\\[
+    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}}{2}) * \text{damage-multiplier} \rfloor
 \\]

@@ -240,7 +240,7 @@ Offensive stats 1 or 2 points above that indicated reduces the odds of hitting f
 Above that, scaling goes according to Sands of Aaru's damage multiplier.
 
 You can expect your damage to be between `2 + stat_above * 0.07` and `4 + stat_above * 0.15`, with `stat_above` the difference between your offensive stat and that listed in the table.
-You should not be 2656 stat point above, as this makes it possible to hit for more than 1000 damage.
+You should not be 2656 stat points above, as this makes it possible to hit for more than 1000 damage.
 ```
 
 ```admonish abstract "Maths"
@@ -256,7 +256,7 @@ Where the damage formula is (PvE, using mag as an example):
 We can reorder terms to have:
 
 \\[
-    \text{magic} = \lceil (\frac{\text{damage}}{\text{damage-multiplier}} + \frac{\text{res}}{2}) / \text{stat-multiplier} \rceil
+    \text{mag} = \lceil (\frac{\text{damage}}{\text{damage-multiplier}} + \frac{\text{res}}{2}) / \text{stat-multiplier} \rceil
 \\]
 
 We replace `stat-multiplier` with Sands of Aaru's one (2.5) and `damage-multiplier` with its lowest bound (0.07).
