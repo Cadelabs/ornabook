@@ -166,7 +166,7 @@ In the following table:
 | Effect                             | Fade | Dmg | Miss | Notes |
 |:-----------------------------------|:----:|:---:|:----:|:------|
 | :statuses/asleep: Asleep           |  25% |     | 100% | Target cannot evade an attack<br/>They wake up when they take damage from a player / monster / summon</br>They cannot be woken up this way until they have missed 1 turn at least |
-| :statuses/bleeding: Bleeding       |  25% |  2% |      | Decreases :statuses/crit: Critical Chance by 5% |
+| :statuses/bleeding: Bleeding       |  25% |  2% |      | Decreases :statuses/crit: Critical Chance by 3% |
 | :statuses/blighted: Blight         |  25% |  2% |  25% | |
 | :statuses/blinded: Blind           |  25% |     |  50% | 50% miss chance is for attacks or damaging skills/spells to hit only |
 | :statuses/burning: Burning         |  10% |  5% |      | Decreases the damage from skills and spells by 20% (equivalent to :statuses/atk_sd_tmp:+:statuses/mag_sd_tmp:) |
