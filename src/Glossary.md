@@ -1,6 +1,9 @@
 <div class="title">Glossary</div>
 
 # A
+#### AFC
+The [Arisen Fey Crowsong](https://playorna.com/codex/items/arisen-fey-crowsong/), a onehanded weapon with notably high hybrid stats and pet act.
+
 #### AL
 Ascension Level.
 
@@ -67,6 +70,9 @@ The Dragon Roost [dungeon](https://playorna.com/codex/dungeons/).
 The [Deity Ursa](https://playorna.com/codex/classes/85/) T10 celestial class.
 
 # F
+#### FEE
+The [Finesse Enchanted Epee](https://playorna.com/codex/items/finesses-enchanted-epee/), the [best-in-slot](#bis) Towerfall pet builds weapon. 
+
 #### FS
 Foresight.
 
@@ -83,6 +89,9 @@ The [Fey Yeti Coat](https://playorna.com/codex/items/fey-yeti-coat/), a good T9 
 
 #### GilgaH / GilgaHerc / GHerc
 The [Gilgamesh Hercules](https://playorna.com/codex/classes/74/) T10 celestial class.
+
+#### GM
+The [Great Meditation](https://playorna.com/codex/spells/great-meditation/) ([GMII](https://playorna.com/codex/spells/great-meditation-ii/)) spell, granting the T.Mag ↑↑↑ effect and usually applied via the [(Arisen) Aaru Robe](https://playorna.com/codex/items/arisen-aaru-robe/).
 
 #### GS
 The [Grand Summoner](https://playorna.com/codex/classes/63/) T10 class.
@@ -119,7 +128,14 @@ Masterforge / Masterforging, the _11th_ upgrade level to equipment.
 An exchange of Raids in which 2 players hit their own Raid and that of the other for 50% damage each.
 This maximizes the amount of common drops per raid summonned.
 
+#### MM
+The [Mimics Mischief](https://playorna.com/codex/spells/mimics-mischief/) spell, learned by the T5 [Druid](https://playorna.com/codex/classes/87/) class.
+Grants Mag↑↑/Att↑↑ while potentially decreasing other stats or causing debuffs.
+
 # N
+#### Newsletter
+Teaser about upcoming events and changes that's released to all tier 2 and above [Patreons](#patreon) at the end of each month.
+
 #### NF / NFS
 [Northern Forge (Studios)](https://northernforge.com/), the studio behind Orna.
 
@@ -131,10 +147,20 @@ The Orna Legends Discord server ([invite link](https://discord.gg/9Dqdq3Gk6k)).
 An [Old Nothren Crown](https://playorna.com/codex/items/old-nothren-crown/). 
 "OONC" is sometimes used to refer to an Ornate ONC.
 
+#### ORN
+The Orna Representative Network, a group of players that gathers feedback from the community and frequently discusses it with the [Northern Forge](#nf--nfs) team.
+
 #### OT
 Origin Town, the area one sets as their origin place.
 
 # P
+#### Parapet
+Amity bonus / gear effect that may prevent a player from taking damage when attacked.
+For example see [Ymir Cliffside Cuirass](https://playorna.com/codex/items/ymir-cliffside-cuirass/)
+
+#### Patreon
+A third-party platform on which you can support [Northern Forge](#nf--nfs) further ([link to their page](https://www.patreon.com/northernforge)).
+
 #### Purplelining
 Combining [bluelining](#bluelining) and [redlining](#redlining).
 Staying both low HP and low MP to maximize abilities such as [Realmshifter's Resurgence](https://playorna.com/codex/classes/56/) and [Heretic's Iconoclast](https://playorna.com/codex/classes/55/).
@@ -142,6 +168,10 @@ Staying both low HP and low MP to maximize abilities such as [Realmshifter's Res
 # R
 #### Redlining
 Staying low HP ("red" bar) to maximize abilities such as [Realmshifter's Resurgence](https://playorna.com/codex/classes/56/).
+
+#### Riftbreak
+Localized events that spawn on the hour randomly in the world in which some monster spawns are boosted.
+They offer a reward to players who complete its goal.
 
 #### RoR
 The [Ring of Restraint](https://playorna.com/codex/items/ring-of-restraint/), an item used to prevent a character from levelling up.
@@ -156,6 +186,10 @@ See [the dedicated section](WorldRaidBosses.md#sanding) for details.
 
 #### SGS
 The [Spiked GreatShield](https://playorna.com/codex/items/spiked-greatshield/), the currently best-in-slot [Spiked Shield](https://playorna.com/codex/spells/spiked-shield-iii/) offhand.
+
+#### Shuffling
+Reshuffling a players kingdom gauntlet monster to another player.
+See [this section](Kingdoms.md#fighting-a-gauntlet) for more details.
 
 #### Spoofing
 Spoofing is using an utility software to change one's GPS location.
@@ -203,3 +237,7 @@ The [Ward of Ortanite](https://playorna.com/codex/spells/ward-of-ortanite/) spel
 
 #### WV
 Wayvessel, a [building](https://playorna.com/codex/buildings/) that can be built in one's Origin Town allowing travel to party members' Wayvessels.
+
+# Y
+#### YBF
+The [Ymir Brilliant Feathers](https://playorna.com/codex/items/ymir-brilliant-feathers/), a twohanded weapon with the most adornment slots and faction bonus.
