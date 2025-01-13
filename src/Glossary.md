@@ -106,6 +106,10 @@ The [Grand Summoner Hydrus](https://playorna.com/codex/classes/82/) T10 celestia
 #### HoA
 Hero of Aethric ([link to the game page](https://playorna.com/aethric/)).
 
+#### HoC
+The [Heart of Change](https://playorna.com/codex/items/heart-of-change/), a consumable allowing one to reverse its ascensions on a class.
+_HoC'ing_ / _HoC'd_ is sometimes used to refer to the use of a HoC (e.g.: "I've HoC'd to Deity" means "I've used a HoC and used the resources I got to ascend Deity").
+
 # I
 #### IRL
 _In Real Life_, referring to things outside of the game.
