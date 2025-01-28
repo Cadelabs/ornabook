@@ -63,6 +63,9 @@ Demonforge / Demonforging, the _12th_ upgrade level to equipment.
 #### DoF
 The T5 Disciple of Finesse specialization.
 
+#### DM
+The T3 [Diluted Mnemonic](https://playorna.com/codex/items/diluted-mnemonic/) consumable.
+
 #### DR
 The Dragon Roost [dungeon](https://playorna.com/codex/dungeons/).
 
