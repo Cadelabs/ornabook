@@ -7,6 +7,9 @@ The [Arisen Fey Crowsong](https://playorna.com/codex/items/arisen-fey-crowsong/)
 #### AL
 Ascension Level.
 
+#### ASG
+The T10 Arisen Spiritgarm. It usually refers to [the follower](https://playorna.com/codex/followers/arisen-spiritgarm/) rather than [the monster](https://playorna.com/codex/monsters/spiritgarm-732978de/)).
+
 # B
 #### BB
 The Bestial Bond ability of [valhallan classes](https://playorna.com/codex/classes/57/).
@@ -38,6 +41,9 @@ The [Blood Pact](https://playorna.com/codex/spells/blood-pact/) spell ([BP2](htt
 # C
 #### CJO
 The [Court Jester's Outfit](https://playorna.com/codex/items/court-jesters-outfit/), a T10 chestpiece increasing Gold and Orn gains.
+
+#### CG
+The T9 Crimson Gazer. It usually refers to [the Summoner Spell](https://playorna.com/codex/spells/summon-gazer/).
 
 #### CP
 The Chaos Portal [dungeon](https://playorna.com/codex/dungeons/).
@@ -190,6 +196,9 @@ The [Realmshifter](https://playorna.com/codex/classes/56/) T10 class.
 #### Sanding
 Hitting a Raid for minimal damage (2 at best; <1000 is considered acceptable) to enter the Raid drop pool while not taking much away from the Raid owner.
 See [the dedicated section](WorldRaidBosses.md#sanding) for details.
+
+#### Seq
+The T9 sequencer specialization.
 
 #### SGS
 The [Spiked GreatShield](https://playorna.com/codex/items/spiked-greatshield/), the currently best-in-slot [Spiked Shield](https://playorna.com/codex/spells/spiked-shield-iii/) offhand.
