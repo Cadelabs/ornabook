@@ -71,9 +71,9 @@ We can see that the ratio is always superior to 1 (except on 0, but weapons with
 # Hybrid
 Orna has four different "kinds" of Hybrid:
 - All skills and spells cast will use both your Attack and Magic stats
-- Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
 - Hybrid Skills
 - Dynamic Hybrid
+- Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
 
 ## All skills and spells cast will use both your Attack and Magic stats
 Instead of just using your Attack or Magic stat, all your skills and spells will use a combination of both of them.
@@ -91,6 +91,43 @@ This changes the damage formula to (note the 4 instead of 2 below `def + res` to
     \text{damage} = \lfloor ((\text{atk} + \text{mag}) * \frac{3}{5} * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4}) * \text{damage-multiplier} \rfloor
 \\]
 
+## Hybrid Skills
+Hybrid skills use 65% of your attack and 65% of your magic stat.
+The following formula replaces the attack or magic stat in the usual damage formula: \\( (\text{atk} + \text{mag}) * 0.65 \\).
+
+The buffs used in the formula depend on whether a skill or a spell is cast.
+If a :skill_sword:skill is cast, the game will use the caster's :statuses/atk:Attack buffs and the target's :statuses/def:Defence buffs.
+If a :spell_staff:spell is cast, the game will use the caster's :statuses/mag:Magic buffs and the target's :statuses/res:Resistance buffs.
+
+This changes the damage formula to the following:
+
+\\[
+    \text{damage} = \lfloor ((\text{atk} + \text{mag}) * 0.65 * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4}) * \text{damage-multiplier} \rfloor
+\\]
+
+## Dynamic Hybrid
+We call Dynamic Hybrid all skills or spells that "*use either attack or magic, whichever is higher*".
+[Sands of Aaru](https://playorna.com/codex/spells/sands-of-aaru/) or God classes' [Eventualus Apex skills](https://playorna.com/codex/spells/?q=eventualus) are examples of this.
+
+As the description mentions, these spells replace the Attack or Magic value from the damage formula with whichever stat is the highest.
+The defensive stat is replaced by the average of the target's Defence and Resistance.
+
+The offensive buffs that are applied depend on whether the :statuses/atk:Attack stat or the :statuses/mag:Magic stat of the caster is the highest.
+If the Attack stat is the highest, Attack buffs are used.
+Otherwise, Magic buffs are used.
+The game does not base this decision on the potential damage output.
+If one has :statuses/atk:1000 and :statuses/mag:1001, the Magic buffs are chosen, even if the caster has the following buffs: :statuses/atk_tu_tmp::statuses/atk_du_tmp::statuses/atk_du: :statuses/mag_dd_tmp::statuses/mag_sd_tmp::statuses/mag_sd:.
+
+The defensive buffs used in the formula depend on whether a skill or a spell is cast.
+If a :skill_sword:skill is cast, the game will use the target's :statuses/def:Defence buffs.
+If a :spell_staff:spell is cast, the game will use the target's :statuses/res:Resistance buffs.
+
+This changes the damage formula to the following:
+
+\\[
+    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}+\text{res}}{2}) * \text{damage-multiplier} \rfloor
+\\]
+
 ## Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
 This refers to the effects described as "Hybrid damage will be increased by X%".
 
@@ -99,36 +136,54 @@ It increases your attack stat by X% of your magic stat and your magic stat by X%
 Since it changes your raw stats, its effects are visible in the Status menu.
 This effect stacks additively.
 
-## Hybrid Skills
-Hybrid skills use 65% of your attack and 65% of your magic stat.
-The following formula replaces the attack or magic stat in the usual damage formula: \\( (\text{atk} + \text{mag}) * 0.65 \\).
+This effect works with other kinds of hybrids and does not change the damage formula for regular skills and spells.
 
-This changes the damage formula to the following:
+## Summary
+Let us consider the following genric damage formula:
 
 \\[
-    \text{damage} = \lfloor ((\text{atk} + \text{mag}) * 0.65 * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{2}) * \text{damage-multiplier} \rfloor
+    \text{damage} = \lfloor ({\color{red} \text{O}}  * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4} * {\color{yellow} \text{DB}}) * \text{damage-multiplier} * {\color{green} \text{OB}} \rfloor
 \\]
 
-## Dynamic Hybrid
-We call Dynamic Hybrid all skills or spells that "*use either attack or magic, whichever is higher*".
-[Sands of Aaru](https://playorna.com/codex/spells/sands-of-aaru/) or God classes' [Eventualus Apex skills](https://playorna.com/codex/spells/?q=eventualus) are examples of this.
-
-As the description mentions, these spells indeed replace the attack or magic value from the damage formula with whichever stat is the highest.
-The defensive stat used in the formula depends on whether the game considers it a skill or a spell.
-If it is a skill (e.g.: Sands of Aaru), the Defence will be used.
-If it is a spell (e.g.: [Neutra Eventualus](https://playorna.com/codex/spells/neutra-eventualus/)), the Resistance will be used.
-
-```admonish warning
-The following seems wrong when interacting with Fomorian houses.
-Further investigation is actively ongoing.
-```
-
-This changes the damage formula to the following (assuming a *skill* is used):
+Where `O` is the offensive stat and `OB` / `DB` the offensive and defensive buffs respectively.
+For all hybrid kinds (except Hybrid Monster / Hybrid Damage), we have:
 
 \\[
-    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}}{2}) * \text{damage-multiplier} \rfloor
+    {\color{yellow} \text{defensive-buffs}} = \text{if using }
+    \begin{cases} \text{a skill} \Rightarrow\text{def buffs} \\\\
+                  \text{a spell} \Rightarrow\text{res buffs}
+    \end{cases}
 \\]
 
+##### All skills and spells cast will use both your Attack and Magic stats
 \\[
-    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}}{2}) * \text{damage-multiplier} \rfloor
+    {\color{red} \text{offensive-stat}} = (\text{atk} + \text{mag}) * \frac{3}{5}
+\\]
+\\[
+    {\color{green} \text{offensive-buffs}} = \text{if using }
+    \begin{cases} \text{a skill} \Rightarrow\text{atk buffs} \\\\
+                  \text{a spell} \Rightarrow\text{mag buffs}
+    \end{cases}
+\\]
+
+##### Hybrid Skills
+\\[
+    {\color{red} \text{offensive-stat}} = (\text{atk} + \text{mag}) * 0.65
+\\]
+\\[
+    {\color{green} \text{offensive-buffs}} = \text{if using }
+    \begin{cases} \text{a skill} \Rightarrow\text{atk buffs} \\\\
+                  \text{a spell} \Rightarrow\text{mag buffs}
+    \end{cases}
+\\]
+
+##### Dynamic Hybrid Skills
+\\[
+    {\color{red} \text{offensive-stat}} = \text{max}(\text{atk}, \text{mag})
+\\]
+\\[
+    {\color{green} \text{offensive-buffs}} = \text{if }
+    \begin{cases} \text{atk} > \text{mag} \Rightarrow \text{atk buffs} \\\\
+                  \text{mag} >= \text{atk} \Rightarrow \text{mag buffs}
+    \end{cases}
 \\]
