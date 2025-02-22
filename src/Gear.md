@@ -125,7 +125,7 @@ If a :spell_staff:spell is cast, the game will use the target's :statuses/res:Re
 This changes the damage formula to the following:
 
 \\[
-    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}+\text{res}}{2}) * \text{damage-multiplier} \rfloor
+    \text{damage} = \lfloor (\text{max} (\text{atk} , \text{mag})  * \text{stat-multiplier} - \frac{\text{def}+\text{res}}{4}) * \text{damage-multiplier} \rfloor
 \\]
 
 ## Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
