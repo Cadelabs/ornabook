@@ -80,7 +80,7 @@ The [Deity Ursa](https://playorna.com/codex/classes/85/) T10 celestial class.
 
 # F
 #### FEE
-The [Finesse Enchanted Epee](https://playorna.com/codex/items/finesses-enchanted-epee/), the [best-in-slot](#bis) Towerfall pet builds weapon. 
+The [Finesse Enchanted Epee](https://playorna.com/codex/items/finesses-enchanted-epee/), the [best-in-slot](#bis) Towerfall follower builds weapon. 
 
 #### FS
 Foresight.
@@ -162,6 +162,10 @@ An [Old Nothren Crown](https://playorna.com/codex/items/old-nothren-crown/).
 
 #### ORN
 The Orna Representative Network, a group of players that gathers feedback from the community and frequently discusses it with the [Northern Forge](#nf--nfs) team.
+
+#### OS
+1. _Othersouls_, lower-tier fighters in the Conqueror's guild for higher-tier players.
+2. _One shot_, killing in a single turn.
 
 #### OT
 Origin Town, the area one sets as their origin place.
@@ -246,6 +250,9 @@ View Distance, how far your character can see on the map.
 
 #### VotG
 The Valley of the Gods [dungeon](https://playorna.com/codex/dungeons/).
+
+#### VSS
+The Very Scary Skeleton. It usually refers to [the T9 follower](https://playorna.com/codex/followers/very-scary-skeleton/).
 
 # W
 #### WoO
