@@ -93,8 +93,8 @@ The [Fey Yeti Coat](https://playorna.com/codex/items/fey-yeti-coat/), a good T9 
 
 # G
 #### GF
-- Godforge / Godforging, the _13th_ upgrade level to equipment.
-- The Goblin Fortress [dungeon](https://playorna.com/codex/dungeons/).
+1. Godforge / Godforging, the _13th_ upgrade level to equipment.
+2. The Goblin Fortress [dungeon](https://playorna.com/codex/dungeons/).
 
 #### GilgaH / GilgaHerc / GHerc
 The [Gilgamesh Hercules](https://playorna.com/codex/classes/74/) T10 celestial class.
@@ -146,6 +146,10 @@ The [Mimics Mischief](https://playorna.com/codex/spells/mimics-mischief/) spell,
 Grants Mag↑↑/Att↑↑ while potentially decreasing other stats or causing debuffs.
 
 # N
+#### Nag
+Naggeneen, a character from the Mischievous Clurichauns event.
+He is a [raid](https://playorna.com/codex/raids/naggeneen/) ([arisen](https://playorna.com/codex/raids/arisen-naggeneen/)), [follower](https://playorna.com/codex/followers/naggeneen/) ([arisen](https://playorna.com/codex/followers/arisen-naggeneen/)) and has some items to his name (e.g.: [Belt](https://playorna.com/codex/items/naggeneens-belt/), [Hat](https://playorna.com/codex/items/naggeneens-hat/), [Brew](https://playorna.com/codex/items/naggeneens-brew/)).
+
 #### Newsletter
 Teaser about upcoming events and changes that's released to all tier 2 and above [Patreons](#patreon) at the end of each month.
 
@@ -241,6 +245,9 @@ Notable ToS violations are:
 _TMM Head_ refers to the [Mightiest Mimic Head](https://playorna.com/codex/items/mightiest-mimic-head/), its headpiece drop increasing Gold, Orn, XP gains as well as Luck.
 
 # U
+#### US
+The T10  [Ultimastrikes](https://playorna.com/codex/spells/ultimastrikes/) skill.
+
 #### UW
 The Underworld Portal [dungeon](https://playorna.com/codex/dungeons/).
 
