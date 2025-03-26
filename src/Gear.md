@@ -71,7 +71,7 @@ We can see that the ratio is always superior to 1 (except on 0, but weapons with
 # Hybrid
 Orna has four different "kinds" of Hybrid:
 - All skills and spells cast will use both your Attack and Magic stats
-- Hybrid Skills
+- Pure Hybrid
 - Dynamic Hybrid
 - Hybrid Monster (e.g.: [Beowulf](https://playorna.com/codex/classes/57/)) / Hybrid Damage (e.g.: [Arms](https://playorna.com/codex/items/arms-of-selene/) / [Hands](https://playorna.com/codex/items/steady-hands-of-selene/) of Selene)
 
@@ -91,9 +91,9 @@ This changes the damage formula to (note the 4 instead of 2 below `def + res` to
     \text{damage} = \lfloor ((\text{atk} + \text{mag}) * \frac{3}{5} * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4}) * \text{damage-multiplier} \rfloor
 \\]
 
-## Hybrid Skills
-Hybrid skills use 65% of your attack and 65% of your magic stat.
-The following formula replaces the attack or magic stat in the usual damage formula: \\( (\text{atk} + \text{mag}) * 0.65 \\).
+## Pure Hybrid
+Pure hybrid skills use 2/3 of your attack and 2/3 of your magic stat.
+The following formula replaces the attack or magic stat in the usual damage formula: \\( (\text{atk} + \text{mag}) * \frac{2}{3} \\) or \\( (\text{atk} + \text{mag}) * 0.6667 \\).
 
 The buffs used in the formula depend on whether a skill or a spell is cast.
 If a :skill_sword:skill is cast, the game will use the caster's :statuses/atk:Attack buffs and the target's :statuses/def:Defence buffs.
@@ -102,7 +102,7 @@ If a :spell_staff:spell is cast, the game will use the caster's :statuses/mag:Ma
 This changes the damage formula to the following:
 
 \\[
-    \text{damage} = \lfloor ((\text{atk} + \text{mag}) * 0.65 * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4}) * \text{damage-multiplier} \rfloor
+    \text{damage} = \lfloor ((\text{atk} + \text{mag}) * \frac{2}{3} * \text{stat-multiplier} - \frac{\text{def} + \text{res}}{4}) * \text{damage-multiplier} \rfloor
 \\]
 
 ## Dynamic Hybrid
@@ -166,9 +166,9 @@ For all hybrid kinds (except Hybrid Monster / Hybrid Damage), we have:
     \end{cases}
 \\]
 
-##### Hybrid Skills
+##### Pure Hybrid
 \\[
-    {\color{red} \text{offensive-stat}} = (\text{atk} + \text{mag}) * 0.65
+    {\color{red} \text{offensive-stat}} = (\text{atk} + \text{mag}) * \frac{2}{3}
 \\]
 \\[
     {\color{green} \text{offensive-buffs}} = \text{if using }
