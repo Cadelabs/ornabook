@@ -7,8 +7,11 @@ The [Arisen Fey Crowsong](https://playorna.com/codex/items/arisen-fey-crowsong/)
 #### AL
 Ascension Level.
 
+#### AR
+Ally Request, an ask for becoming allied (friends) in-game. This is required for party invites.
+
 #### ASG
-The T10 Arisen Spiritgarm. It usually refers to [the follower](https://playorna.com/codex/followers/arisen-spiritgarm/) rather than [the monster](https://playorna.com/codex/monsters/spiritgarm-732978de/)).
+The T10 Arisen Spiritgarm. It usually refers to [the follower](https://playorna.com/codex/followers/arisen-spiritgarm/) rather than [the monster](https://playorna.com/codex/monsters/spiritgarm-732978de/).
 
 # B
 #### BB
@@ -43,7 +46,8 @@ The [Blood Pact](https://playorna.com/codex/spells/blood-pact/) spell ([BP2](htt
 The [Court Jester's Outfit](https://playorna.com/codex/items/court-jesters-outfit/), a T10 chestpiece increasing Gold and Orn gains.
 
 #### CG
-The T9 Crimson Gazer. It usually refers to [the Summoner Spell](https://playorna.com/codex/spells/summon-gazer/).
+1. The T9 Crimson Gazer. It usually refers to [the Summoner Spell](https://playorna.com/codex/spells/summon-gazer/).
+2. The Conqueror's Guild
 
 #### CP
 The Chaos Portal [dungeon](https://playorna.com/codex/dungeons/).
@@ -119,6 +123,9 @@ Hero of Aethric ([link to the game page](https://playorna.com/aethric/)).
 The [Heart of Change](https://playorna.com/codex/items/heart-of-change/), a consumable allowing one to reverse its ascensions on a class.
 _HoC'ing_ / _HoC'd_ is sometimes used to refer to the use of a HoC (e.g.: "I've HoC'd to Deity" means "I've used a HoC and used the resources I got to ascend Deity").
 
+#### HS
+The [Horizontal Slash](https://playorna.com/codex/spells/horizontal-slash/) skill ([HS2](https://playorna.com/codex/spells/horizontal-slash-ii/), [HS3](https://playorna.com/codex/spells/horizontal-slash-iii/)).
+
 #### Hybrid
 Any mechanic in the game allowing one to use both their attack and magic stats in the damage formula.
 See [the dedicated section](Gear.md#hybrid) for details.
@@ -130,6 +137,22 @@ _In Real Life_, referring to things outside of the game.
 # J
 #### JoC
 The [Jewel of Creation](https://playorna.com/codex/items/jewel-of-creation/), a highly sought-after Armor adornment increasing most stats.
+
+# K
+#### K-
+The K- prefix usually means Kingdom (e.g.: [KGold](#kgold), [KGauntlet](#kgauntlet), [KOrn](#korn), [KRaid](#kraid)).
+
+#### KGauntlet
+Kingdom Gauntlet ([book section](/Kingdoms.md#gauntlets)).
+
+#### KGold
+Kingdom Gold, a Kingdom currency earned through members' fights used to start [Kingdom Gauntlets](/Kingdoms.md#gauntlets).
+
+#### KOrn
+Kingdom Orns, a Kingdom currency earned mostly through Kingdom Gauntlets and Kingdom Wars used to start Kingdom Raids.
+
+#### KRaid
+Kingdom Raid.
 
 # M
 #### M1 / M2
@@ -186,9 +209,16 @@ For example see [Ymir Cliffside Cuirass](https://playorna.com/codex/items/ymir-c
 #### Patreon
 A third-party platform on which you can support [Northern Forge](#nf--nfs) further ([link to their page](https://www.patreon.com/northernforge)).
 
+#### PoF
+The Paths of Fomoria event: PoF Wintara, PoF Nocturna, PoF Sumner, PoF Autumna.
+
 #### Purplelining
 Combining [bluelining](#bluelining) and [redlining](#redlining).
 Staying both low HP and low MP to maximize abilities such as [Realmshifter's Resurgence](https://playorna.com/codex/classes/56/) and [Heretic's Iconoclast](https://playorna.com/codex/classes/55/).
+
+# Q
+#### Qat
+The T9 [Qatvanga](https://playorna.com/codex/items/qatvanga/) or the T10 [Arisen Qatvanga](https://playorna.com/codex/items/arisen-qatvanga/), a two-handed Magic Archistaff with the Despair AoE ability.
 
 # R
 #### Redlining
@@ -218,6 +248,9 @@ The [Spiked GreatShield](https://playorna.com/codex/items/spiked-greatshield/), 
 #### Shuffling
 Reshuffling a players kingdom gauntlet monster to another player.
 See [this section](Kingdoms.md#fighting-a-gauntlet) for more details.
+
+#### Slot
+An adornment spot on a piece of equipment. "Slots" usually refers to the number of adornment slots.
 
 #### Spoofing
 Spoofing is using an utility software to change one's GPS location.
