@@ -104,6 +104,7 @@ The [List of Raids](#list-of-raids) lists which raids are summoned by these item
   - As a reward for clearing a dungeon
   - From your Citadel (up to 3 Summoning Scrolls at once)
   - From the Runeshop Daily Gift
+  - As a reward in the Archpath
   - From a Guild Shop (except Circle of Anguish)
       - Blade of Finesse: 50 :proof_sparring:[Proofs of Sparring](https://playorna.com/codex/items/proof-of-sparring/)
       - Conqueror: 15 :proof_crownship:[Proofs of Crownship](https://playorna.com/codex/items/proof-of-crownship/)
