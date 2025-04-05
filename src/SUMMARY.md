@@ -5,7 +5,7 @@
 - [Origin Town](./OriginTown.md)
 - [Status Effects](./StatusEffects.md)
 - [Dungeons](./Dungeons.md)
-- [World Raid Bosses](./WorldRaidBosses.md)
+- [Raids](./Raids.md)
 - [Kingdoms](./Kingdoms.md)
 - [Guilds](./Guilds.md)
 - [Glossary](./Glossary.md)

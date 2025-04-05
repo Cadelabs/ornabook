@@ -1,148 +1,186 @@
-<div class="title">World Raid Bosses</div>
+<div class="title">Raids</div>
 
-WRBs are Raid Bosses (akin to the Kingdom Raids) that can very rarely appear naturally in the overworld or be summoned by players (T7 or higher) through :summoning_scroll: Summoning Scrolls.
+Raids are powerful enemies that can be summoned through special means or very rarely found naturally in the overworld.
+There exists 3 main different kinds of raids:
+- World Raids, fought on the overworld, summoned by players or naturally spawned
+- Kingdom Raids, started by expending Kingdom Orns
+- Super Raids, event raids who are more powerful than other raids
 
-# Where can I find :summoning_scroll: Summoning Scrolls
-:summoning_scroll: Summoning Scrolls are obtained from defeating :gateway: Balor Gateways (T7 or T9) or clearing dungeons. You can also acquire them:
-  - As a drop from the :fey_yeti: Fey Yeti WRB
-  - From your Citadel (up to 3 Summoning Scrolls at once)
-  - From your daily/weekly login rewards
-  - As a reward for clearing a floor in a Tower of Olympia
-
-There is no known correlation between hard/normal/themed dungeons and their drop rate for end rewards.
-The most efficient way of obtaining them will be to increase our encounters of :gateway: Balor Gateways or dungeon clears.
-
-Notes:
-  - Balor Gateways can very rarely be found on the overworld, but only in Moonlight weather (or by using Chaos Scrolls). We will ignore that in the following, as this is by no way a reliable way of farming Summoning Scrolls.
-  - Summoning Scrolls are not a _guaranteed_ drop from Balor Gateways.
-  - Party Dungeons are preferred to solo dungeons. With a full party of 4, each member can enter the dungeon as a host for the others, meaning a single dungeon location can lead up to 4 runs.
-
-# What happens when I use a Scroll?
-When used, the :summoning_scroll: Summoning Scroll summons a random WRB near the player. Summons can either be public (seen by anyone) or private (seen by the player and their party only). Players you have blocked cannot see your WRBs. Any WRB that you see can be attacked. Although happening in the overworld, it uses your Raid Loadout, just like Kingdom Raids.
-
-# How long do I have to kill the WRB?
-A WRB stays until killed. They cannot naturally despawn.
-
-# What monsters can I summon?
-When used :summoning_scroll: Summoning Scrolls selects from a pool of WRBs that is determined by your tier. A player can only summon WRBs that is in the same tier as themselves or two tiers below. Some WRBS are always in the pool while others are only added during certain events. Permanent WRBs include:
-  - T6: :fey_gazer: Fey Gazer
-  - T7: :fey_dragon: Fey Dragon, :first_horseman: First Horseman, :yggdrasil: Yggdrasil
-  - T8: :fey_cockatrice: Fey Cockatrice, :second_horseman: Second Horseman
-  - T9: :fey_yeti: Fey Yeti, :third_horseman: Third Horseman
-  - T10: :fey_chimera: Fey Chimera, :final_horseman: Final Horseman, :arisen_morrigan: Arisen Morrigan, :arisen_yggdrasil: Arisen Yggdrasil, :ashen_phoenix: Ashen Phoenix
-
-# What are event WRBs?
-Every month, some time-limited WRBs are added to the pool. For instance, in January, Phoenix and Arisen Phoenix are added to the pool.
-
-# Rewards
-WRBs have overall excellent drops. What tier(s) those drops are relevant depends on the WRBs.
-
-The equipment drops from the WRBs usually rank high in useability, some notably being better compared to items a tier above (the highly sought Fey Yeti Coat, namely). (Side note for Kingdom Raids: even though you can hit raids above your tier, you will _not_ drop items above your tier. Likewise certain WRBs can drop items that are a higher tier than themselves which will only drop if you are in the same tier or above)
-WRBs give high amounts of XP up until T9. The XP requirements at T10 are such that WRBs no longer are the best XP source. The XP/Orn ratio for WRBs is very high! This means that, if feel you like you need more Orns than XP, WRBs are not the right focus for you now.
-With the 3.0 update, WRBs now also drop a decent amount of random materials, including rarer end-game materials (e.g.: Cursed Ortanite), mid-game boss materials (e.g.: Broken Stone) or herbs.
-
-# Best ways of farming :summoning_scroll: Summoning Scrolls for each tier
-## Tier 7
-At Tier 7, the WRBs you can summon do not drop anything notable. This is why it is mostly advised to not use most of your :summoning_scroll: Summoning scrolls.
-Plus, :summoning_scroll: Summoning Scrolls are pretty rare. They mostly appear in non-boss dungeons with a pretty low chance.
-An efficient way of farming them would be Group Horde Normal dungeons. There are multiple enemies per floor, meaning more chances of :gateway: Balor Gateways spawning.
-Plus, clearing dungeons can reward with a :summoning_scroll: Summoning Scroll.
-
-However, the most efficient way to farm :summoning_scroll: Summoning Scrolls is to run :chaos_portal: Chaos Portals.
-In :chaos_portal: Chaos Portals, you encounter enemies that usually appear only in particular biomes or weather (remember that :gateway: Balor Gateways only appear in Moonlight?).
-However, they are one of the most difficult dungeons to clear, and their base :skeleton_keys: cost is 5 (20 :skeleton_keys: for a party of 4).
-If your only aim is getting :summoning_scroll: Summoning Scrolls, this is the most efficient way. However, be prepared for it to drain your key stash.
-
-Notes:
-  - It is not really recommended to use your :summoning_scroll: Summoning Scrolls at T7. They are rare, and the drops from T6-7 WRBs are not relevant. However, using one or two to see how it works is very much recommended.
-  - Since the XP/Orn ratio is so high, it is not recommended to farm XP this way, or you may need to farm Orns for a time in order to afford your tier’s classes/pets due to overleveling.
-
-Overall, for farming :summoning_scroll: Summoning Scrolls (from most efficient to less efficient):
-  - Party :chaos_portal: Chaos Portals
-  - Solo Horde :chaos_portal: Chaos Portals
-  - Solo :chaos_portal: Chaos Portals
-  - Party regular T7 :dungeon: Dungeons
-  - Solo regular T7 :dungeon: Dungeons
-
-
-## Tier 8
-At Tier 8, summoning scrolls are not much easier to come by than T7. However, there is one WRB that is of a bit of interest, :fey_cockatrice: Fey Cockatrice. These drop red pinions (armor adornments with att and -def) that are used by people who specialize as Swashbucklers.
-During October, you'll also have a chance to summon :pumpkinhead: Pumpkinhead, an event WRB dropping the Bag of Treats, an accessory that slightly increases your XP, Orns, Gold _and_ Luck.
-
-When running a regular dungeon, you have the option to run either a T8 or a T7 dungeon.
-Since :gateway: Balor Gateways is a T7 monster, you want to maximize the amount of T7 floors.
-T7 dungeons have 5 T7 floors, while T8 dungeons have 7 T7 floors. Hence scrollwise it would be more efficient to run T8 dungeons rather than T7 dungeons.
-
-:chaos_portal: Chaos Portals still allow you to get more :gateway: Balor Gateways encounters than regular dungeons.
-Note that T7 :chaos_portal: Chaos Portals have 13 floors while T8 have 20!
-
-Overall, for farming :summoning_scroll: Summoning Scrolls (from most efficient to less efficient):
-  - Party :chaos_portal: Chaos Portals
-  - Solo Horde :chaos_portal: Chaos Portals
-  - Solo :chaos_portal: Chaos Portals
-  - Party regular T8 :dungeon: Dungeons
-  - Party regular T7 :dungeon: Dungeons
-  - Solo regular T8 :dungeon: Dungeons
-  - Solo regular T7 :dungeon: Dungeons
-
-## Tier 9
-Tier 9 starts to get a bit more interesting. The well known :fey_yeti: Fey Yeti joins the summon pool. You'll have a chance to look for the fabled Fey Yeti Coat, a rare find. There's also the :third_horseman: Third Horseman that is added to the summon pool. Its Symbol of War adorn (for weapons), that increases view distance, is one of a kind.
-Looking at events WRBs, you namely have :scruug: Ebon Scruug in December that can drop some Presents! for some Luck and :ferocious_cerus: Ferocious Cerus in April for his Ferocious Bull's Eye, a weapon adornment with ***4%*** crit rate!
-
-Also, WRBs start to be a decent source of XP. Your XP needs increase much more rapidly than your Orns needs, and WRBs can help you get to T10 quicker, without sacrificing that many Orns.
-
-The best news is that you now also have access to the best source for :summoning_scroll: Summoning Scrolls: :underworld_portal: Underworld Portals.
-In these dungeons, you will encounter all kinds of Balor enemies, including the :gateway: Balor Gateway that we seek. There's also a T9 version of it, much more tankier (50k HP), that can also drop the scroll. Since the monster pool is much more limited than regular dungeons, the :gateway: Balor Gateways are much more likely to appear.
-These dungeons are also much easier than :chaos_portal: Chaos Portals. However, keep an eye out for the Berserk Reapers!
-
-As for regular dungeons, we're now looking at T7 or T9 floors.
-T9 dungeons have 10 T9 floors. 
-
-Overall, for farming :summoning_scroll: Summoning Scrolls (from most efficient to less efficient):
-  - Party :underworld_portal: Underworld Portals
-  - Party :chaos_portal: Chaos Portals
-  - Solo Horde :underworld_portal: Underworld Portals
-  - Solo :underworld_portal: Underworld Portals
-  - Solo Horde :chaos_portal: Chaos Portals
-  - Solo :chaos_portal: Chaos Portals
-  - Party regular T9 :dungeon: Dungeons
-  - Party regular T8 :dungeon: Dungeons
-  - Party regular T7 :dungeon: Dungeons
-  - Solo regular T9 :dungeon: Dungeons
-  - Solo regular T8 :dungeon: Dungeons
-  - Solo regular T7 :dungeon: Dungeons
-
-## Tier 10
-Tier 10 unleashes the full power of the WRBs! However, you are going to care less and less about the experience here and more about the drops. You may summon the dreadful Arisen Morrigan. Some of her drops are the best in the game, but killing her might prove to be a challenge.
-Equipment drops for T10 WRBs are largely discussed throughout the server, so I'm not going to make a rundown here.
-
-T10 portals now have 22 floors instead of 20, for a bit more monsters.
-T10 regular dungeons have only 9 T9 floors, making them slightly less efficient than their regular T9 counterparts. However overall, you would probably want the T10 dungeons more for the other rewards it offers (Godforging!). This list focuses exclusively on :summoning_scroll: Summoning Scrolls, so we rank T10 regular dungeons _below_ T9 regular dungeons.
-
-Overall, for farming :summoning_scroll: Summoning Scrolls (from most efficient to less efficient):
-  - Party :underworld_portal: Underworld Portals
-  - Party :chaos_portal: Chaos Portals
-  - Solo Horde :underworld_portal: Underworld Portals
-  - Solo :underworld_portal: Underworld Portals
-  - Solo Horde :chaos_portal: Chaos Portals
-  - Solo :chaos_portal: Chaos Portals
-  - Party regular T9 :dungeon: Dungeons
-  - Party regular T10 :dungeon: Dungeons
-  - Party regular T8 :dungeon: Dungeons
-  - Party regular T7 :dungeon: Dungeons
-  - Solo regular T9 :dungeon: Dungeons
-  - Solo regular T10 :dungeon: Dungeons
-  - Solo regular T8 :dungeon: Dungeons
-  - Solo regular T7 :dungeon: Dungeons
-
-## Tier 11
-Tier 11 dungeons have 25 floors instead of the 22 floors in a T10 dungeon giving you 3 more floors to find those Balor Guardians. Party Underworld and Chaos are still your best bet for farming scrolls.
-
-```admonish todo "TODO(ethiraric, 29/06/2024)"
-Moondrops + Event Scrolls can only be summoned as private
+# Raid mechanics
+## Fights
+```admonish todo "ethiraric(2025/04/05)"
+Uses Raid loadout
+Enrage %
+Ultimate (FYC, list ults)
 ```
 
-# Sanding
+## Drops
+```admonish todo "ethiraric(2025/04/05)"
+Drop %
+Material drop rolls and item drop rolls
+Can't drop items above your tier (OHB, kingdom raids)
+No Sphinx Tail
+
+WRBs give high amounts of XP up until T9. The XP requirements at T10 are such that WRBs no longer are the best XP source. The XP/Orn ratio for WRBs is very high! This means that, if feel you like you need more Orns than XP, WRBs are not the right focus for you now.
+With the 3.0 update, WRBs now also drop a decent amount of random materials, including rarer end-game materials (e.g.: Cursed Ortanite), mid-game boss materials (e.g.: Broken Stone) or herbs.
+```
+
+# Kinds of Raids
+## World Raids
+### Spawning
+World Raids (called WRB, for "World Raid Boss") are encountered on the overworld.
+They scarcely spawn on the overworld and are so rare that their exact spawning mechanics are impossible to research.
+They are usually summoned by players through the use of different scrolls, the most common one being the :summoning_scroll: [Summoning Scroll](https://playorna.com/codex/items/summoning-scroll/).
+
+Using a WRB-summoning item will spawn one WRB in the vicinity of the player's location.
+Since Wayvessels change a player's location, if the player has travelled through a Wayvessel, the WRB is summoned at the Wayvessel location, rather than the player's GPS location.
+A WRB is randomly selected from the "[Raid Pool](#raid-pool)" associated with the item and summoned.
+The Raid Pool is different for each summoning item and may vary further depending on active events.
+It also changes depending on the player's tier: a player can only summon a WRB of its tier, 1 tier below or 2 tiers below (for that matter, T11 counts as T10, so both T11 and T10 can summon T8, T9 or T10 WRBs).
+
+A WRB can either be "public" or "private".
+When publicly summoned, the WRB is visible and can be attacked by any nearby-passing player (or through a Wayvessel).
+When privately summoned, the WRB is only visible and can only be attacked by any nearby-passing *party member* of the player who summoned the WRB.
+:summoning_scroll: Summoning Scrolls offer the player to choose between the two, while other items will always summon a private WRB.
+Once summoned, a WRB stays on the overworld until defeated; they cannot naturally despawn.
+
+### WRB summoning items
+- :summoning_scroll: [Summoning Scroll](https://playorna.com/codex/items/summoning-scroll/)
+- :monumental_scroll: [Monumental's Summoning Scroll](https://playorna.com/codex/items/monumentals-summoning-scroll/)
+- :festive_scroll: [Festive Summoning Scroll](https://playorna.com/codex/items/festive-summoning-scroll/)
+- :crimson_scroll: Crimson Summoning Scroll ([Aries](https://playorna.com/codex/items/crimson-summoning-scroll-aries/), [Cerus](https://playorna.com/codex/items/crimson-summoning-scroll-cerus/), [Perseus](https://playorna.com/codex/items/crimson-summoning-scroll-perseus/))
+- :moondrop: [Celestial Moondrop](https://playorna.com/codex/items/celestial-moondrop/)
+
+### Raid Pool
+#### Summoning Scrolls Raid Pool
+The most complex Raid Pool is that of the :summoning_scroll: Summoning Scroll.
+It is divided into two parts: permanent raids, available throughout the year, and event raids, available only during the event of said raid.
+
+Permanent raids are:
+  - T6: :fey_gazer: [Fey Gazer](https://playorna.com/codex/raids/fey-gazer/)
+  - T7: :fey_dragon: [Fey Dragon](https://playorna.com/codex/raids/fey-dragon/), :first_horseman: [First Horseman](https://playorna.com/codex/raids/first-horseman/), :yggdrasil: [Yggdrasil](https://playorna.com/codex/raids/yggdrasil/)
+  - T8: :fey_cockatrice: [Fey Cockatrice](https://playorna.com/codex/raids/fey-cockatrice/), :second_horseman: [Second Horseman](https://playorna.com/codex/raids/second-horseman/)
+  - T9: :fey_yeti: [Fey Yeti](https://playorna.com/codex/raids/fey-yeti/), :third_horseman: [Third Horseman](https://playorna.com/codex/raids/third-horseman/)
+  - T10: :fey_chimera: [Fey Chimera](https://playorna.com/codex/raids/fey-chimera/), :final_horseman: [Final Horseman](https://playorna.com/codex/raids/final-horseman/), :arisen_morrigan: [Arisen Morrigan](https://playorna.com/codex/raids/arisen-morrigan/), :arisen_yggdrasil: [Arisen Yggdrasil](https://playorna.com/codex/raids/arisen-yggdrasil/), :ashen_phoenix: [Ashen Phoenix](https://playorna.com/codex/raids/ashen-phoenix/)
+
+Depending on the event, numerous other raids can be summoned.
+The full list of which raids can be summoned is found in [List of Raids](#list-of-raids).
+Event raids in the list with a :summoning_scroll: icon can be summoned using Summoning Scrolls **only while their event is active**.
+The Summoning Scroll only summons World Raids and cannot summon a Super Raid.
+
+#### Monumental's Summoning Scroll Raid Pool
+The :monumental_scroll: Monumental's Summoning Scroll summons raids from the event raids of the :summoning_scroll: Summoning Scroll.
+Using it is exactly as using a regular Summoning Scroll but filtering out permanent raids.
+It follows that while it summons event raids, it cannot summon raids that a Summoning Scroll cannot summon (Super Raids, raids which have their own summoning item).
+
+#### Festive Summoning Scroll Raid Pool
+:festive_scroll: Festive Summoning Scrolls can only be used during the Winter Wild Hunts event.
+They only summon event raids from **active** events, but aren't bound to the limitations of the :monumental_scroll: Monumental's Summoning Scroll.
+They are able to summon Super Raids as well as Kingdom Raids.
+Furthermore, they ignore the _at most 2 tiers below_ restriction of scrolls; they may summon raids more than 2 tiers below your own tier.
+
+They can be crafted during the Winter Wild Hunts event at the Monumental Guild in the Archcrafting section from 6 [Stranger's Gift](https://playorna.com/codex/items/strangers-gift/) and 25 :proof_monument:[Proofs of Monument](https://playorna.com/codex/items/proof-of-monument/).
+
+```admonish todo "ethiraric(2025/04/04)"
+Can they spawn raids of a tier higher than you?
+```
+
+#### Crimson Summoning Scrolls and Celestial Moondrops
+:crimson_scroll: Crimson Summoning Scrolls and :moondrop: Celestial Moondrops are event items which summon from a very limited Raid Pool.
+From an implementation point of view, they behave like [Super Raids](#differences-from-wrb).
+From a gameplay point of view, they do not _feel_ like Super Raids: they are as strong as regular WRBs and their drops are on-par with other WRBs.
+The [List of Raids](#list-of-raids) lists which raids are summoned by these items.
+
+:crimson_scroll: Crimson Summoning Scrolls can be crafted during the Crimson Festival event at the Monumental Guild in the Archcrafting section from 10 Essence ([Aries](https://playorna.com/codex/items/essence-of-aries/), [Cerus](https://playorna.com/codex/items/essence-of-cerus/), [Perseus](https://playorna.com/codex/items/essence-of-perseus/)) and a :summoning_scroll: Summoning Scroll.
+
+:moondrop: Celestial Moondrops are dropped from [Fallen Moonchasers](https://playorna.com/codex/monsters/fallen-moonchaser/) and [Fallen Crescent-Fencers](https://playorna.com/codex/monsters/fallen-crescent-fencer/) during the Of Giants and Titans event.
+
+### Farming Summoning Scrolls
+#### Sources
+:summoning_scroll: Summoning Scrolls are mostly obtained from defeating :gateway: Balor Gateways (T7 or T9). You can also acquire them:
+  - As a drop from the :fey_yeti: [Fey Yeti](https://playorna.com/codex/raids/fey-yeti/) or :the_fool_t9: [The Fool (T9)](https://playorna.com/codex/raids/the-fool-ef1c6cb2/) WRB
+  - As a reward for clearing a floor in a Tower of Olympia
+  - As a reward for clearing a floor in a Monument
+  - As a reward for clearing a dungeon
+  - From your Citadel (up to 3 Summoning Scrolls at once)
+  - From the Runeshop Daily Gift
+  - From a Guild Shop (except Circle of Anguish)
+      - Blade of Finesse: 50 :proof_sparring:[Proofs of Sparring](https://playorna.com/codex/items/proof-of-sparring/)
+      - Conqueror: 15 :proof_crownship:[Proofs of Crownship](https://playorna.com/codex/items/proof-of-crownship/)
+      - Fishing: 500 :coral:[Corals](https://playorna.com/codex/items/coral/)
+      - Monumental: 30 :proof_monument:[Proofs of Monument](https://playorna.com/codex/items/proof-of-monument/)
+      - Oracle Temple: 50 :proof_remembrance:[Proofs of Remembrance](https://playorna.com/codex/items/proof-of-remembrance/)
+      - Spelunking: 250 :deepshard:[Refined Deepshards](https://playorna.com/codex/items/deepshard/)
+      - Titanfelled: 5000 :tower_shard:[Tower Shards](https://playorna.com/codex/items/tower-shard/)
+      - Traveler: 8 :proof_distance:[Proofs of Distance](https://playorna.com/codex/items/proof-of-distance/)
+
+#### Farming
+If targetting only :summoning_scroll: Summoning Scrolls, the fastest way would be running :underworld_portal:Underworld Portals or :chaos_portal:Chaos Portals.
+Otherwise, running regular dungeons, the preferred tiers are T9, then T10, then T8 and finally T7.
+
+The introduction of guilds has given rise to more ways of farming Summoning Scrolls passively while taking on other activities.
+The most notable ones are the Titanfelled and Monumental guilds.
+Both these guilds allow for farming their currency to buy Summoning Scrolls while granting a chance at earning them while farming the currency.
+
+Notes:
+  - Balor Gateways can very rarely be found on the overworld, but only in Moonlight weather (or by using Chaos Scrolls). We ignored that in this section, as this is by no means a reliable way of farming Summoning Scrolls.
+  - Summoning Scrolls are not a _guaranteed_ drop from Balor Gateways, even when reaching the Luck cap.
+  - Party Dungeons are preferred to solo dungeons. With a full party of 4, each member can enter the dungeon as a host for the others, meaning a single dungeon location can lead up to 4 runs.
+
+## Kingdom Raids
+```admonish todo "ethiraric(2025/04/05)"
+Cost, availability to members
+Event raids != from WRB sometimes
+Different enrage%
+Link to Kingdom Page
+List of Kd raids link below
+```
+## Super Raids
+Super Raids are stronger World Raids that mean to be a "final boss" for the event.
+
+### Differences from WRB
+- Super Raids cannot be summoned by a :summoning_scroll: Summoning Scroll or a :monumental_scroll: Monumental's Summoning Scroll.
+- Items dropped from Super Raids do not appear in the Monumental Guild Shop to be rolled expending Proofs of Avarice.
+
+### Super Raid summoning items
+- :anguish_scroll: [Scroll of Anguish](https://playorna.com/codex/items/scroll-of-anguish/)
+  - Bought from the Circle of Anguish Guild Shop for 50:proof_anguish: [Proofs of Anguish](https://playorna.com/codex/items/proof-of-anguish/)
+- :beastfelled_scroll: [Beastfelled Summoning Scroll](https://playorna.com/codex/items/beastfelled-summoning-scroll/)
+  - During the **Beastfelled** event in the Monumental Guild in the Archcrafting section
+    - 7 [Kerberos Furs](https://playorna.com/codex/items/kerberos-fur/), 7 [Manticore Hearts](https://playorna.com/codex/items/manticore-heart/) and 7 [Monoceros Horns](https://playorna.com/codex/items/monoceros-horn/)
+- :dynasty_scroll: [Scroll of Dynasty](https://playorna.com/codex/items/scroll-of-dynasty/)
+  - During the **Thronemakers** event in the Monumental Guild in the Archcrafting section
+    - 3 :lyonesse_seal:[Old Seals of Lyonesse](https://playorna.com/codex/items/old-seal-of-lyonesse/), 3 :annwn_seal:[Old Seals of Annwn](https://playorna.com/codex/items/old-seal-of-annwn/) and 3 :avalon_seal:[Old Seals of Avalon](https://playorna.com/codex/items/old-seal-of-avalon/)
+- :windtamer_scroll: [Windtamer's Summoning Scroll](https://playorna.com/codex/items/windtamers-summoning-scroll/)
+  - During the **Fallen Heroes of Avalon** event in the Monumental Guild in the Archcrafting section
+    - 10 [Hippogriff Talons](https://playorna.com/codex/items/hippogriff-talon/), 10 [Hippogriff Tails](https://playorna.com/codex/items/hippogriff-tails/) and 10 [Hippogriff Quills](https://playorna.com/codex/items/hippogriff-quill/)
+- :fey_ragnarok_scroll: ([Fey](https://playorna.com/codex/items/fey-scroll-of-ragnarok/)) [Scroll of Ragnarok](https://playorna.com/codex/items/scroll-of-ragnarok/)
+  - During the **Nothren Legends: Ragnarok** event in the Monumental Guild in the Archcrafting section
+    - [Scroll of Ragnarok](https://playorna.com/codex/items/scroll-of-ragnarok/): 1:huginn_rune: [Rune of Huginn](https://playorna.com/codex/items/rune-of-huginn/) and 1:muninn_rune: [Rune of Muninn](https://playorna.com/codex/items/rune-of-muninn/)
+    - [Fey Scroll of Ragnarok](https://playorna.com/codex/items/fey-scroll-of-ragnarok/): 5:huginn_rune: [Rune of Huginn](https://playorna.com/codex/items/rune-of-huginn/) and 5:muninn_rune: [Rune of Muninn](https://playorna.com/codex/items/rune-of-muninn/)
+- :hyperion_tablet: [Tablet of Hyperion](https://playorna.com/codex/items/tablet-of-hyperion/)
+  - During the **Of Giants and Titans** event in the Monumental Guild in the Archcrafting section
+    - 5 :moondrop:[Celestial Moondrops](https://playorna.com/codex/items/celestial-moondrop/), 30 :stardrop:[Celestial Stardrop](https://playorna.com/codex/items/celestial-stardrop/)
+- :arisen_distortion_scroll: [Arisen](https://playorna.com/codex/items/scroll-of-arisen-rift-distortion/) [Scroll of Rift Distortion](https://playorna.com/codex/items/scroll-of-rift-distortion/)
+  - During the **Rift Distortion** event in the Monumental Guild in the Archcrafting section
+    - [Scroll of Rift Distortion](https://playorna.com/codex/items/scroll-of-rift-distortion/): 7 :theta_achlys_riftlock:[Theta Achlys Riftlocks](https://playorna.com/codex/items/theta-achlys-riftlock/), 7 :theta_rhada_riftlock:[Theta Rhada Riftlocks](https://playorna.com/codex/items/theta-rhada-riftlock/) and 7 :theta_charon_riftlock:[Theta Charon Riftlocks](https://playorna.com/codex/items/theta-charon-riftlock/)
+    - [Scroll of Arisen Rift Distortion](https://playorna.com/codex/items/scroll-of-arisen-rift-distortion/): 15 :theta_achlys_riftlock:[Theta Achlys Riftlocks](https://playorna.com/codex/items/theta-achlys-riftlock/), 15 :theta_rhada_riftlock:[Theta Rhada Riftlocks](https://playorna.com/codex/items/theta-rhada-riftlock/) and 15 :theta_charon_riftlock:[Theta Charon Riftlocks](https://playorna.com/codex/items/theta-charon-riftlock/)
+- :arisen_hallowed_scroll: ([Arisen](https://playorna.com/codex/items/arisen-hallowed-summoning-scroll/)) [Hallowed Summoning Scroll](https://playorna.com/codex/items/hallowed-summoning-scroll/)
+  - During the **The Hallowed** event in the Monumental Guild in the Archcrafting section
+    - [Hallowed Summoning Scroll](https://playorna.com/codex/items/hallowed-summoning-scroll/): 2 [Dried Oaks](https://playorna.com/codex/items/dried-oak/), 2 [Rotten Leaves](https://playorna.com/codex/items/rotten-leaves/), 2 [Refined Sugars](https://playorna.com/codex/items/refined-sugar/), 2 [Tattered Clothwraps](https://playorna.com/codex/items/tattered-clothwrap/), 2 [Chiroptera Remains](https://playorna.com/codex/items/chiroptera-remains/) and 2 [Fragments of the Planet's Core](https://playorna.com/codex/items/fragment-of-the-planets-core/)
+    - [Arisen Hallowed Summoning Scroll](https://playorna.com/codex/items/arisen-hallowed-summoning-scroll/): 3 [Dried Oaks](https://playorna.com/codex/items/dried-oak/), 3 [Rotten Leaves](https://playorna.com/codex/items/rotten-leaves/), 3 [Refined Sugars](https://playorna.com/codex/items/refined-sugar/), 3 [Tattered Clothwraps](https://playorna.com/codex/items/tattered-clothwrap/), 3 [Chiroptera Remains](https://playorna.com/codex/items/chiroptera-remains/) and 3 [Fragments of the Planet's Core](https://playorna.com/codex/items/fragment-of-the-planets-core/)
+
+# Sharing raids
+## Raids as a trading currency
+```admonish todo "ethiraric(2025/04/05)"
+ToS warning, WRB/Super raid sharing
+```
+
+## Mirroring
+```admonish todo "ethiraric(2025/04/05)"
+```
+
+## Sanding
 Sanding a Raid means hitting it for as little damage as possible with the only goal being to enter the Raid drop pool.
 Any player who deals 2 or more damage to a Raid is eligible for Raid rewards.
 Since items from raid have a minimum (TBD) chance of dropping, even hitting Arisen Morrigan (34MHP) for 2 damage may reward the player with multiple items.
@@ -167,7 +205,7 @@ This spell has a high stat multiplier (meaning it can easily pierce the Raid's d
 It also has the advantage of working with both Magic and Attack based builds, taking whichever stat is the highest.
 It is the recommended spell to use for sanding.
 
-## Various tips for sanding
+### Various tips for sanding
 - Do not bring any pet / summon with a damaging attack move
 - Lower-tier classes have less base offensive stats, making them easier to bring low enough to not deal more than 1000 damage
 - [Arisen Monster Tomes](https://playorna.com/codex/items/arisen-monster-tome/) (-125) and [Mighty Mimic Heads](https://playorna.com/codex/items/mighty-mimic-head/) (-50) of high quality heavily bring your offensive stats down if needed (attack and magic in equal amounts)
@@ -181,7 +219,7 @@ It is the recommended spell to use for sanding.
   - Passives such as Iconoclast (e.g.: [Heretic](https://playorna.com/codex/classes/55/)) which increase stats depending on the battle state and are invisible in the Status menu
   - Global passives such as Origin Town which add 10% to your stats (visible in the Status menu)
 
-## Perfect sanding stats
+### Perfect sanding stats
 The following table is an attempt to find the perfect offensive stat value for every raid to deal 2 damage using Sands of Aaru.
 The damage dealt depends on the defensive stats of the Raid.
 Thankfully, their Defence and Resistance stats are equal, so there is no difference in the Attack or Magic needed.
@@ -264,7 +302,7 @@ We can also replace `damage` with 2, which is our target damage.
 ```
 
 
-# List of Raid Bosses
+# List of Raids
 <details>
 
 So as to not span the columns too wide, the following abbreviations are used in the heading:

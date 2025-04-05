@@ -302,6 +302,9 @@ The Very Scary Skeleton. It usually refers to [the T9 follower](https://playorna
 #### WoO
 The [Ward of Ortanite](https://playorna.com/codex/spells/ward-of-ortanite/) spell.
 
+#### WRB
+World Raid Boss, a Raid on the overworld ([book section](/Raids.md#world-raids))
+
 #### WV
 Wayvessel, a [building](https://playorna.com/codex/buildings/) that can be built in one's Origin Town allowing travel to party members' Wayvessels.
 
