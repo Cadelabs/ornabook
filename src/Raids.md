@@ -135,6 +135,7 @@ Different enrage%
 Link to Kingdom Page
 List of Kd raids link below
 ```
+
 ## Super Raids
 Super Raids are stronger World Raids that mean to be a "final boss" for the event.
 
