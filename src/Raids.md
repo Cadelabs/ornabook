@@ -4,7 +4,7 @@ Raids are powerful enemies that can be summoned through special means or very ra
 There exists 3 main different kinds of raids:
 - World Raids, fought on the overworld, summoned by players or naturally spawned
 - Kingdom Raids, started by expending Kingdom Orns
-- Super Raids, event raids who are more powerful than other raids
+- Super Raids, event raids (summoned by players) who are more powerful than other raids
 
 # Raid mechanics
 ## Fights
@@ -21,7 +21,7 @@ Material drop rolls and item drop rolls
 Can't drop items above your tier (OHB, kingdom raids)
 No Sphinx Tail
 
-WRBs give high amounts of XP up until T9. The XP requirements at T10 are such that WRBs no longer are the best XP source. The XP/Orn ratio for WRBs is very high! This means that, if feel you like you need more Orns than XP, WRBs are not the right focus for you now.
+WRBs give high amounts of XP up until T9. The XP requirements at T10 are such that WRBs no longer are the best XP source. The XP/Orn ratio for WRBs is very high! This means that, if you feel you like you need more Orns than XP, WRBs are not the right focus for you now.
 With the 3.0 update, WRBs now also drop a decent amount of random materials, including rarer end-game materials (e.g.: Cursed Ortanite), mid-game boss materials (e.g.: Broken Stone) or herbs.
 ```
 
