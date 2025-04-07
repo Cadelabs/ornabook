@@ -30,7 +30,7 @@ The table below describes, for each buff, the alteration percentage for each com
 | :statuses/def::statuses/res::statuses/atk::statuses/mag: | -100% | -80% | -20% | +25% | +50% | +100% | -20% | -80% | +25% | +50% |
 | :statuses/dex: |     |     | ??? | ??? |     | ??? |     |     | ??? |     |
 | :statuses/all: |     |     |     | +20% |     | +100% |     |     |     |     |
-| :statuses/crit: |     |     |     | +20% | 50% | +80%* |     |     | +20% |     |
+| :statuses/crit: |     |     |     | +20% | 50% | +60%* |     |     | +20% |     |
 
 *:statuses/crit_tu_tmp: also grants +10%:statuses/atk: (no additional effect on :statuses/mag:)
 
