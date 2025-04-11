@@ -49,7 +49,7 @@ It is one of:
 
 Exploration Dungeons have much fewer floors than Battle Dungeons, but each takes much longer to be completed.
 
-Exploration Dungeons also reward better [End-of-Dungeon rewards](#end-of-dungeon-rewards) and have no fight rewards reduction for bosses as Battle Dungeons do.
+Exploration Dungeons also reward 5 [End-of-Dungeon rewards](#end-of-dungeon-rewards) and have no fight rewards reduction for bosses as Battle Dungeons do.
 
 ### Mining
 Mining is the activity exclusive to Exploration Dungeons.
@@ -351,6 +351,8 @@ They have boss floors which, even if the dungeon was run non-horde mode, will co
 Although expensive (:skeleton_keys:20), they are the best option for Godforging items.
 
 ## Exploration Dungeons
+Exploration Dungeons' are mainly attractive due to their Deepshards, which can be exchanged for Shrine of Luck and Shrine of Wisdom, and their [End of Dungeon Rewards](#end-of-dungeon-rewards).
+
 ### Goblin Fortresses :fort:
 Goblin Fortresses are available starting Tier 3.
 They contain only monsters in the Orc Horde and Goblin Horde families.
@@ -370,12 +372,10 @@ They contain only monsters in the Magical and Ancient families.
 They house some enemies which may be difficult to encounter in the world such as the Elemental Cores.
 Codexers might want to visit them to complete their entries.
 
+Aside from the Deepshards and End-of-Dugeon Rewards, they are not very popular.
+
 ```admonish example "Mystic Caves are home to these theme-restricted monsters (not restricted to a particular event)"
   - Lost Memories
-```
-
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-Any other advantage left?
 ```
 
 ## Theme dungeons infographics
@@ -715,35 +715,45 @@ The following table lists the number of floors in the Dungeon at each tier.
 Successfully defeating the last floor of a dungeon rewards with a currently unknown amount of Exp, Gold and Orns.
 An additional selection of randomly selected materials is awarded to the player.
 
-Finally, items within the End-of-Dungeon reward pool are also given to the player.
+Finally, the game rolls in the End-of-Dugeon (EoD) item pool for rewards.
 This pool includes all quest (including event ones) rewards.
-The process is as follows:
-  - The game randomly selects an item from the pool.
+It also includes a blank space, meaning that there is a chance to not gain an item for each roll.
+This blank space is notably used when new items are added to the pool to avoid chipping the drop chance of already existing items.
+
+The process is as follows (repeated for each EoD roll):
+  - The game randomly rolls from the pool.
+  - If the blank space is rolled, the process is aborted.
   - If the player has completed the quest, the item is awarded.
   - If, however, the player has **not** completed the quest, the item is not awarded and the player does not receive the quest item.
 
 ```admonish warning
-This means that the odds of receiving a specific item do not depend on how many quests were completed.
+This means that the odds of receiving a specific item do **not** depend on how many quests were completed.
 Holding off from completing quests does not improve the odds of a particular item from a completed quest to appear.
 It's quite the opposite: it sometimes prevents you from receiving a reward at the end of your dungeon!
 ```
 
 The quality of the item follows the same rules as other items.
-The only way of increasing the quality is to run [Hard dungeons](#hard-option) or [Exploration Dungeons](#exploration-dungeons), both of which guarantee that the items will be of Superior or higher quality.
+The only way of increasing the quality is to run [Hard dungeons](#hard-option), [Exploration Dungeons](#exploration-dungeons) or Monuments, all of which guarantee that the items will be of Superior or higher quality.
 No other factor plays in how the game selects the quality.
-If the Dungeon was not an Exploration Dungeon nor run as Hard, the items may be of any quality (including Poor and Broken).
+If the Dungeon was not an Exploration Dungeon or Monument nor run as Hard, the items may be of any quality (including Poor and Broken).
 
-The number of items given depends on the dungeon that was run.
-Battle Dungeons award 1 or 2 items upon completion, while Exploration Dungeons award 3-4 items.
-The Ornaversary event or the Shrine of Terra double the number of items awarded while active (they do not stack with one another, nor with Exploration bonus).
+The number of item rolls given depends on the dungeon that was run.
+
+| Dungeon                              | # of rolls | Superior+    |
+|-------------------------------------:|:----------:|:-------------|
+| Regular Battle Dungeon               | 2          | If Hard mode |
+| Regular Battle Dungeon + Ornaversary | 4          | If Hard mode |
+| Regular Battle Dungeon + Terra Shrine| 4          | If Hard mode |
+| Chaos Portal                         | 4          | If Hard mode |
+| Battlegrounds                        | 4          | If Hard mode |
+| Underworld Portal                    | 4          | If Hard mode |
+| Valley of the Gods                   | 4          | If Hard mode |
+| Exploration Dungeon                  | 5          | Yes          |
+| Monument                             | 2          | Yes          |
 
 The increased number of items awarded by Exploration Dungeons as well as their increased quality make Exploration Dungeons a very lucrative farm for End-of-Dungeon items.
 They have low :skeleton_keys:key cost (especially compared to Hard Dungeons) meaning the EoD item per key ratio is very high.
-[Bands of Gods](https://orna.guide/items?show=533) of high quality can be most easily farmed in Exploration Dungeons.
+[Bands of Gods](https://playorna.com/codex/items/band-of-gods/) of high quality can be most easily farmed in Exploration Dungeons.
 
-```admonish todo "TODO(ethiraric, 23/06/2024)"
-Check the numbers
-```
-
-Any dungeon can reward with any item, no matter the tier.
+Any dungeon can reward with any item whose quest has been completed, no matter the tier.
 There are reports of players receiving a T9 Band of Gods from low-tier Dungeons.
