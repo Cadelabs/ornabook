@@ -66,7 +66,7 @@ Its bonus is 57.5%, which is 0.575.
 If we try to read the chart, we can see the `y` value at `x=0.575` is close to 1.20.
 We can check this by computing the exact ratio, which would be 1.8871890625/1.575 which is ~1.198.
 
-We can see that the ratio is always superior to 1 (except on 0, but weapons without any bonus is not discussed here), meaning that dual-wielding weapons with boni always yields more rewards than wielding only one.
+We can see that the ratio is always superior to 1 (except on 0, but weapons without any bonus are not discussed here), meaning that dual-wielding weapons with boni always yields more rewards than wielding only one.
 
 # Hybrid
 Orna has four different "kinds" of Hybrid:
