@@ -252,6 +252,9 @@ See [this section](Kingdoms.md#fighting-a-gauntlet) for more details.
 #### Slot
 An adornment spot on a piece of equipment. "Slots" usually refers to the number of adornment slots.
 
+#### SoW
+The T9 [Symbol of War](https://playorna.com/codex/items/symbol-of-war/) Weapon Adornment.
+
 #### Spoofing
 Spoofing is using an utility software to change one's GPS location.
 These softwares are forbidden by the [Terms of Service](#terms-of-service-tos--terms-of-use-tou).
