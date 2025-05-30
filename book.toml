@@ -13,5 +13,7 @@ command = "mdbook-admonish"
 assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 
 [output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
 additional-css = ["./src/style/mdbook-icons.css", "./src/style/mdbook-admonish.css", "./src/style/style.css", "./mdbook-admonish.css"]
 mathjax-support = true
