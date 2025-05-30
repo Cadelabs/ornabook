@@ -146,7 +146,7 @@ Super Raids are stronger World Raids that mean to be a "final boss" for the even
 
 ### Super Raid summoning items
 - :anguish_scroll: [Scroll of Anguish](https://playorna.com/codex/items/scroll-of-anguish/)
-  - Bought from the Circle of Anguish Guild Shop for 50:proof_anguish: [Proofs of Anguish](https://playorna.com/codex/items/proof-of-anguish/)
+  - Bought from the Circle of Anguish Guild Shop for 90:proof_melancholy: [Proofs of Melancholy](https://playorna.com/codex/items/proof-of-melancholy/)
 - :beastfelled_scroll: [Beastfelled Summoning Scroll](https://playorna.com/codex/items/beastfelled-summoning-scroll/)
   - During the **Beastfelled** event in the Monumental Guild in the Archcrafting section
     - 7 [Kerberos Furs](https://playorna.com/codex/items/kerberos-fur/), 7 [Manticore Hearts](https://playorna.com/codex/items/manticore-heart/) and 7 [Monoceros Horns](https://playorna.com/codex/items/monoceros-horn/)
