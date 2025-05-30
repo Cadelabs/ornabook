@@ -162,7 +162,7 @@ Super Raids are stronger World Raids that mean to be a "final boss" for the even
     - [Fey Scroll of Ragnarok](https://playorna.com/codex/items/fey-scroll-of-ragnarok/): 5:huginn_rune: [Rune of Huginn](https://playorna.com/codex/items/rune-of-huginn/) and 5:muninn_rune: [Rune of Muninn](https://playorna.com/codex/items/rune-of-muninn/)
 - :hyperion_tablet: [Tablet of Hyperion](https://playorna.com/codex/items/tablet-of-hyperion/)
   - During the **Of Giants and Titans** event in the Monumental Guild in the Archcrafting section
-    - 5 :moondrop:[Celestial Moondrops](https://playorna.com/codex/items/celestial-moondrop/), 30 :stardrop:[Celestial Stardrop](https://playorna.com/codex/items/celestial-stardrop/)
+    - 5 :moondrop:[Celestial Moondrops](https://playorna.com/codex/items/celestial-moondrop/), 20 :stardrop:[Celestial Stardrop](https://playorna.com/codex/items/celestial-stardrop/)
 - :arisen_distortion_scroll: [Arisen](https://playorna.com/codex/items/scroll-of-arisen-rift-distortion/) [Scroll of Rift Distortion](https://playorna.com/codex/items/scroll-of-rift-distortion/)
   - During the **Rift Distortion** event in the Monumental Guild in the Archcrafting section
     - [Scroll of Rift Distortion](https://playorna.com/codex/items/scroll-of-rift-distortion/): 7 :theta_achlys_riftlock:[Theta Achlys Riftlocks](https://playorna.com/codex/items/theta-achlys-riftlock/), 7 :theta_rhada_riftlock:[Theta Rhada Riftlocks](https://playorna.com/codex/items/theta-rhada-riftlock/) and 7 :theta_charon_riftlock:[Theta Charon Riftlocks](https://playorna.com/codex/items/theta-charon-riftlock/)
