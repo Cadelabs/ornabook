@@ -39,6 +39,7 @@ The following table summarizes the amount of Proofs that have to be sacrified to
 |     2      |   110  |            |        |
 |     3      |   223  |            |        |
 |     4      |   337  |            |        |
+|     5      |   451  |            |        |
 
 
 ### Choices
@@ -159,7 +160,8 @@ Here is a breakdown of known interactions for each Path:
     - The Choices and Battle Modifiers that apply are those of the leader.
     - :proof_melancholy:Proofs of Melancholy are rolled individually.
   - :proof_agony:Path of Agony (Raids)
-    - The Anguish Level, Choices and Battle Modifiers that apply are those of the Raid summoner.
+    - The Anguish Levelthat applies is that of the Raid summoner.
+    - The Choices and Battle Modifiers that apply are those of the battle Leader.
     - Every member in the battle in which the Raid was killed gets a guaranteed :proof_agony:Proof of Agony.
     - Every player who damaged the Raid is eligible for :proof_agony:Proofs of Agony on the Rewards screen.
   - :proof_torment: Path of Torment (Towers, Monuments)
