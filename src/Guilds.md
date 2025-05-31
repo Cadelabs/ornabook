@@ -1,5 +1,7 @@
 <div class="title">Guilds</div>
 
+# [Anguish 2.0](./Guilds/Anguish_2.0.md)
+
 ```admonish todo
 Unlocks at 1:
   - Traveler's Guild
