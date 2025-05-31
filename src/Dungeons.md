@@ -536,139 +536,141 @@ The following chart shows, for each tier, what the tier of monsters in each floo
 
 <center>
   <table id="dungeon-tier-to-floor">
-    <tr>
-      <td></td> <td colspan=13 class="dttf-heading">Dungeon Tier</td>
-    </tr>
-    <tr class="dttf-dungeon-tier">
-      <td rowspan=26 class="dttf-heading" style="transform:rotate(-90deg)">Floor</td>
-      <td></td>
-      <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> <td>8</td> <td>9</td> <td>10</td> <td>11</td> <td></td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>1★</td> <td>1★</td> <td>1★</td> <td>1★</td> <td>2★</td> <td>4★</td> <td>5★</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td>3★</td> <td class="boss">B</td> <td>5★</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td class="boss">B</td> <td>5★</td> <td class="boss">B</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td class="boss">B</td> <td class="boss">B</td> <td>8★</td> <td>8★</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td class="boss">B</td> <td>2★</td> <td>2★</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>8★</td> <td>9★</td> <td class="boss">B</td> <td class="boss">B</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td></td> <td>2★</td> <td>2★</td> <td>3★</td> <td>4★</td> <td class="boss">B</td> <td class="boss">B</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td></td> <td>2★</td> <td>3★</td> <td>4★</td> <td class="boss">B</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td></td> <td>2★</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td></td> <td class="boss">B</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
-      <td>9</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td>5★</td> <td>6★</td> <td>7★</td> <td class="boss">B</td> <td class="boss">B</td> <td>9★</td> <td>9★</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td></td> <td></td> <td></td> <td></td> <td>5★</td> <td>6★</td> <td>7★</td> <td>7★</td> <td>8★</td> <td class="boss">B</td> <td class="boss">B</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td></td> <td></td> <td></td> <td></td> <td>5★</td> <td>6★</td> <td>7★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td></td> <td></td> <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td class="boss">B</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td></td> <td class="boss">B</td> <td colspan=3 class="dttf-info">Boss Floor</td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td></td> <td class="gf">GF</td> <td colspan=3 class="dttf-info" style="font-size: 50%">Chance of boss with</br>a Godforge aura</td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td class="boss">B</td> <td class="gf">GF</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td>10★</td> <td>10★</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td> <td>10★</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="gf">GF</td> <td>10★</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td>
-      <td>23</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td>
-      <td>24</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="gf">GF</td>
-      <td>25</td>
-    </tr>
+    <tbody>
+      <tr>
+        <td></td> <td colspan=13 class="dttf-heading">Dungeon Tier</td>
+      </tr>
+      <tr class="dttf-dungeon-tier">
+        <td rowspan=26 class="dttf-heading" style="transform:rotate(-90deg)">Floor</td>
+        <td></td>
+        <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td> <td>8</td> <td>9</td> <td>10</td> <td>11</td> <td></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>1★</td> <td>1★</td> <td>1★</td> <td>1★</td> <td>2★</td> <td>4★</td> <td>5★</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td>3★</td> <td class="boss">B</td> <td>5★</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td class="boss">B</td> <td>5★</td> <td class="boss">B</td> <td>7★</td> <td>8★</td> <td>8★</td> <td>8★</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>1★</td> <td>1★</td> <td>2★</td> <td>2★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td class="boss">B</td> <td class="boss">B</td> <td>8★</td> <td>8★</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td class="boss">B</td> <td>2★</td> <td>2★</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>8★</td> <td>9★</td> <td class="boss">B</td> <td class="boss">B</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td></td> <td>2★</td> <td>2★</td> <td>3★</td> <td>4★</td> <td class="boss">B</td> <td class="boss">B</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td></td> <td>2★</td> <td>3★</td> <td>4★</td> <td class="boss">B</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td></td> <td>2★</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td></td> <td class="boss">B</td> <td>3★</td> <td>4★</td> <td>5★</td> <td>6★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td>5★</td> <td>6★</td> <td>7★</td> <td class="boss">B</td> <td class="boss">B</td> <td>9★</td> <td>9★</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td></td> <td></td> <td></td> <td></td> <td>5★</td> <td>6★</td> <td>7★</td> <td>7★</td> <td>8★</td> <td class="boss">B</td> <td class="boss">B</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td></td> <td></td> <td></td> <td></td> <td>5★</td> <td>6★</td> <td>7★</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td></td> <td></td> <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td class="boss">B</td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
+        <td>13</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7★</td> <td>8★</td> <td>9★</td> <td>9★</td>
+        <td>14</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td></td> <td class="boss">B</td> <td colspan=3 class="dttf-info">Boss Floor</td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>9★</td> <td>9★</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td></td> <td class="gf">GF</td> <td colspan=3 class="dttf-info" style="font-size: 50%">Chance of boss with</br>a Godforge aura</td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td class="boss">B</td> <td class="gf">GF</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8★</td> <td>9★</td> <td>10★</td> <td>10★</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="boss">B</td> <td class="boss">B</td> <td>10★</td> <td>10★</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td> <td>10★</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="gf">GF</td> <td>10★</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10★</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td class="gf">GF</td>
+        <td>25</td>
+      </tr>
+    </tbody>
   </table>
   <p>Based on Knight411's chart, based on another chart by Orna Legends</p>
 </center>
