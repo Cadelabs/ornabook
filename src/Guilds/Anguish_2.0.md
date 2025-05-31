@@ -17,7 +17,7 @@ The Circle of Anguish has 4 different "Paths", each with its dedicated Proof cur
 Each of these Paths is controlled independently: their levels, rewards, modifiers, ... can be adjusted for one content without affecting the other content.
 This also means that increasing a Path's maximum level has no influence on other Path's levels
 
-# Anguish mechanism
+# Anguish Mechanism
 ## Path Level of Anguish
 Each Path has a Level of Anguish assigned to it.
 The higher the Level of Anguish, the harder the battles and the better the rewards.
@@ -97,8 +97,8 @@ Both the list and Range will be adjusted as data is gathered.
 Does Permanent Status Effect Fade Chance apply independently?
 ```
 
-## Rewards
-### Proofs
+# Rewards
+## Proofs
 The Circle of Anguish has 4 different Proofs, one for each Path:
 
   - :proof_despair:[Proof of Despair](https://playorna.com/codex/items/proof-of-despair/) (World)
@@ -121,7 +121,7 @@ In the last floor of a Horde Battle Dungeon, it is possible to drop up to 5 :pro
 What dictates whether and how many Proofs of Agony drop?
 ```
 
-### Anguished Gear
+## Anguished Gear
 Anguished Gear are upgraded versions of items intended to be used in Anguish content (Path Level >= 1).
 Any Ornate Gear (aside from Accessories and Adornments) drop has a chance to be granted an "Anguished Level".
 That Level depends on the Anguish Level of the battle that dropped the item.
@@ -139,7 +139,7 @@ Ask for the list from Sirith
 Formula for Anguished scaling down
 ```
 
-## Guild Shop
+# Guild Shop
 ```admonish todo "TODO(ethiraric, 2025/05/31)"
 Pathspur, Crucible, Demonworking Tools
 
@@ -148,7 +148,7 @@ Scaling cost of items wrt path level.
 Do the currencies rotate? They appear to
 ```
 
-## Party play
+# Party play
 Most of the Anguish content works as one would expect.
 Here is a breakdown of known interactions for each Path:
 
