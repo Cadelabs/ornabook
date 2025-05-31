@@ -41,6 +41,9 @@ The [Band of Gods](https://playorna.com/codex/items/band-of-gods/).
 #### BP
 The [Blood Pact](https://playorna.com/codex/spells/blood-pact/) spell ([BP2](https://playorna.com/codex/spells/blood-pact-ii/), [BP3](https://playorna.com/codex/spells/blood-pact-iii/)).
 
+#### Buff
+An alteration augmenting something's power.
+
 # C
 #### CJO
 The [Court Jester's Outfit](https://playorna.com/codex/items/court-jesters-outfit/), a T10 chestpiece increasing Gold and Orn gains.
@@ -81,6 +84,10 @@ The Dragon Roost [dungeon](https://playorna.com/codex/dungeons/).
 
 #### DUrsa
 The [Deity Ursa](https://playorna.com/codex/classes/85/) T10 celestial class.
+
+# E
+#### Exotic
+Items dropped from enemies belonging to World Events. They are thus not available year-round.
 
 # F
 #### FEE
