@@ -184,6 +184,8 @@ They can be used from the "View Path" menu of the Circle of Anguish.
 
 The :anguished_crucible:Anguished Crucible allows you to (re)roll the bonus given to an Anguished Gear.
 If the piece of Gear did not have a bonus, then the Crucible will grant it one.
+The new bonus cannot be the same as the current one.
+However, using another Crucible may give a previous bonus, even with a different value.
 
 The :demonworking_tools:Demonworking Tools allows one to increase the Anguished Level of a piece of equipment.
 The piece on which to apply the Demonworking Tools must at least be Masterforged.
