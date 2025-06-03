@@ -129,22 +129,87 @@ That Level depends on the Anguish Level of the battle that dropped the item.
 The item Anguished Level is at worst 2 Levels lower than the current Path Anguish Level (e.g.: at Path Anguish Level 8, Anguished 6, 7 or 8 Gear can be found).
 
 Anguished pieces of Gear has slightly higher stats than a non-Anguished pieces of the same quality.
-They also have an added modifier that further enhances it.
+They also have an added affix or extra stat that further enhances it.
+The stats are increased by 3% per Anguished Level on the item.
+This increase applies to base stats and to Follower / Summon stats.
 
-The increase to stats and modifiers applied to Anguished Gear scales with the Anguished Level of the item.
-However, if an Anguished item is equipped in a lower Anguished Level, the extra stats and modifiers are scaled down.
+\\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{anguished-level}) \\]
+
+However, if an Anguished item is equipped in a lower Anguished Level, the extra stats are scaled down.
 
 ```admonish todo "TODO(ethiraric, 2025/05/31)"
-Ask for the list from Sirith
-
 Formula for Anguished scaling down
 ```
 
-# Guild Shop
-```admonish todo "TODO(ethiraric, 2025/05/31)"
-Pathspur, Crucible, Demonworking Tools
+### List of Anguished Gear Affixes & Extra stats
 
-Scaling cost of items wrt path level.
+| Bonus                | Min  | Max  | :bw_weapon: | :bw_shield: | :bw_helmet: | :bw_armor: | :bw_legs: |
+|:---------------------|:----:|:----:|:-----------:|:-----------:|:-----------:|:----------:|:---------:|
+| HP (head)            | 200  | 300  |             |             | x           |            |           |
+| HP (torso)           | 500  | 1000 |             |             |             | x          |           |
+| Mana                 | 200  | 300  |             |             | x           |            |           |
+| Dexterity            | 100  | 150  | x           | x           | x           | x          | x         |
+| Foresight            | 50   | 100  |             |             | x           |            |           |
+| Crit Chance          | 5%   | 10%  | x           |             |             |            |           |
+| Crit Damage          | 4%   | 10%  | x           |             |             |            |           |
+| Accuracy (head)      | 4%   | 7%   |             |             | x           |            |           |
+| Accuracy (torso)     | 1%   | 2%   |             |             |             | x          |           |
+| Accuracy (legs)      | 2%   | 4%   |             |             |             |            | x         |
+| Pet Act              | 3%   | 7%   |             |             | x           |            |           |
+| Faction Damage       | 5%   | 10%  | x           |             |             |            |           |
+| Damage Limit Break   | 50%  | 100% | x           |             |             |            |           |
+| Spell Casting Damage | -12% | -19% |             | x           |             |            |           |
+| Def/Res Penetration  | 5%   | 10%  | x           |             |             |            |           |
+| Two-Handed Power     | 8%   | 14%  |             |             |             |            | x         |
+| Mana Reduction       | 5%   | 9%   |             |             |             | x          |           |
+| Mana Recovery        | -96% | -99% |             |             |             |            | x         |
+| Life Siphon          | 1%   | 2%   | x           |             |             |            |           |
+| Ward Recovery        | 1%   | 3%   |             | x           |             | x          | x         |
+| Ward Start Turns     | 1    | 3    |             |             |             |            | x         |
+| Defend Power         | 10%  | 20%  |             | x           |             |            |           |
+| Ult Defense          | 13%  | 30%  |             | x           |             |            |           |
+| Status Protection    | 3%   | 7%   |             |             |             | x          |           |
+| Buff Duration        | 2%   | 5%   |             | x           |             |            |           |
+| Godforge Chance      | 1%   | 1%   |             |             |             | x          |           |
+
+<center>Data compiled by Sirith.</center>
+
+# Guild Shop
+## Items
+Outside of cosmetics, consumables and materials, the Circle of Anguish Guild Shop sells items affecting Anguish play: the :anguished_pathspur:[Anguished Pathspur](https://playorna.com/codex/items/anguished-pathspur/), :anguished_crucible:[Anguished Crucible](https://playorna.com/codex/items/anguished-crucible/) and :demonworking_tools:[Demonworking Tools](https://playorna.com/codex/items/demonworking-tools/).
+
+The :anguished_pathspur:Anguished Pathspur allows one to reset the [Choices](#choices) that were made for a Path of Anguish.
+They reset all levels of a single Path.
+They can be used from the "View Path" menu of the Circle of Anguish.
+
+The :anguished_crucible:Anguished Crucible allows you to (re)roll the bonus given to an Anguished Gear.
+If the piece of Gear did not have a bonus, then the Crucible will grant it one.
+
+The :demonworking_tools:Demonworking Tools allows one to increase the Anguished Level of a piece of equipment.
+The piece on which to apply the Demonworking Tools must at least be Masterforged.
+Upon using, the Tools will increase the piece's Anguished Level by 1 and reset its level to 10.
+In order to use another Tools on it, the item has to be at least Masterforged.
+If used on a non-Anguished piece, the Tools will set it to Anguished Level 1 without a bonus.
+An :anguished_crucible:Anguished Crucible will have to be used to assign one.
+
+## Cost of Anguish items
+The currency for each item (:anguished_pathspur::anguished_crucible::demonworking_tools:) is set daily, being Proofs of any of the 4 Paths.
+The cost of the items depends on the Path Level of the currency used: the higher the Path Level, the more Proofs the item costs.
+
+```admonish todo "TODO(ethiraric, 2025/05/31)"
+[WIP] Seems wrong. Reports of Crucible being priced at :proof_despair:45 and :proof_despair:46 at PL 1.
+
+Below are the reported costs for each Path Level:
+
+| Path Level | :anguished_pathspur:Pathspur | :anguished_crucible:Crucible | :demonworking_tools:Tools |
+|:----------:|:----------------------------:|:----------------------------:|:-------------------------:|
+|     1      |              23              |             45               |                           |
+|     2      |                              |             47               |            59             |
+|     3      |                              |                              |            59             |
+|     4      |                              |                              |                           |
+|     5      |              25              |                              |                           |
+|     6      |                              |                              |                           |
+|     7      |                              |                              |                           |
 
 Do the currencies rotate? They appear to
 ```

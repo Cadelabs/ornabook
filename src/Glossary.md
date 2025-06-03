@@ -4,6 +4,10 @@
 #### AFC
 The [Arisen Fey Crowsong](https://playorna.com/codex/items/arisen-fey-crowsong/), a onehanded weapon with notably high hybrid stats and pet act.
 
+#### Affix
+Modifiers to Gear which aren't directly stats.
+Examples of affixes are Parapet, +Fire Damage, +Ward Turns, Collateral Damage, ...
+
 #### AL
 Ascension Level.
 
