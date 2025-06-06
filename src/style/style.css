@@ -87,3 +87,10 @@ main h1 {
     border: 1px solid #9c0006;
   }
 }
+
+table.anguish-choices td, table.anguish-choices th {
+  padding: 3px 5px;
+}
+.ang-stats { color: #bb962c; }
+.ang-bonus { color: #597149; }
+.ang-malus { color: #c54b40; }

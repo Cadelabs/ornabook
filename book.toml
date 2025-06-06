@@ -5,8 +5,12 @@ multilingual = false
 src = "src"
 title = "Ornabook"
 
+[preprocessor.cade]
+command = "mdbook-cade"
+
 [preprocessor.icons]
 renderers = ["html"]
+
 
 [preprocessor.admonish]
 command = "mdbook-admonish"

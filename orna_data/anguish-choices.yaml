@@ -1,0 +1,81 @@
+Despair:
+  - Anguish 1:
+    - Choice 1:
+      - Enemy stats: +22%
+      - EXP Bonus: 2%
+      - Orn Bonus: 4.5%
+      - Gold Bonus: 3%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Despair Chance: 12%
+      - Ang. Gear Chance: 5%
+      - Damage from Undead: +4%
+      - Damage from Magic Foes: +2%
+      - Damage from Nothren: +3%
+    - Choice 2:
+      - Enemy stats: +22%
+      - EXP Bonus: 4.5%
+      - Orn Bonus: 3%
+      - Gold Bonus: 4%
+      - Proof of Despair Chance: 10%
+      - Ang. Gear Chance: 10%
+      - Status Protection: -1%
+    - Choice 3:
+      - Enemy stats: +22%
+      - EXP Bonus: 2%
+      - Orn Bonus: 4.5%
+      - Gold Bonus: 3%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Despair Chance: 12%
+      - Ang. Gear Chance: 5%
+      - Crit Chance: -7%
+      - Crit Damage: -9%
+    - Choice 4:
+      - Enemy stats: +22%
+      - EXP Bonus: 4.5%
+      - Orn Bonus: 3%
+      - Gold Bonus: 4%
+      - Proof of Despair Chance: 10%
+      - Ang. Gear Chance: 10%
+      - Fire Damage: -3%
+      - Water Damage: -5%
+      - Lightning Damage: -4%
+      - Earthen Damage: -5%
+  - Anguish 2:
+    - Choice 1:
+      - Enemy stats: +22%
+      - EXP Bonus: 2.13%
+      - Orn Bonus: 4.8%
+      - Gold Bonus: 3.2%
+      - Proof of Despair Chance: 1%
+      - Ang. Gear Chance: 0.5%
+      - Holy Damage: -4%
+      - Dark Damage: -4%
+      - Dragon Damage: -2%
+      - Arcane Damage: -5%
+    - Choice 2:
+      - Enemy stats: +22%
+      - EXP Bonus: 4.8%
+      - Orn Bonus: 3.2%
+      - Gold Bonus: 4.27%
+      - Proof of Despair Chance: 0.5%
+      - Ang. Gear Chance: 1%
+      - Multi-target Damage: -5%
+    - Choice 3:
+      - Enemy stats: +22%
+      - EXP Bonus: 2.13%
+      - Orn Bonus: 4.8%
+      - Gold Bonus: 3.2%
+      - Proof of Despair Chance: 1%
+      - Ang. Gear Chance: 0.5%
+      - Accuracy: -1%
+    - Choice 4:
+      - Enemy stats: +22%
+      - EXP Bonus: 4.8%
+      - Orn Bonus: 3.2%
+      - Gold Bonus: 4.27%
+      - Proof of Despair Chance: 0.5%
+      - Ang. Gear Chance: 1%
+      - Healing: -9%
+Melancholy: []
+Agony: []
+Torment: []

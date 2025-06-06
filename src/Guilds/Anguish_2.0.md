@@ -35,14 +35,15 @@ The following table summarizes the amount of Proofs that have to be sacrified to
 
 | Path Level | Proofs | Path Level | Proofs |
 |:----------:|:------:|:----------:|:------:|
-|     1      |     0  |            |        |
-|     2      |   110  |            |        |
-|     3      |   223  |            |        |
-|     4      |   337  |            |        |
-|     5      |   451  |            |        |
+|     1      |     0  |    26      |        |
+|     2      |   110  |    27      |        |
+|     3      |   223  |    28      |        |
+|     4      |   337  |    29      |        |
+|     5      |   451  |    30      |        |
 
 
 ### Choices
+#### Mechanics
 Each Level of Anguish lets the player select between 4 Choices to alter their Paths.
 These Choices are per-Path and only influence the content to which the selected Path applies.
 Below are the Choices for the Path of Melancholy (Dungeons) at Level 1 (Choice 4 is selected):
@@ -62,6 +63,37 @@ They reset all Choices made in the selected Path and let players make new Choice
 
 While the selection amongst the 4 Choices for each Path Level is free for all players, the 4 Choices for a given Path and Level are the same across all players.
 Should they want to, a player can copy another player's Choices and walk the exact same Path.
+
+#### List of choices
+The following tables are large and collapsed by default.
+
+##### :proof_despair: Despair
+<details>
+
+<table id="ang-despair-choices"></table>
+
+</details>
+
+##### :proof_melancholy: Melancholy
+<details>
+
+<table id="ang-melancholy-choices"></table>
+
+</details>
+
+##### :proof_agony: Agony
+<details>
+
+<table id="ang-agony-choices"></table>
+
+</details>
+
+##### :proof_torment: Torment
+<details>
+
+<table id="ang-torment-choices"></table>
+
+</details>
 
 ## Modifiers
 Each [Choice](#choice) at each [Path Level](#path-level-of-anguish) comes with multiple modifiers:
