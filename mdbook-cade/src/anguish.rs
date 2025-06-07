@@ -117,12 +117,20 @@ fn get_modifier_class(modifier: &str) -> &'static str {
         "EXP Bonus"
         | "Orn Bonus"
         | "Gold Bonus"
+        | "Tower Shard Bonus"
         | "Item Drop Quality Bonus"
         | "Proof of Despair Chance"
+        | "Proof of Melancholy Chance"
+        | "Proof of Agony Chance"
+        | "Proof of Torment Chance"
         | "Ang. Gear Chance" => "ang-bonus",
         "Damage from Undead"
         | "Damage from Magic Foes"
         | "Damage from Nothren"
+        | "Damage from Dragons"
+        | "Damage from Beasts"
+        | "Damage from Ancients"
+        | "Damage from Mimic"
         | "Status Protection"
         | "Crit Chance"
         | "Crit Damage"
@@ -136,6 +144,10 @@ fn get_modifier_class(modifier: &str) -> &'static str {
         | "Arcane Damage"
         | "Multi-target Damage"
         | "Accuracy"
+        | "Permanent Status Effect Fade Chance"
+        | "Defend Power"
+        | "1HP Instead of Kill Chance"
+        | "Berserk Encounters"
         | "Healing" => "ang-malus",
         _ => panic!("Unknown modifier {modifier}"),
     }
