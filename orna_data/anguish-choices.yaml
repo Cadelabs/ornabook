@@ -113,7 +113,7 @@ Torment:
       - Orn Bonus: 3%
       - Item Drop Quality Bonus: 0.01%
       - Tower Shard Bonus: 3%
-      - Proof of Despair Chance: 10%
+      - Proof of Torment Chance: 10%
       - Ang. Gear Chance: 10%
       - Defend Power: -15%
       - Healing: -9%
@@ -153,7 +153,7 @@ Torment:
       - Orn Bonus: 3.2%
       - Item Drop Quality Bonus: 0.01%
       - Tower Shard Bonus: 3%
-      - Proof of Despair Chance: 1.5%
+      - Proof of Torment Chance: 1.5%
       - Ang. Gear Chance: 0.4%
       - 1HP Instead of Kill Chance: +1%
   - Anguish 3:
@@ -189,7 +189,7 @@ Torment:
       - Orn Bonus: 3.4%
       - Item Drop Quality Bonus: 0.01%
       - Tower Shard Bonus: 3%
-      - Proof of Despair Chance: 1.5%
+      - Proof of Torment Chance: 1.5%
       - Ang. Gear Chance: 0.4%
       - Berserk Encounters: +3%
   - Anguish 4:
@@ -225,7 +225,7 @@ Torment:
       - Orn Bonus: 3.6%
       - Item Drop Quality Bonus: 0.01%
       - Tower Shard Bonus: 3%
-      - Proof of Despair Chance: 1.5%
+      - Proof of Torment Chance: 1.5%
       - Ang. Gear Chance: 0.4%
       - Berserk Encounters: +5%
   - Anguish 5:
@@ -259,6 +259,6 @@ Torment:
       - Orn Bonus: 3.8%
       - Item Drop Quality Bonus: 0.01%
       - Tower Shard Bonus: 3%
-      - Proof of Despair Chance: 1.5%
+      - Proof of Torment Chance: 1.5%
       - Ang. Gear Chance: 0.4%
       - 1HP Instead of Kill Chance: +1%
