@@ -113,10 +113,11 @@ pub fn make_table(path: &AnguishPath, path_name: &str) -> String {
 /// Get the class (color) of the span for the given modifier.
 fn get_modifier_class(modifier: &str) -> &'static str {
     match modifier {
-        "Enemy stats" => "ang-stats",
+        "Enemy stats" | "Raid enraging" => "ang-stats",
         "EXP Bonus"
         | "Orn Bonus"
         | "Gold Bonus"
+        | "Luck Bonus"
         | "Tower Shard Bonus"
         | "Item Drop Quality Bonus"
         | "Proof of Despair Chance"
@@ -128,10 +129,13 @@ fn get_modifier_class(modifier: &str) -> &'static str {
         | "Damage from Magic Foes"
         | "Damage from Nothren"
         | "Damage from Dragons"
-        | "Damage from Beasts"
+        | "Damage from Balor"
+        | "Damage from Animals"
+        | "Damage from Lyonesse"
         | "Damage from Ancients"
         | "Damage from Mimic"
         | "Status Protection"
+        | "Status Effect Damage"
         | "Crit Chance"
         | "Crit Damage"
         | "Fire Damage"
@@ -144,8 +148,13 @@ fn get_modifier_class(modifier: &str) -> &'static str {
         | "Arcane Damage"
         | "Multi-target Damage"
         | "Accuracy"
+        | "Follower Act"
         | "Permanent Status Effect Fade Chance"
+        | "Follower Protect"
+        | "Summon Protection"
         | "Defend Power"
+        | "Ult Defense"
+        | "Ward Absorption"
         | "1HP Instead of Kill Chance"
         | "Berserk Encounters"
         | "Healing" => "ang-malus",
