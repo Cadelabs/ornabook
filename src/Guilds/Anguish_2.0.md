@@ -192,7 +192,7 @@ Formula for Anguished scaling down
 | Damage Limit Break   | 50%  | 100% | x           |             |             |            |           |
 | Spell Casting Damage | -12% | -19% |             | x           |             |            |           |
 | Def/Res Penetration  | 5%   | 10%  | x           |             |             |            |           |
-| Two-Handed Power     | 8%   | 14%  |             |             |             |            | x         |
+| Two-Handed Power     | 8%   | 15%  |             |             |             |            | x         |
 | Mana Reduction       | 5%   | 9%   |             |             |             | x          |           |
 | Mana Recovery        | -96% | -99% |             |             |             |            | x         |
 | Life Siphon          | 1%   | 2%   | x           |             |             |            |           |

@@ -76,8 +76,385 @@ Despair:
       - Proof of Despair Chance: 0.5%
       - Ang. Gear Chance: 1%
       - Healing: -9%
-Melancholy: []
-Agony: []
+Melancholy:
+  - Anguish 1:
+    - Choice 1:
+      - Enemy stats: +20%
+      - EXP Bonus: 3%
+      - Orn Bonus: 5%
+      - Luck Bonus: 3%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 12%
+      - Ang. Gear Chance: 5%
+      - Damage from Balor: +4%
+      - Damage from Animals: +2%
+      - Damage from Lyonesse: +3%
+    - Choice 2:
+      - Enemy stats: +20%
+      - EXP Bonus: 5%
+      - Orn Bonus: 3%
+      - Luck Bonus: 3%
+      - Proof of Melancholy Chance: 10%
+      - Ang. Gear Chance: 10%
+      - Accuracy: -1%
+    - Choice 3:
+      - Enemy stats: +20%
+      - EXP Bonus: 3%
+      - Orn Bonus: 5%
+      - Luck Bonus: 3%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 12%
+      - Ang. Gear Chance: 5%
+      - Damage from Dragons: +3%
+      - Damage from Ancients: +2%
+      - Damage from Mimic: +2%
+    - Choice 4:
+      - Enemy stats: +20%
+      - EXP Bonus: 5%
+      - Orn Bonus: 3%
+      - Luck Bonus: 3%
+      - Proof of Melancholy Chance: 10%
+      - Ang. Gear Chance: 10%
+      - Healing: -9%
+  - Anguish 2:
+    - Choice 1:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.2%
+      - Orn Bonus: 5.33%
+      - Luck Bonus: 3.2%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Damage from Dragons: +3%
+      - Damage from Ancients: +3%
+      - Damage from Mimic: +3%
+    - Choice 2:
+      - Enemy stats: +20%
+      - EXP Bonus: 5.33%
+      - Orn Bonus: 3.2%
+      - Luck Bonus: 3.2%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Damage from Balor: +3%
+      - Damage from Animals: +3%
+      - Damage from Lyonesse: +3%
+    - Choice 3:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.2%
+      - Orn Bonus: 5.33%
+      - Luck Bonus: 3.2%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - 1HP Instead of Kill Chance: +1%
+    - Choice 4:
+      - Enemy stats: +20%
+      - EXP Bonus: 5.33%
+      - Orn Bonus: 3.2%
+      - Luck Bonus: 3.2%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Holy Damage: -4%
+      - Dark Damage: -4%
+      - Dragon Damage: -4%
+      - Arcane Damage: -3%
+  - Anguish 3:
+    - Choice 1:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.4%
+      - Orn Bonus: 5.67%
+      - Luck Bonus: 3.4%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Fire Damage: -4%
+      - Water Damage: -5%
+      - Lightning Damage: -2%
+      - Earthen Damage: -4%
+    - Choice 2:
+      - Enemy stats: +20%
+      - EXP Bonus: 5.67%
+      - Orn Bonus: 3.4%
+      - Luck Bonus: 3.4%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - 1HP Instead of Kill Chance: +1%
+    - Choice 3:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.4%
+      - Orn Bonus: 5.67%
+      - Luck Bonus: 3.4%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Holy Damage: -4%
+      - Dark Damage: -5%
+      - Dragon Damage: -2%
+      - Arcane Damage: -4%
+    - Choice 4:
+      - Enemy stats: +20%
+      - EXP Bonus: 5.67%
+      - Orn Bonus: 3.4%
+      - Luck Bonus: 3.4%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Permanent Status Effect Fade Chance: +1%
+  - Anguish 4:
+    - Choice 1:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.6%
+      - Orn Bonus: 6%
+      - Luck Bonus: 3.6%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Fire Damage: -3%
+      - Water Damage: -2%
+      - Lightning Damage: -4%
+      - Earthen Damage: -4%
+    - Choice 2:
+      - Enemy stats: +20%
+      - EXP Bonus: 6%
+      - Orn Bonus: 3.6%
+      - Luck Bonus: 3.6%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Berserk Encounters: +4%
+    - Choice 3:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.6%
+      - Orn Bonus: 6%
+      - Luck Bonus: 3.6%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Holy Damage: -3%
+      - Dark Damage: -2%
+      - Dragon Damage: -4%
+      - Arcane Damage: -4%
+    - Choice 4:
+      - Enemy stats: +20%
+      - EXP Bonus: 6%
+      - Orn Bonus: 3.6%
+      - Luck Bonus: 3.6%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Crit Chance: -9%
+      - Crit Damage: -6%
+  - Anguish 5:
+    - Choice 1:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.8%
+      - Orn Bonus: 6.33%
+      - Luck Bonus: 3.8%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Crit Chance: -6%
+      - Crit Damage: -8%
+    - Choice 2:
+      - Enemy stats: +20%
+      - EXP Bonus: 6.33%
+      - Orn Bonus: 3.8%
+      - Luck Bonus: 3.8%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Berserk Encounters: +3%
+    - Choice 3:
+      - Enemy stats: +20%
+      - EXP Bonus: 3.8%
+      - Orn Bonus: 6.33%
+      - Luck Bonus: 3.8%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Permanent Status Effect Fade Chance: +1%
+    - Choice 4:
+      - Enemy stats: +20%
+      - EXP Bonus: 6.33%
+      - Orn Bonus: 3.8%
+      - Luck Bonus: 3.8%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Multi-target Damage: -5%
+  - Anguish 6:
+    - Choice 1:
+      - Enemy stats: +20%
+      - EXP Bonus: 4%
+      - Orn Bonus: 6.67%
+      - Luck Bonus: 4%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Berserk Encounters: +3%
+      - Multi-target Damage: -4%
+    - Choice 2:
+      - Enemy stats: +20%
+      - EXP Bonus: 6.67%
+      - Orn Bonus: 4%
+      - Luck Bonus: 4%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Accuracy: -2%
+      - Damage from Dragons: +3%
+      - Damage from Ancients: +5%
+      - Damage from Mimic: +4%
+    - Choice 3:
+      - Enemy stats: +20%
+      - EXP Bonus: 4%
+      - Orn Bonus: 6.67%
+      - Luck Bonus: 4%
+      - Proof of Melancholy Chance: 2%
+      - Ang. Gear Chance: 0.4%
+      - Crit Chance: -8%
+      - Crit Damage: -9%
+      - 1HP Instead of Kill Chance: +1%
+    - Choice 4:
+      - Enemy stats: +20%
+      - EXP Bonus: 6.67%
+      - Orn Bonus: 4%
+      - Luck Bonus: 4%
+      - Proof of Melancholy Chance: 1.5%
+      - Ang. Gear Chance: 0.8%
+      - Damage from Balor: +5%
+      - Damage from Animals: +5%
+      - Damage from Lyonesse: +3%
+      - Fire Damage: -5%
+      - Water Damage: -4%
+      - Lightning Damage: -3%
+      - Earthen Damage: -3%
+Agony:
+  - Anguish 1:
+    - Choice 1:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Agony Chance: 12%
+      - Ang. Gear Chance: 15%
+      - Status Effect Damage: +105%
+    - Choice 2:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4%
+      - Proof of Agony Chance: 10%
+      - Ang. Gear Chance: 20%
+      - Follower Act: -2%
+    - Choice 3:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Agony Chance: 12%
+      - Ang. Gear Chance: 15%
+      - Ward Absorption: -5%
+    - Choice 4:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4%
+      - Proof of Agony Chance: 10%
+      - Ang. Gear Chance: 20%
+      - Healing: -2%
+  - Anguish 2:
+    - Choice 1:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3.2%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Agony Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Status Effect Damage: +107%
+    - Choice 2:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4.27%
+      - Proof of Agony Chance: 1.5%
+      - Ang. Gear Chance: 2%
+      - Multi-target Damage: -3%
+    - Choice 3:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3.2%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Agony Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Holy Damage: -2%
+      - Dark Damage: -4%
+      - Dragon Damage: -3%
+      - Arcane Damage: -4%
+    - Choice 4:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4.27%
+      - Proof of Agony Chance: 1.5%
+      - Ang. Gear Chance: 2%
+      - Permanent Status Effect Fade Chance: +1%
+  - Anguish 3:
+    - Choice 1:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3.4%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Agony Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Follower Protect: -4%
+      - Summon Protection: -5%
+    - Choice 2:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4.53%
+      - Proof of Agony Chance: 1.5%
+      - Ang. Gear Chance: 2%
+      - Accuracy: -1%
+    - Choice 3:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3.4%
+      - Item Drop Quality Bonus: 0.01%
+      - Proof of Agony Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Fire Damage: -5%
+      - Water Damage: -5%
+      - Lightning Damage: -2%
+      - Earthen Damage: -3%
+    - Choice 4:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4.53%
+      - Proof of Agony Chance: 1.5%
+      - Ang. Gear Chance: 2%
+      - Multi-target Damage: -5%
+  - Anguish 4:
+    - Choice 1:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3.6%
+      - Proof of Agony Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Fire Damage: -3%
+      - Water Damage: -5%
+      - Lightning Damage: -4%
+      - Earthen Damage: -3%
+    - Choice 2:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4.8%
+      - Proof of Agony Chance: 1.5%
+      - Ang. Gear Chance: 2%
+      - Ult Defense: -11%
+    - Choice 3:
+      - Enemy stats: +18%
+      - Raid enraging: +2%
+      - Luck Bonus: 3.6%
+      - Proof of Agony Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Permanent Status Effect Fade Chance: +1%
+    - Choice 4:
+      - Enemy stats: +16%
+      - Raid enraging: +3%
+      - Luck Bonus: 4.8%
+      - Proof of Agony Chance: 1.5%
+      - Ang. Gear Chance: 2%
+      - Status Effect Damage: +106%
 Torment:
   - Anguish 1:
     - Choice 1:
@@ -87,7 +464,7 @@ Torment:
       - Tower Shard Bonus: 2%
       - Proof of Torment Chance: 12%
       - Ang. Gear Chance: 5%
-      - Permanent Status Effect Fade Chance: 1%
+      - Permanent Status Effect Fade Chance: +1%
     - Choice 2:
       - Enemy stats: +18%
       - EXP Bonus: 5%
@@ -164,7 +541,7 @@ Torment:
       - Tower Shard Bonus: 2%
       - Proof of Torment Chance: 2%
       - Ang. Gear Chance: 1%
-      - Permanent Status Effect Fade Chance: 1%
+      - Permanent Status Effect Fade Chance: +1%
     - Choice 2:
       - Enemy stats: +18%
       - EXP Bonus: 5.67%
@@ -210,7 +587,7 @@ Torment:
       - Tower Shard Bonus: 3%
       - Proof of Torment Chance: 1.5%
       - Ang. Gear Chance: 0.4%
-      - Permanent Status Effect Fade Chance: 1%
+      - Permanent Status Effect Fade Chance: +1%
     - Choice 3:
       - Enemy stats: +18%
       - EXP Bonus: 3.6%
@@ -262,3 +639,49 @@ Torment:
       - Proof of Torment Chance: 1.5%
       - Ang. Gear Chance: 0.4%
       - 1HP Instead of Kill Chance: +1%
+  - Anguish 6:
+    - Choice 1:
+      - Enemy stats: +18%
+      - EXP Bonus: 4%
+      - Orn Bonus: 6.67%
+      - Tower Shard Bonus: 2%
+      - Proof of Torment Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Damage from Balor: +3%
+      - Damage from Animals: +3%
+      - Damage from Lyonesse: +3%
+      - 1HP Instead of Kill Chance: +1%
+    - Choice 2:
+      - Enemy stats: +18%
+      - EXP Bonus: 6.67%
+      - Orn Bonus: 4%
+      - Tower Shard Bonus: 3%
+      - Proof of Torment Chance: 1.5%
+      - Ang. Gear Chance: 0.4%
+      - Fire Damage: -4%
+      - Water Damage: -2%
+      - Lightning Damage: -4%
+      - Earthen Damage: -3%
+      - Permanent Status Effect Fade Chance: +1%
+    - Choice 3:
+      - Enemy stats: +18%
+      - EXP Bonus: 4%
+      - Orn Bonus: 6.67%
+      - Tower Shard Bonus: 2%
+      - Proof of Torment Chance: 2%
+      - Ang. Gear Chance: 1%
+      - Permanent Status Effect Fade Chance: +1%
+      - 1HP Instead of Kill Chance: +1%
+    - Choice 4:
+      - Enemy stats: +18%
+      - EXP Bonus: 6.67%
+      - Orn Bonus: 4%
+      - Item Drop Quality Bonus: 0.01%
+      - Tower Shard Bonus: 3%
+      - Proof of Torment Chance: 1.5%
+      - Ang. Gear Chance: 0.4%
+      - 1HP Instead of Kill Chance: +1%
+      - Holy Damage: -2%
+      - Dark Damage: -3%
+      - Dragon Damage: -2%
+      - Arcane Damage: -4%
