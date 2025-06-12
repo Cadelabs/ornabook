@@ -109,25 +109,29 @@ Furthermore, the Luck bonus for this Path also applies to Raid Rewards, unlike o
 ### List of Battle Modifiers
 This list is currently incomplete.
 Both the list and Range will be adjusted as data is gathered.
+See [above](#list-of-choices) the Choices that were recorded for each path.
 
-| Modifier                            | Range  | Notes                                                      |
-|:------------------------------------|:------:|:-----------------------------------------------------------|
-| Crit Chance                         |  -7-9% |                                                            |
-| Crit Damage                         |  -7-9% |                                                            |
-| Follower Act                        |    -2% |                                                            |
-| Accuracy                            |    -1% |                                                            |
-| Ward Absorption                     |    -5% |                                                            |
-| Defend Power                        |   -15% |                                                            |
-| Healing                             | -9-10% |                                                            |
-| Status Effect Damage                |  +105% |                                                            |
-| Status Protection                   |    -1% |                                                            |
-| Damage from \[Family\]              |  +2-4% |                                                            |
-| Permanent Status Effect Fade Chance |    +1% | Gives a 1% chance that a non-temporary status effect fades |
-| \[Element\] Damage                  |  -2-5% |                                                            |
-| 1HP Instead of Kill Chance          |    +1% | Gives a "Second Chance" with low chance on enemies         |
+| Modifier                            | Range  | Notes                                                       |
+|:------------------------------------|:------:|:------------------------------------------------------------|
+| Crit Chance                         |  -7-9% |                                                             |
+| Crit Damage                         |  -7-9% |                                                             |
+| Follower Act                        |    -2% |                                                             |
+| Accuracy                            |    -1% |                                                             |
+| Ward Absorption                     |    -5% |                                                             |
+| Defend Power                        |   -15% |                                                             |
+| Healing                             | -9-10% |                                                             |
+| Status Effect Damage                |  +105% |                                                             |
+| Status Protection                   |    -1% |                                                             |
+| Damage from \[Family\]              |  +2-4% |                                                             |
+| Permanent Status Effect Fade Chance |    +1% | Gives a 1% chance that a non-temporary status effect fades* |
+| \[Element\] Damage                  |  -2-5% |                                                             |
+| 1HP Instead of Kill Chance          |    +1% | Gives a "Second Chance" with low chance on enemies          |
 
-```admonish todo "TODO(ethiraric, 2025/05/31)"
-Does Permanent Status Effect Fade Chance apply independently?
+```admonish note "On Permanent Status Effect Fade Chance"
+Each turn and for each status effect (independently), the game rolls whether the status effect fades.
+This implies that it is possible for multiple status effects to fade on a single turn.
+
+This chance also rolls on negative status effects such as :statuses/cursed:Cursed.
 ```
 
 # Rewards
@@ -144,7 +148,9 @@ The odds of receiving a Proof is displayed at the Circle of Anguish Guild.
 
   - :proof_despair:Path of Despair: A Proof may drop upon killing a Monster, Boss or Fishing Encounter of the player's Tier on the overworld.
   - :proof_melancholy:Path of Melancholy: A Proof may drop upon killing a Monster or Boss of the player's Tier in a Battle Dungeon or an Exploration Dungeon.
-  - :proof_agony:Path of Agony: A Proof is **guaranteed** to drop upon winning a battle against a Raid. More Proofs may drop in the Raid Rewards screen (1 to at least 4). These Proofs are not locked behind any Tier restriction (e.g.: a T10 player can get Proofs from a T6 Raid).
+  - :proof_agony:Path of Agony: A Proof is **guaranteed** to drop upon winning a battle against a Raid.
+    More Proofs may drop in the Raid Rewards screen.
+    These Proofs are not locked behind any Tier restriction (e.g.: a T10 player can get Proofs from a T6 Raid).
   - :proof_torment:Path of Torment: A Proof may drop upon killing a Monster or Boss of the player's Tier in a Tower or a Monument.
 
 In Horde content, the Proof drop rolls for each eligible enemy.
@@ -165,13 +171,13 @@ They also have an added affix or extra stat that further enhances it.
 The stats are increased by 3% per Anguished Level on the item.
 This increase applies to base stats and to Follower / Summon stats.
 
-\\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{anguished-level}) \\]
+\\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{gear-anguished-level}) \\]
 
-However, if an Anguished item is equipped in a lower Anguished Level, the extra stats are scaled down.
+However, if an Anguished item is equipped in a lower Anguished Level, the extra stats are scaled down of the current Anguish Level.
+For instance, an Anguished Level 5 item equipped in an Anguish Level 2 content will only have 6% extra stats, as opposed to the 15% it would have at Anguish Level 5.
+The extra stats can be expressed as
 
-```admonish todo "TODO(ethiraric, 2025/05/31)"
-Formula for Anguished scaling down
-```
+\\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{min}(\text{gear-anguished-level}, \text{anguish-level})) \\]
 
 ### List of Anguished Gear Affixes & Extra stats
 
@@ -228,25 +234,34 @@ An :anguished_crucible:Anguished Crucible will have to be used to assign one.
 
 ## Cost of Anguish items
 The currency for each item (:anguished_pathspur::anguished_crucible::demonworking_tools:) is set daily, being Proofs of any of the 4 Paths.
+Every player will see items priced with the same currencies on a given (localized) day.
 The cost of the items depends on the Path Level of the currency used: the higher the Path Level, the more Proofs the item costs.
 
-```admonish todo "TODO(ethiraric, 2025/05/31)"
-[WIP] Seems wrong. Reports of Crucible being priced at :proof_despair:45 and :proof_despair:46 at PL 1.
+\\[ \text{item-cost} = \lceil \text{base-price} * (1 + 0.012 * \text{proof-drop-%}) \rceil \\]
 
-Below are the reported costs for each Path Level:
+where `proof-drop-%` is inserted as the percentage value rather than a probability (20 rather than 0.2 for 20% drop chance).
 
-| Path Level | :anguished_pathspur:Pathspur | :anguished_crucible:Crucible | :demonworking_tools:Tools |
-|:----------:|:----------------------------:|:----------------------------:|:-------------------------:|
-|     1      |              23              |             45               |                           |
-|     2      |                              |             47               |            59             |
-|     3      |                              |                              |            59             |
-|     4      |                              |                              |                           |
-|     5      |              25              |                              |                           |
-|     6      |                              |                              |                           |
-|     7      |                              |                              |                           |
+The base cost for each item is:
+  - :anguished_pathspur:Anguished Pathspur: 20
+  - :anguished_crucible:Anguished Crucible: 40
+  - :demonworking_tools:Demonworking Tools: 50
 
-Do the currencies rotate? They appear to
-```
+## Materials
+The Circle of Anguish sells 8 materials each day, 2 for each Proof.
+Every player will the same materials for the same cost (amount and currency) on a given (localized) day.
+Their pricing is the same as Anguish 1.0, but using the new proofs rather than :proof_anguish:Proofs of Anguish.
+
+The cost of a pile of materials is not dependent on the Path Level, but on the Tier and Rarity of the material:
+
+\\[ \text{materials-cost} = \lfloor \text{quantity} * (\text{material-tier} * 0.1 + \text{rarity-cost}) \rfloor \\]
+
+where
+
+\\[ \text{rarity} = \begin{cases} \text{Common} \Rightarrow 0 \\\\
+                          \text{Superior} \Rightarrow 0.05 \\\\
+                          \text{Famed} \Rightarrow 0.1 \\\\
+                          \text{Legendary} \Rightarrow 0.15
+                    \end{cases} \\]
 
 # Party play
 Most of the Anguish content works as one would expect.
@@ -259,8 +274,10 @@ Here is a breakdown of known interactions for each Path:
     - The Choices and Battle Modifiers that apply are those of the leader.
     - :proof_melancholy:Proofs of Melancholy are rolled individually.
   - :proof_agony:Path of Agony (Raids)
-    - The Anguish Levelthat applies is that of the Raid summoner.
+    - The Anguish Level that applies is that of the Raid summoner at the time of summon.
     - The Choices and Battle Modifiers that apply are those of the battle Leader.
+    - A player cannot start a raid above its max Agony Level.
+    - A player can *join* a raid up to its max Path Level (the max of all 4 paths).
     - Every member in the battle in which the Raid was killed gets a guaranteed :proof_agony:Proof of Agony.
     - Every player who damaged the Raid is eligible for :proof_agony:Proofs of Agony on the Rewards screen.
   - :proof_torment: Path of Torment (Towers, Monuments)
