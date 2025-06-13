@@ -167,7 +167,7 @@ That Level depends on the Anguish Level of the battle that dropped the item.
 The item Anguished Level is at worst 2 Levels lower than the current Path Anguish Level (e.g.: at Path Anguish Level 8, Anguished 6, 7 or 8 Gear can be found).
 
 Anguished pieces of Gear has slightly higher stats than a non-Anguished pieces of the same quality.
-They also have an added affix or extra stat that further enhances it.
+They also have an added [affix](../Glossary.md#affix) or extra stat that further enhances it.
 The stats are increased by 3% per Anguished Level on the item.
 This increase applies to base stats and to Follower / Summon stats.
 
@@ -179,7 +179,7 @@ The extra stats can be expressed as
 
 \\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{min}(\text{gear-anguished-level}, \text{anguish-level})) \\]
 
-### List of Anguished Gear Affixes & Extra stats
+### List of Anguished Gear [Affixes](../Glossary.md#affix) & Extra stats
 
 | Bonus                | Min  | Max  | :bw_weapon: | :bw_shield: | :bw_helmet: | :bw_armor: | :bw_legs: |
 |:---------------------|:----:|:----:|:-----------:|:-----------:|:-----------:|:----------:|:---------:|
