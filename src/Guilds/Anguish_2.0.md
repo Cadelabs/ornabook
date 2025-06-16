@@ -119,7 +119,7 @@ See [above](#list-of-choices) the Choices that were recorded for each path.
 | Accuracy                            |    -1% |                                                             |
 | Ward Absorption                     |    -5% |                                                             |
 | Defend Power                        |   -15% |                                                             |
-| Healing                             | -9-10% |                                                             |
+| Healing                             | -9-10% | This applies to both Life Siphon and items.                 |
 | Status Effect Damage                |  +105% |                                                             |
 | Status Protection                   |    -1% |                                                             |
 | Damage from \[Family\]              |  +2-4% |                                                             |
@@ -166,18 +166,21 @@ Any Ornate Gear (aside from Accessories and Adornments) drop has a chance to be 
 That Level depends on the Anguish Level of the battle that dropped the item.
 The item Anguished Level is at worst 2 Levels lower than the current Path Anguish Level (e.g.: at Path Anguish Level 8, Anguished 6, 7 or 8 Gear can be found).
 
-Anguished pieces of Gear has slightly higher stats than a non-Anguished pieces of the same quality.
-They also have an added [affix](../Glossary.md#affix) or extra stat that further enhances it.
+Anguished pieces of Gear have slightly higher stats than non-Anguished pieces of the same quality when used in Anguish content.
 The stats are increased by 3% per Anguished Level on the item.
-This increase applies to base stats and to Follower / Summon stats.
+This increase applies to base stats (:statuses/def::statuses/res::statuses/atk::statuses/mag:) and to Follower / Summon stats.
 
 \\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{gear-anguished-level}) \\]
 
-However, if an Anguished item is equipped in a lower Anguished Level, the extra stats are scaled down of the current Anguish Level.
-For instance, an Anguished Level 5 item equipped in an Anguish Level 2 content will only have 6% extra stats, as opposed to the 15% it would have at Anguish Level 5.
-The extra stats can be expressed as
+However, if an Anguished item is equipped in a lower Anguished Level, the anguished stats are scaled down to the current Anguish Level.
+For instance, an Anguished Level 5 item equipped in an Anguish Level 2 content will only have 6% more stats, as opposed to the 15% it would have at Anguish Level 5.
+The anguished stats can be expressed as :
 
 \\[ \text{anguished-stat} = \text{base-stat} * (1 + 0.03 * \text{min}(\text{gear-anguished-level}, \text{anguish-level})) \\]
+
+In addition to the increased stats, they may also have **one** added [affix](../Glossary.md#affix) or extra stat that further enhances it.
+An Anguished item drop always has one, but items made Anguished through the use of [:demonworking_tools:Demonworking Tools](#items) (from Anguished Level 0 to 1) will not.
+For them, an [:anguished_crucible:Anguished Crucible](#items) has to be used.
 
 ### List of Anguished Gear [Affixes](../Glossary.md#affix) & Extra stats
 
@@ -216,35 +219,30 @@ The extra stats can be expressed as
 ## Items
 Outside of cosmetics, consumables and materials, the Circle of Anguish Guild Shop sells items affecting Anguish play: the :anguished_pathspur:[Anguished Pathspur](https://playorna.com/codex/items/anguished-pathspur/), :anguished_crucible:[Anguished Crucible](https://playorna.com/codex/items/anguished-crucible/) and :demonworking_tools:[Demonworking Tools](https://playorna.com/codex/items/demonworking-tools/).
 
-The :anguished_pathspur:Anguished Pathspur allows one to reset the [Choices](#choices) that were made for a Path of Anguish.
+The :anguished_pathspur:**Anguished Pathspur** allows one to reset the [Choices](#choices) that were made for a Path of Anguish.
 They reset all levels of a single Path.
 They can be used from the "View Path" menu of the Circle of Anguish.
 
-The :anguished_crucible:Anguished Crucible allows you to (re)roll the bonus given to an Anguished Gear.
-If the piece of Gear did not have a bonus, then the Crucible will grant it one.
+The :anguished_crucible:**Anguished Crucible** allows you to (re)roll the bonus given to an Anguished Gear.
+If the piece of Gear does not have a bonus, then the Crucible will grant it one.
 The new bonus cannot be the same as the current one.
 However, using another Crucible may give a previous bonus, even with a different value.
 
-The :demonworking_tools:Demonworking Tools allows one to increase the Anguished Level of a piece of equipment.
+The :demonworking_tools:**Demonworking Tools** allows one to increase the Anguished Level of a piece of equipment.
 The piece on which to apply the Demonworking Tools must at least be Masterforged.
 Upon using, the Tools will increase the piece's Anguished Level by 1 and reset its level to 10.
 In order to use another Tools on it, the item has to be at least Masterforged.
-If used on a non-Anguished piece, the Tools will set it to Anguished Level 1 without a bonus.
-An :anguished_crucible:Anguished Crucible will have to be used to assign one.
+If used on a non-Anguished piece, the Tools will set it to Anguished Level 1 without an [extra affix or stat](#list-of-anguished-gear-affixes--extra-stats).
+An :anguished_crucible:**Anguished Crucible** will have to be used to assign one.
 
 ## Cost of Anguish items
 The currency for each item (:anguished_pathspur::anguished_crucible::demonworking_tools:) is set daily, being Proofs of any of the 4 Paths.
 Every player will see items priced with the same currencies on a given (localized) day.
-The cost of the items depends on the Path Level of the currency used: the higher the Path Level, the more Proofs the item costs.
 
-\\[ \text{item-cost} = \lceil \text{base-price} * (1 + 0.012 * \text{proof-drop-%}) \rceil \\]
-
-where `proof-drop-%` is inserted as the percentage value rather than a probability (20 rather than 0.2 for 20% drop chance).
-
-The base cost for each item is:
+The cost for each item is:
   - :anguished_pathspur:Anguished Pathspur: 20
-  - :anguished_crucible:Anguished Crucible: 40
-  - :demonworking_tools:Demonworking Tools: 50
+  - :anguished_crucible:Anguished Crucible: 50
+  - :demonworking_tools:Demonworking Tools: 65
 
 ## Materials
 The Circle of Anguish sells 8 materials each day, 2 for each Proof.

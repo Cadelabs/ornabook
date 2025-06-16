@@ -458,7 +458,7 @@ Agony:
 Torment:
   - Anguish 1:
     - Choice 1:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3%
       - Orn Bonus: 5%
       - Tower Shard Bonus: 2%
@@ -466,7 +466,7 @@ Torment:
       - Ang. Gear Chance: 5%
       - Permanent Status Effect Fade Chance: +1%
     - Choice 2:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 5%
       - Orn Bonus: 3%
       - Tower Shard Bonus: 3%
@@ -477,7 +477,7 @@ Torment:
       - Dragon Damage: -4%
       - Arcane Damage: -4%
     - Choice 3:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3%
       - Orn Bonus: 5%
       - Tower Shard Bonus: 2%
@@ -485,7 +485,7 @@ Torment:
       - Ang. Gear Chance: 5%
       - Status Protection: -1%
     - Choice 4:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 5%
       - Orn Bonus: 3%
       - Item Drop Quality Bonus: 0.01%
@@ -496,7 +496,7 @@ Torment:
       - Healing: -9%
   - Anguish 2:
     - Choice 1:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.2%
       - Orn Bonus: 5.33%
       - Tower Shard Bonus: 2%
@@ -504,7 +504,7 @@ Torment:
       - Ang. Gear Chance: 1%
       - Accuracy: -1%
     - Choice 2:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 5.33%
       - Orn Bonus: 3.2%
       - Tower Shard Bonus: 3%
@@ -515,7 +515,7 @@ Torment:
       - Lightning Damage: -2%
       - Earthen Damage: -4%
     - Choice 3:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.2%
       - Orn Bonus: 5.33%
       - Tower Shard Bonus: 2%
@@ -525,7 +525,7 @@ Torment:
       - Damage from Ancients: +2%
       - Damage from Mimic: +5%
     - Choice 4:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 5.33%
       - Orn Bonus: 3.2%
       - Item Drop Quality Bonus: 0.01%
@@ -535,7 +535,7 @@ Torment:
       - 1HP Instead of Kill Chance: +1%
   - Anguish 3:
     - Choice 1:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.4%
       - Orn Bonus: 5.67%
       - Tower Shard Bonus: 2%
@@ -543,7 +543,7 @@ Torment:
       - Ang. Gear Chance: 1%
       - Permanent Status Effect Fade Chance: +1%
     - Choice 2:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 5.67%
       - Orn Bonus: 3.4%
       - Tower Shard Bonus: 3%
@@ -553,7 +553,7 @@ Torment:
       - Damage from Magic Foes: +5%
       - Damage from Nothren: +4%
     - Choice 3:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.4%
       - Orn Bonus: 5.67%
       - Tower Shard Bonus: 2%
@@ -561,7 +561,7 @@ Torment:
       - Ang. Gear Chance: 1%
       - Accuracy: -1%
     - Choice 4:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 5.67%
       - Orn Bonus: 3.4%
       - Item Drop Quality Bonus: 0.01%
@@ -571,7 +571,7 @@ Torment:
       - Berserk Encounters: +3%
   - Anguish 4:
     - Choice 1:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.6%
       - Orn Bonus: 6%
       - Tower Shard Bonus: 2%
@@ -581,7 +581,7 @@ Torment:
       - Damage from Ancients: +5%
       - Damage from Mimic: +4%
     - Choice 2:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 6%
       - Orn Bonus: 3.6%
       - Tower Shard Bonus: 3%
@@ -589,7 +589,7 @@ Torment:
       - Ang. Gear Chance: 0.4%
       - Permanent Status Effect Fade Chance: +1%
     - Choice 3:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.6%
       - Orn Bonus: 6%
       - Tower Shard Bonus: 2%
@@ -597,7 +597,7 @@ Torment:
       - Ang. Gear Chance: 1%
       - Accuracy: -2%
     - Choice 4:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 6%
       - Orn Bonus: 3.6%
       - Item Drop Quality Bonus: 0.01%
@@ -607,7 +607,7 @@ Torment:
       - Berserk Encounters: +5%
   - Anguish 5:
     - Choice 1:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.8%
       - Orn Bonus: 6.33%
       - Tower Shard Bonus: 2%
@@ -615,7 +615,7 @@ Torment:
       - Ang. Gear Chance: 1%
       - Accuracy: -1%
     - Choice 2:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 6.33%
       - Orn Bonus: 3.8%
       - Tower Shard Bonus: 3%
@@ -623,7 +623,7 @@ Torment:
       - Ang. Gear Chance: 0.4%
       - Berserk Encounters: +4%
     - Choice 3:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 3.8%
       - Orn Bonus: 6.33%
       - Tower Shard Bonus: 2%
@@ -631,7 +631,7 @@ Torment:
       - Ang. Gear Chance: 1%
       - Status Protection: -1%
     - Choice 4:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 6.33%
       - Orn Bonus: 3.8%
       - Item Drop Quality Bonus: 0.01%
@@ -641,7 +641,7 @@ Torment:
       - 1HP Instead of Kill Chance: +1%
   - Anguish 6:
     - Choice 1:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 4%
       - Orn Bonus: 6.67%
       - Tower Shard Bonus: 2%
@@ -652,7 +652,7 @@ Torment:
       - Damage from Lyonesse: +3%
       - 1HP Instead of Kill Chance: +1%
     - Choice 2:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 6.67%
       - Orn Bonus: 4%
       - Tower Shard Bonus: 3%
@@ -664,7 +664,7 @@ Torment:
       - Earthen Damage: -3%
       - Permanent Status Effect Fade Chance: +1%
     - Choice 3:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 4%
       - Orn Bonus: 6.67%
       - Tower Shard Bonus: 2%
@@ -673,7 +673,7 @@ Torment:
       - Permanent Status Effect Fade Chance: +1%
       - 1HP Instead of Kill Chance: +1%
     - Choice 4:
-      - Enemy stats: +18%
+      - Enemy stats: +8%
       - EXP Bonus: 6.67%
       - Orn Bonus: 4%
       - Item Drop Quality Bonus: 0.01%
