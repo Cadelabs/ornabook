@@ -203,9 +203,9 @@ The 0.04% drop chance the 11th player gave up in letting the 10 players sand off
 ```
 
 Sanding takes its name from the [Sands of Aaru](https://playorna.com/codex/spells/sands-of-aaru/) spell.
-This spell has a high stat multiplier (meaning it can easily pierce the Raid's defences) but a very low damage multiplier (meaning that once defences are pierced, the damage won't be high).
+Upon release, this spell had a high stat multiplier (meaning it can easily pierce the Raid's defences) but a very low damage multiplier (meaning that once defences are pierced, the damage won't be high).
+Sands of Aaru is still a suitable spell for sanding, with M1=1 and M2=1, it still is easy to adapt your loadout to the raid's defences.
 It also has the advantage of working with both Magic and Attack based builds, taking whichever stat is the highest.
-It is the recommended spell to use for sanding.
 
 ### Various tips for sanding
 - Do not bring any pet / summon with a damaging attack move
@@ -222,72 +222,67 @@ It is the recommended spell to use for sanding.
   - Global passives such as Origin Town which add 10% to your stats (visible in the Status menu)
 
 ### Perfect sanding stats
-The following table is an attempt to find the perfect offensive stat value for every raid to deal 2 damage using Sands of Aaru.
-The damage dealt depends on the defensive stats of the Raid.
-Thankfully, their Defence and Resistance stats are equal, so there is no difference in the Attack or Magic needed.
+The following table is an attempt to find the defensive stats of Raids.
+This helps in determining the exact stats needed to deal exactly 2 damage to a raid.
+Thankfully, Raids' Defence and Resistance stats are equal, so there is no difference in the Attack or Magic needed.
 Figuring out the defensive stats of Raids is a work in progress.
 Only Raids whose stats are known are listed below.
 
 <details>
 
-| Name                       | Tier | :statuses/def::statuses/res: | :statuses/atk::statuses/mag: |
-|----------------------------|------|------------------------------|------------------------------|
-| Arisen Balin               | 10   | 2474                         | 507                          |
-| Arisen Ebon Scruug         | 10   | 2574                         | 527                          |
-| Arisen Fenja               | 10   | 1958                         | 404                          |
-| Arisen Gerd                | 10   | 1958                         | 404                          |
-| Arisen Judge Charon        | 10   | 2750                         | 562                          |
-| Arisen Judge Rhada         | 10   | 2750                         | 562                          |
-| Arisen Kerberos            | 10   | 1782                         | 368                          |
-| Arisen Morrigan            | 10   | 5114                         | 1035                         |
-| Arisen Rift Judgement      | 10   | 2750                         | 562                          |
-| Arisen Yggdrasil           | 10   | 2574                         | 527                          |
-| Ashen Phoenix              | 10   | 2034                         | 419                          |
-| Fey Chimera                | 10   | 2034                         | 419                          |
-| Final Horseman             | 10   | 2034                         | 419                          |
-| Finesse                    | 10   | 2574                         | 527                          |
-| Great Anguish              | 10   | 5544                         | 1121                         |
-| The Last Hippogriff        | 10   | 2034                         | 419                          |
-| Turned King Lyncus         | 10   | 2342                         | 480                          |
-| Arisen Cade                | 9    | 2070                         | 426                          |
-| Fey Yeti                   | 9    | 1670                         | 346                          |
-| Noble Perseus              | 9    | 1890                         | 390                          |
-| The Fool (T9)              | 9    | 2070                         | 426                          |
-| The Mightiest Mimic        | 9    | 2040                         | 420                          |
-| Third Horseman             | 9    | 1670                         | 346                          |
-| Almighty Balin             | 8    | 1200                         | 252                          |
-| Fallen Judge Charon        | 8    | 1680                         | 348                          |
-| Fallen Judge Charon        | 8    | 1680                         | 348                          |
-| Fenja                      | 8    | 1144                         | 241                          |
-| Fey Cockatrice             | 8    | 1200                         | 252                          |
-| Kerberos                   | 8    | 1200                         | 252                          |
-| Mimic King of Kings        | 8    | 1792                         | 370                          |
-| Second Horseman            | 8    | 1200                         | 252                          |
-| Sister Macha               | 8    | 1512                         | 314                          |
-| Fey Dragon                 | 7    | 924                          | 197                          |
-| Grand Knight Lugus         | 7    | 1000                         | 212                          |
-| Ingenious Cade             | 5    | 338                          | 80                           |
+| Name                       | Tier | :statuses/def::statuses/res: |
+|----------------------------|------|------------------------------|
+| Arisen Balin               | 10   | 2474                         |
+| Arisen Ebon Scruug         | 10   | 2574                         |
+| Arisen Fenja               | 10   | 1958                         |
+| Arisen Gerd                | 10   | 1958                         |
+| Arisen Judge Charon        | 10   | 2750                         |
+| Arisen Judge Rhada         | 10   | 2750                         |
+| Arisen Kerberos            | 10   | 1782                         |
+| Arisen Morrigan            | 10   | 5114                         |
+| Arisen Rift Judgement      | 10   | 2750                         |
+| Arisen Yggdrasil           | 10   | 2574                         |
+| Ashen Phoenix              | 10   | 2034                         |
+| Fey Chimera                | 10   | 2034                         |
+| Final Horseman             | 10   | 2034                         |
+| Finesse                    | 10   | 2574                         |
+| Great Anguish              | 10   | 5544                         |
+| The Last Hippogriff        | 10   | 2034                         |
+| Turned King Lyncus         | 10   | 2342                         |
+| Arisen Cade                | 9    | 2070                         |
+| Fey Yeti                   | 9    | 1670                         |
+| Noble Perseus              | 9    | 1890                         |
+| The Fool (T9)              | 9    | 2070                         |
+| The Mightiest Mimic        | 9    | 2040                         |
+| Third Horseman             | 9    | 1670                         |
+| Almighty Balin             | 8    | 1200                         |
+| Fallen Judge Charon        | 8    | 1680                         |
+| Fallen Judge Charon        | 8    | 1680                         |
+| Fenja                      | 8    | 1144                         |
+| Fey Cockatrice             | 8    | 1200                         |
+| Kerberos                   | 8    | 1200                         |
+| Mimic King of Kings        | 8    | 1792                         |
+| Second Horseman            | 8    | 1200                         |
+| Sister Macha               | 8    | 1512                         |
+| Fey Dragon                 | 7    | 924                          |
+| Grand Knight Lugus         | 7    | 1000                         |
+| Ingenious Cade             | 5    | 338                          |
 
 
 </details>
 
 ```admonish note
-The offensive stat is the minimum you need to hit for at least 2 damage.
-Due to the wide range of Sands of Aaru's damage multiplier, damage can range from 2 to 4.
-
-Offensive stats 1 or 2 points below that indicated may hit for only 1 damage.
-Offensive stats 1 or 2 points above that indicated reduces the odds of hitting for 2 damage and may also hit for 5 damage.
-Above that, scaling goes according to Sands of Aaru's damage multiplier.
-
-You can expect your damage to be between `2 + stat_above * 0.07` and `4 + stat_above * 0.15`, with `stat_above` the difference between your offensive stat and that listed in the table.
-You should not be 2656 stat points above, as this makes it possible to hit for more than 1000 damage.
+The offensive stat is the minimum you need to hit for at least 2 damage is half the defensive value + 2.
+For instance, for Arisen Balin (:statuses/def::statuses/res:=2474), you need _2474 / 2 + 2 = 1239_ :statuses/atk::statuses/mag:
+Remember that this should be the highest of your 2 offensive stats!
+If you have, in the above scenario, 1239:statuses/atk: and 1500:statuses/mag:, you will deal much more than 2 damage.
 ```
 
 ```admonish abstract "Maths"
-The above table was generated by reversing the damage formula.
+The above formula was computed from the PvE damage formula.
 Instead of the damage being a variable, we use the offensive stat.
 
-Where the damage formula is (PvE, using mag as an example):
+Where the damage formula is (using mag as an example):
 
 \\[
     \text{damage} = \lfloor(\text{mag}*\text{stat-multiplier} - \frac{\text{res}}{2}) * \text{damage-multiplier} \rfloor
@@ -299,8 +294,13 @@ We can reorder terms to have:
     \text{mag} = \lceil (\frac{\text{damage}}{\text{damage-multiplier}} + \frac{\text{res}}{2}) / \text{stat-multiplier} \rceil
 \\]
 
-We replace `stat-multiplier` with Sands of Aaru's one (2.5) and `damage-multiplier` with its lowest bound (0.07).
+We replace both `stat-multiplier` and `damage-multiplier` with Sands of Aaru's values (both 1).
 We can also replace `damage` with 2, which is our target damage.
+This is simplified to
+
+\\[
+    \text{mag} = \lceil (\frac{2}{1} + \frac{\text{res}}{2}) / \text{1} \rceil = \lceil 2 + \frac{res}{2} \rceil
+\\]
 ```
 
 
