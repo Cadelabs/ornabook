@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.70"
 clap = "4.2.4"
-mdbook = "0.4.48"
+mdbook = "0.4.40"
 pulldown-cmark = "0.13.0"
 pulldown-cmark-to-cmark = "21.0.0"
 saphyr = "0.0.4"

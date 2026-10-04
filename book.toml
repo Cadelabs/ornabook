@@ -1,7 +1,6 @@
 [book]
 authors = ["Ethiraric"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Ornabook"
 
@@ -11,10 +10,9 @@ command = "mdbook-cade"
 [preprocessor.icons]
 renderers = ["html"]
 
-
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
+assets_version = "3.1.0" # do not edit: managed by `mdbook-admonish install`
 
 [output.html]
 default-theme = "navy"
